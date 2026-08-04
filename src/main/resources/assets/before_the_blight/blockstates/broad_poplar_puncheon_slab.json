@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "before_the_blight:block/broad_poplar_puncheon_slab"
+    },
+    "type=double": {
+      "model": "before_the_blight:block/broad_poplar_puncheon_floor"
+    },
+    "type=top": {
+      "model": "before_the_blight:block/broad_poplar_puncheon_slab_top"
+    }
+  }
+}

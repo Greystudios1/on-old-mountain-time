@@ -1,0 +1,15 @@
+{
+  "category": "building",
+  "key": {
+    "S": "before_the_blight:white_oak_shingles"
+  },
+  "pattern": [
+    "SSS",
+    "S S"
+  ],
+  "result": {
+    "count": 5,
+    "id": "before_the_blight:white_oak_shingle_lower_eave"
+  },
+  "type": "minecraft:crafting_shaped"
+}

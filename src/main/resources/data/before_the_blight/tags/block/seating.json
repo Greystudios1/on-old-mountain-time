@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "before_the_blight:ladder_back_chair",
+    "before_the_blight:rough_three_legged_stool",
+    "before_the_blight:backless_bench",
+    "before_the_blight:slab_bench",
+    "before_the_blight:wall_bench",
+    "before_the_blight:high_back_settle"
+  ]
+}

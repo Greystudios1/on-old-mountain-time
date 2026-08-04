@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "before_the_blight:block/tapered_hewn_chestnut_post"
+    },
+    "facing=east": {
+      "model": "before_the_blight:block/tapered_hewn_chestnut_post",
+      "y": 90,
+      "uvlock": true
+    },
+    "facing=south": {
+      "model": "before_the_blight:block/tapered_hewn_chestnut_post",
+      "y": 180,
+      "uvlock": true
+    },
+    "facing=west": {
+      "model": "before_the_blight:block/tapered_hewn_chestnut_post",
+      "y": 270,
+      "uvlock": true
+    }
+  }
+}

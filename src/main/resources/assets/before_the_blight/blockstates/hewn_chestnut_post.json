@@ -1,0 +1,160 @@
+{
+  "multipart": [
+    {
+      "apply": {
+        "model": "before_the_blight:block/hewn_chestnut_post",
+        "x": 90,
+        "y": 90
+      },
+      "when": {
+        "axis": "x"
+      }
+    },
+    {
+      "apply": {
+        "model": "before_the_blight:block/hewn_chestnut_post"
+      },
+      "when": {
+        "axis": "y"
+      }
+    },
+    {
+      "apply": {
+        "model": "before_the_blight:block/hewn_chestnut_post",
+        "x": 90
+      },
+      "when": {
+        "axis": "z"
+      }
+    },
+    {
+      "apply": {
+        "model": "before_the_blight:block/hewn_chestnut_post_wall_connection",
+        "uvlock": true
+      },
+      "when": {
+        "axis": "y",
+        "north": "wall_low"
+      }
+    },
+    {
+      "apply": {
+        "model": "before_the_blight:block/hewn_chestnut_post_wall_connection",
+        "uvlock": true,
+        "y": 90
+      },
+      "when": {
+        "axis": "y",
+        "east": "wall_low"
+      }
+    },
+    {
+      "apply": {
+        "model": "before_the_blight:block/hewn_chestnut_post_wall_connection",
+        "uvlock": true,
+        "y": 180
+      },
+      "when": {
+        "axis": "y",
+        "south": "wall_low"
+      }
+    },
+    {
+      "apply": {
+        "model": "before_the_blight:block/hewn_chestnut_post_wall_connection",
+        "uvlock": true,
+        "y": 270
+      },
+      "when": {
+        "axis": "y",
+        "west": "wall_low"
+      }
+    },
+    {
+      "apply": {
+        "model": "before_the_blight:block/hewn_chestnut_post_wall_connection_tall",
+        "uvlock": true
+      },
+      "when": {
+        "axis": "y",
+        "north": "wall_tall"
+      }
+    },
+    {
+      "apply": {
+        "model": "before_the_blight:block/hewn_chestnut_post_wall_connection_tall",
+        "uvlock": true,
+        "y": 90
+      },
+      "when": {
+        "axis": "y",
+        "east": "wall_tall"
+      }
+    },
+    {
+      "apply": {
+        "model": "before_the_blight:block/hewn_chestnut_post_wall_connection_tall",
+        "uvlock": true,
+        "y": 180
+      },
+      "when": {
+        "axis": "y",
+        "south": "wall_tall"
+      }
+    },
+    {
+      "apply": {
+        "model": "before_the_blight:block/hewn_chestnut_post_wall_connection_tall",
+        "uvlock": true,
+        "y": 270
+      },
+      "when": {
+        "axis": "y",
+        "west": "wall_tall"
+      }
+    },
+    {
+      "apply": {
+        "model": "before_the_blight:block/hewn_chestnut_post_rail_connection",
+        "uvlock": true
+      },
+      "when": {
+        "axis": "y",
+        "north": "rail"
+      }
+    },
+    {
+      "apply": {
+        "model": "before_the_blight:block/hewn_chestnut_post_rail_connection",
+        "uvlock": true,
+        "y": 90
+      },
+      "when": {
+        "axis": "y",
+        "east": "rail"
+      }
+    },
+    {
+      "apply": {
+        "model": "before_the_blight:block/hewn_chestnut_post_rail_connection",
+        "uvlock": true,
+        "y": 180
+      },
+      "when": {
+        "axis": "y",
+        "south": "rail"
+      }
+    },
+    {
+      "apply": {
+        "model": "before_the_blight:block/hewn_chestnut_post_rail_connection",
+        "uvlock": true,
+        "y": 270
+      },
+      "when": {
+        "axis": "y",
+        "west": "rail"
+      }
+    }
+  ]
+}

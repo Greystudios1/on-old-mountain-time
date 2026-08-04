@@ -1,0 +1,80 @@
+{
+  "variants": {
+    "facing=north,part=head,occupied=false": {
+      "model": "before_the_blight:block/rope_bed_head",
+      "uvlock": true
+    },
+    "facing=north,part=head,occupied=true": {
+      "model": "before_the_blight:block/rope_bed_head",
+      "uvlock": true
+    },
+    "facing=north,part=foot,occupied=false": {
+      "model": "before_the_blight:block/rope_bed_foot",
+      "uvlock": true
+    },
+    "facing=north,part=foot,occupied=true": {
+      "model": "before_the_blight:block/rope_bed_foot",
+      "uvlock": true
+    },
+    "facing=east,part=head,occupied=false": {
+      "model": "before_the_blight:block/rope_bed_head",
+      "uvlock": true,
+      "y": 90
+    },
+    "facing=east,part=head,occupied=true": {
+      "model": "before_the_blight:block/rope_bed_head",
+      "uvlock": true,
+      "y": 90
+    },
+    "facing=east,part=foot,occupied=false": {
+      "model": "before_the_blight:block/rope_bed_foot",
+      "uvlock": true,
+      "y": 90
+    },
+    "facing=east,part=foot,occupied=true": {
+      "model": "before_the_blight:block/rope_bed_foot",
+      "uvlock": true,
+      "y": 90
+    },
+    "facing=south,part=head,occupied=false": {
+      "model": "before_the_blight:block/rope_bed_head",
+      "uvlock": true,
+      "y": 180
+    },
+    "facing=south,part=head,occupied=true": {
+      "model": "before_the_blight:block/rope_bed_head",
+      "uvlock": true,
+      "y": 180
+    },
+    "facing=south,part=foot,occupied=false": {
+      "model": "before_the_blight:block/rope_bed_foot",
+      "uvlock": true,
+      "y": 180
+    },
+    "facing=south,part=foot,occupied=true": {
+      "model": "before_the_blight:block/rope_bed_foot",
+      "uvlock": true,
+      "y": 180
+    },
+    "facing=west,part=head,occupied=false": {
+      "model": "before_the_blight:block/rope_bed_head",
+      "uvlock": true,
+      "y": 270
+    },
+    "facing=west,part=head,occupied=true": {
+      "model": "before_the_blight:block/rope_bed_head",
+      "uvlock": true,
+      "y": 270
+    },
+    "facing=west,part=foot,occupied=false": {
+      "model": "before_the_blight:block/rope_bed_foot",
+      "uvlock": true,
+      "y": 270
+    },
+    "facing=west,part=foot,occupied=true": {
+      "model": "before_the_blight:block/rope_bed_foot",
+      "uvlock": true,
+      "y": 270
+    }
+  }
+}

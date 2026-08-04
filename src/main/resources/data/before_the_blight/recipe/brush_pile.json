@@ -1,0 +1,14 @@
+{
+  "category": "building",
+  "key": {
+    "B": "before_the_blight:fallen_branch"
+  },
+  "pattern": [
+    "BBB",
+    "BBB"
+  ],
+  "result": {
+    "id": "before_the_blight:brush_pile"
+  },
+  "type": "minecraft:crafting_shaped"
+}

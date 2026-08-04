@@ -1,0 +1,17 @@
+{
+  "category": "building",
+  "key": {
+    "B": "before_the_blight:rough_chestnut_boards",
+    "I": "minecraft:iron_nugget",
+    "S": "minecraft:stick"
+  },
+  "pattern": [
+    "III",
+    "BBB",
+    " S "
+  ],
+  "result": {
+    "id": "before_the_blight:wall_tool_rack"
+  },
+  "type": "minecraft:crafting_shaped"
+}

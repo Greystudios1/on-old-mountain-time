@@ -1,0 +1,104 @@
+{
+  "elements": [
+    {
+      "faces": {
+        "down": {
+          "texture": "#material"
+        },
+        "east": {
+          "texture": "#material"
+        },
+        "north": {
+          "texture": "#material"
+        },
+        "south": {
+          "texture": "#material"
+        },
+        "up": {
+          "texture": "#material"
+        },
+        "west": {
+          "texture": "#material"
+        }
+      },
+      "from": [
+        1,
+        0,
+        6
+      ],
+      "to": [
+        15,
+        6,
+        16
+      ]
+    },
+    {
+      "faces": {
+        "down": {
+          "texture": "#material"
+        },
+        "east": {
+          "texture": "#material"
+        },
+        "north": {
+          "texture": "#material"
+        },
+        "south": {
+          "texture": "#material"
+        },
+        "up": {
+          "texture": "#material"
+        },
+        "west": {
+          "texture": "#material"
+        }
+      },
+      "from": [
+        3,
+        6,
+        8
+      ],
+      "to": [
+        13,
+        11,
+        16
+      ]
+    },
+    {
+      "faces": {
+        "down": {
+          "texture": "#material"
+        },
+        "east": {
+          "texture": "#material"
+        },
+        "north": {
+          "texture": "#material"
+        },
+        "south": {
+          "texture": "#material"
+        },
+        "up": {
+          "texture": "#material"
+        },
+        "west": {
+          "texture": "#material"
+        }
+      },
+      "from": [
+        5,
+        11,
+        10
+      ],
+      "to": [
+        11,
+        16,
+        16
+      ]
+    }
+  ],
+  "textures": {
+    "material": "before_the_blight:block/chimney_fieldstone",
+    "particle": "before_the_blight:block/chimney_fieldstone"
+  }
+}

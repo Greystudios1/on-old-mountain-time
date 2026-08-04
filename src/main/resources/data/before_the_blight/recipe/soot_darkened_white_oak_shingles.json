@@ -1,0 +1,12 @@
+{
+  "category": "building",
+  "group": "white_oak_shingle_weathering",
+  "ingredients": [
+    "before_the_blight:white_oak_shingles",
+    "minecraft:charcoal"
+  ],
+  "result": {
+    "id": "before_the_blight:soot_darkened_white_oak_shingles"
+  },
+  "type": "minecraft:crafting_shapeless"
+}

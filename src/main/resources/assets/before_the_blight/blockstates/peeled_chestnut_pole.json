@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "before_the_blight:block/peeled_chestnut_pole_axis_x"
+    },
+    "axis=y": {
+      "model": "before_the_blight:block/peeled_chestnut_pole_axis_y"
+    },
+    "axis=z": {
+      "model": "before_the_blight:block/peeled_chestnut_pole_axis_z"
+    }
+  }
+}

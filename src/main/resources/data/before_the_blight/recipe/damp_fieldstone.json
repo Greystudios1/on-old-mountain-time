@@ -1,0 +1,11 @@
+{
+  "category": "building",
+  "ingredients": [
+    "before_the_blight:fieldstone",
+    "minecraft:water_bucket"
+  ],
+  "result": {
+    "id": "before_the_blight:damp_fieldstone"
+  },
+  "type": "minecraft:crafting_shapeless"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": "minecraft:bowl",
+    "S": "minecraft:stick"
+  },
+  "pattern": [
+    " B ",
+    " S ",
+    " S "
+  ],
+  "result": {
+    "id": "before_the_blight:wooden_ladle"
+  }
+}

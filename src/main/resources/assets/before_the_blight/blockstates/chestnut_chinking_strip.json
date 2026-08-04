@@ -1,0 +1,130 @@
+{
+  "variants": {
+    "condition=core,facing=north": {
+      "model": "before_the_blight:block/chestnut_chinking_strip_core"
+    },
+    "condition=core,facing=east": {
+      "model": "before_the_blight:block/chestnut_chinking_strip_core",
+      "y": 90,
+      "uvlock": true
+    },
+    "condition=core,facing=south": {
+      "model": "before_the_blight:block/chestnut_chinking_strip_core",
+      "y": 180,
+      "uvlock": true
+    },
+    "condition=core,facing=west": {
+      "model": "before_the_blight:block/chestnut_chinking_strip_core",
+      "y": 270,
+      "uvlock": true
+    },
+    "condition=fresh,facing=north": {
+      "model": "before_the_blight:block/chestnut_chinking_strip_fresh"
+    },
+    "condition=fresh,facing=east": {
+      "model": "before_the_blight:block/chestnut_chinking_strip_fresh",
+      "y": 90,
+      "uvlock": true
+    },
+    "condition=fresh,facing=south": {
+      "model": "before_the_blight:block/chestnut_chinking_strip_fresh",
+      "y": 180,
+      "uvlock": true
+    },
+    "condition=fresh,facing=west": {
+      "model": "before_the_blight:block/chestnut_chinking_strip_fresh",
+      "y": 270,
+      "uvlock": true
+    },
+    "condition=aged,facing=north": {
+      "model": "before_the_blight:block/chestnut_chinking_strip_aged"
+    },
+    "condition=aged,facing=east": {
+      "model": "before_the_blight:block/chestnut_chinking_strip_aged",
+      "y": 90,
+      "uvlock": true
+    },
+    "condition=aged,facing=south": {
+      "model": "before_the_blight:block/chestnut_chinking_strip_aged",
+      "y": 180,
+      "uvlock": true
+    },
+    "condition=aged,facing=west": {
+      "model": "before_the_blight:block/chestnut_chinking_strip_aged",
+      "y": 270,
+      "uvlock": true
+    },
+    "condition=cracked,facing=north": {
+      "model": "before_the_blight:block/chestnut_chinking_strip_cracked"
+    },
+    "condition=cracked,facing=east": {
+      "model": "before_the_blight:block/chestnut_chinking_strip_cracked",
+      "y": 90,
+      "uvlock": true
+    },
+    "condition=cracked,facing=south": {
+      "model": "before_the_blight:block/chestnut_chinking_strip_cracked",
+      "y": 180,
+      "uvlock": true
+    },
+    "condition=cracked,facing=west": {
+      "model": "before_the_blight:block/chestnut_chinking_strip_cracked",
+      "y": 270,
+      "uvlock": true
+    },
+    "condition=missing,facing=north": {
+      "model": "before_the_blight:block/chestnut_chinking_strip_missing"
+    },
+    "condition=missing,facing=east": {
+      "model": "before_the_blight:block/chestnut_chinking_strip_missing",
+      "y": 90,
+      "uvlock": true
+    },
+    "condition=missing,facing=south": {
+      "model": "before_the_blight:block/chestnut_chinking_strip_missing",
+      "y": 180,
+      "uvlock": true
+    },
+    "condition=missing,facing=west": {
+      "model": "before_the_blight:block/chestnut_chinking_strip_missing",
+      "y": 270,
+      "uvlock": true
+    },
+    "condition=end,facing=north": {
+      "model": "before_the_blight:block/chestnut_chinking_strip_end"
+    },
+    "condition=end,facing=east": {
+      "model": "before_the_blight:block/chestnut_chinking_strip_end",
+      "y": 90,
+      "uvlock": true
+    },
+    "condition=end,facing=south": {
+      "model": "before_the_blight:block/chestnut_chinking_strip_end",
+      "y": 180,
+      "uvlock": true
+    },
+    "condition=end,facing=west": {
+      "model": "before_the_blight:block/chestnut_chinking_strip_end",
+      "y": 270,
+      "uvlock": true
+    },
+    "condition=corner,facing=north": {
+      "model": "before_the_blight:block/chestnut_chinking_strip_corner"
+    },
+    "condition=corner,facing=east": {
+      "model": "before_the_blight:block/chestnut_chinking_strip_corner",
+      "y": 90,
+      "uvlock": true
+    },
+    "condition=corner,facing=south": {
+      "model": "before_the_blight:block/chestnut_chinking_strip_corner",
+      "y": 180,
+      "uvlock": true
+    },
+    "condition=corner,facing=west": {
+      "model": "before_the_blight:block/chestnut_chinking_strip_corner",
+      "y": 270,
+      "uvlock": true
+    }
+  }
+}

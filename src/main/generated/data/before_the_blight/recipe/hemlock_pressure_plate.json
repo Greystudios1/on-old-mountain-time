@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "group": "wooden_pressure_plate",
+  "key": {
+    "#": "before_the_blight:hemlock_planks"
+  },
+  "pattern": [
+    "##"
+  ],
+  "result": {
+    "id": "before_the_blight:hemlock_pressure_plate"
+  }
+}

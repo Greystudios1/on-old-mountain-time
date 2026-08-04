@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:bowl",
+    "minecraft:beetroot_seeds",
+    "minecraft:wheat_seeds"
+  ],
+  "result": {
+    "id": "before_the_blight:dried_bean_bowl"
+  }
+}

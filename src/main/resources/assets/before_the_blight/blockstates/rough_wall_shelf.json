@@ -1,0 +1,23 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "before_the_blight:block/rough_wall_shelf",
+      "uvlock": true
+    },
+    "facing=east": {
+      "model": "before_the_blight:block/rough_wall_shelf",
+      "uvlock": true,
+      "y": 90
+    },
+    "facing=south": {
+      "model": "before_the_blight:block/rough_wall_shelf",
+      "uvlock": true,
+      "y": 180
+    },
+    "facing=west": {
+      "model": "before_the_blight:block/rough_wall_shelf",
+      "uvlock": true,
+      "y": 270
+    }
+  }
+}

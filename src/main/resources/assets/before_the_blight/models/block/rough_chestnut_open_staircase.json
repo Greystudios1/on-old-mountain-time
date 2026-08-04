@@ -1,0 +1,275 @@
+{
+  "parent": "minecraft:block/block",
+  "ambientocclusion": false,
+  "display": {
+    "gui": {
+      "rotation": [
+        30,
+        135,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.625,
+        0.625,
+        0.625
+      ]
+    },
+    "head": {
+      "rotation": [
+        0,
+        -90,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    "thirdperson_lefthand": {
+      "rotation": [
+        75,
+        -135,
+        0
+      ],
+      "translation": [
+        0,
+        2.5,
+        0
+      ],
+      "scale": [
+        0.375,
+        0.375,
+        0.375
+      ]
+    }
+  },
+  "textures": {
+    "particle": "before_the_blight:block/rough_chestnut_boards",
+    "board": "before_the_blight:block/rough_chestnut_boards"
+  },
+  "elements": [
+    {
+      "from": [
+        0,
+        3,
+        12
+      ],
+      "to": [
+        16,
+        4,
+        16
+      ],
+      "faces": {
+        "down": {
+          "texture": "#board"
+        },
+        "up": {
+          "texture": "#board"
+        },
+        "north": {
+          "texture": "#board"
+        },
+        "south": {
+          "texture": "#board"
+        },
+        "west": {
+          "texture": "#board"
+        },
+        "east": {
+          "texture": "#board"
+        }
+      }
+    },
+    {
+      "from": [
+        0,
+        7,
+        8
+      ],
+      "to": [
+        16,
+        8,
+        12
+      ],
+      "faces": {
+        "down": {
+          "texture": "#board"
+        },
+        "up": {
+          "texture": "#board"
+        },
+        "north": {
+          "texture": "#board"
+        },
+        "south": {
+          "texture": "#board"
+        },
+        "west": {
+          "texture": "#board"
+        },
+        "east": {
+          "texture": "#board"
+        }
+      }
+    },
+    {
+      "from": [
+        0,
+        11,
+        4
+      ],
+      "to": [
+        16,
+        12,
+        8
+      ],
+      "faces": {
+        "down": {
+          "texture": "#board"
+        },
+        "up": {
+          "texture": "#board"
+        },
+        "north": {
+          "texture": "#board"
+        },
+        "south": {
+          "texture": "#board"
+        },
+        "west": {
+          "texture": "#board"
+        },
+        "east": {
+          "texture": "#board"
+        }
+      }
+    },
+    {
+      "from": [
+        0,
+        15,
+        0
+      ],
+      "to": [
+        16,
+        16,
+        4
+      ],
+      "faces": {
+        "down": {
+          "texture": "#board"
+        },
+        "up": {
+          "texture": "#board"
+        },
+        "north": {
+          "texture": "#board"
+        },
+        "south": {
+          "texture": "#board"
+        },
+        "west": {
+          "texture": "#board"
+        },
+        "east": {
+          "texture": "#board"
+        }
+      }
+    },
+    {
+      "from": [
+        0,
+        7,
+        -2
+      ],
+      "to": [
+        2,
+        9,
+        18
+      ],
+      "faces": {
+        "down": {
+          "texture": "#board"
+        },
+        "up": {
+          "texture": "#board"
+        },
+        "north": {
+          "texture": "#board"
+        },
+        "south": {
+          "texture": "#board"
+        },
+        "west": {
+          "texture": "#board"
+        },
+        "east": {
+          "texture": "#board"
+        }
+      },
+      "rotation": {
+        "origin": [
+          8,
+          8,
+          8
+        ],
+        "axis": "x",
+        "angle": 45,
+        "rescale": true
+      }
+    },
+    {
+      "from": [
+        14,
+        7,
+        -2
+      ],
+      "to": [
+        16,
+        9,
+        18
+      ],
+      "faces": {
+        "down": {
+          "texture": "#board"
+        },
+        "up": {
+          "texture": "#board"
+        },
+        "north": {
+          "texture": "#board"
+        },
+        "south": {
+          "texture": "#board"
+        },
+        "west": {
+          "texture": "#board"
+        },
+        "east": {
+          "texture": "#board"
+        }
+      },
+      "rotation": {
+        "origin": [
+          8,
+          8,
+          8
+        ],
+        "axis": "x",
+        "angle": 45,
+        "rescale": true
+      }
+    }
+  ]
+}

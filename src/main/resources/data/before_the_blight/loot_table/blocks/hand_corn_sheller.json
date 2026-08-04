@@ -1,0 +1,47 @@
+{
+  "pools": [
+    {
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "name": "before_the_blight:hand_corn_sheller",
+          "type": "minecraft:item"
+        }
+      ],
+      "rolls": 1
+    },
+    {
+      "conditions": [
+        {
+          "block": "before_the_blight:hand_corn_sheller",
+          "condition": "minecraft:block_state_property",
+          "properties": {
+            "loaded": "true"
+          }
+        }
+      ],
+      "entries": [
+        {
+          "functions": [
+            {
+              "add": false,
+              "count": 1,
+              "function": "minecraft:set_count"
+            },
+            {
+              "function": "minecraft:explosion_decay"
+            }
+          ],
+          "name": "before_the_blight:dried_ear_of_corn",
+          "type": "minecraft:item"
+        }
+      ],
+      "rolls": 1
+    }
+  ],
+  "type": "minecraft:block"
+}

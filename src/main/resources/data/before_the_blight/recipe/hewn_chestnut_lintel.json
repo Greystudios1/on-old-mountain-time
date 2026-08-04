@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "BBB"
+  ],
+  "key": {
+    "B": "before_the_blight:hewn_chestnut_beam"
+  },
+  "result": {
+    "count": 3,
+    "id": "before_the_blight:hewn_chestnut_lintel"
+  }
+}

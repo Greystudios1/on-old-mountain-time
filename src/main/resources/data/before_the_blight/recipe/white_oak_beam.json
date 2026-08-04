@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    "before_the_blight:hand_hewn_white_oak_timber"
+  ],
+  "result": {
+    "count": 1,
+    "id": "before_the_blight:white_oak_beam"
+  }
+}

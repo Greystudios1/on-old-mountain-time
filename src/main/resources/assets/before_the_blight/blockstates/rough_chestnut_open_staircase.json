@@ -1,0 +1,40 @@
+{
+  "variants": {
+    "facing=north,waterlogged=false": {
+      "model": "before_the_blight:block/rough_chestnut_open_staircase"
+    },
+    "facing=north,waterlogged=true": {
+      "model": "before_the_blight:block/rough_chestnut_open_staircase"
+    },
+    "facing=east,waterlogged=false": {
+      "model": "before_the_blight:block/rough_chestnut_open_staircase",
+      "y": 90,
+      "uvlock": true
+    },
+    "facing=east,waterlogged=true": {
+      "model": "before_the_blight:block/rough_chestnut_open_staircase",
+      "y": 90,
+      "uvlock": true
+    },
+    "facing=south,waterlogged=false": {
+      "model": "before_the_blight:block/rough_chestnut_open_staircase",
+      "y": 180,
+      "uvlock": true
+    },
+    "facing=south,waterlogged=true": {
+      "model": "before_the_blight:block/rough_chestnut_open_staircase",
+      "y": 180,
+      "uvlock": true
+    },
+    "facing=west,waterlogged=false": {
+      "model": "before_the_blight:block/rough_chestnut_open_staircase",
+      "y": 270,
+      "uvlock": true
+    },
+    "facing=west,waterlogged=true": {
+      "model": "before_the_blight:block/rough_chestnut_open_staircase",
+      "y": 270,
+      "uvlock": true
+    }
+  }
+}

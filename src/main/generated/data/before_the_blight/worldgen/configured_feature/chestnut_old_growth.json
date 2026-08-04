@@ -1,0 +1,67 @@
+{
+  "type": "minecraft:tree",
+  "config": {
+    "below_trunk_provider": {
+      "type": "minecraft:rule_based_state_provider",
+      "rules": [
+        {
+          "if_true": {
+            "type": "minecraft:not",
+            "predicate": {
+              "type": "minecraft:matching_block_tag",
+              "tag": "minecraft:cannot_replace_below_tree_trunk"
+            }
+          },
+          "then": {
+            "type": "minecraft:simple_state_provider",
+            "state": {
+              "Name": "minecraft:dirt"
+            }
+          }
+        }
+      ]
+    },
+    "decorators": [],
+    "foliage_placer": {
+      "type": "minecraft:fancy_foliage_placer",
+      "height": 4,
+      "offset": 2,
+      "radius": 3
+    },
+    "foliage_provider": {
+      "type": "minecraft:simple_state_provider",
+      "state": {
+        "Name": "before_the_blight:chestnut_leaves",
+        "Properties": {
+          "distance": "7",
+          "persistent": "false",
+          "waterlogged": "false"
+        }
+      }
+    },
+    "ignore_vines": true,
+    "minimum_size": {
+      "type": "minecraft:three_layers_feature_size",
+      "limit": 14,
+      "lower_size": 1,
+      "middle_size": 9,
+      "upper_limit": 80,
+      "upper_size": 9
+    },
+    "trunk_placer": {
+      "type": "before_the_blight:hollow_chestnut_trunk_placer",
+      "base_height": 28,
+      "height_rand_a": 4,
+      "height_rand_b": 3
+    },
+    "trunk_provider": {
+      "type": "minecraft:simple_state_provider",
+      "state": {
+        "Name": "before_the_blight:chestnut_log",
+        "Properties": {
+          "axis": "y"
+        }
+      }
+    }
+  }
+}

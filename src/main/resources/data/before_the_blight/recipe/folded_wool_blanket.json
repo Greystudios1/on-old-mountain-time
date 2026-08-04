@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "W": "minecraft:brown_wool"
+  },
+  "pattern": [
+    "WWW",
+    "WWW"
+  ],
+  "result": {
+    "id": "before_the_blight:folded_wool_blanket"
+  }
+}

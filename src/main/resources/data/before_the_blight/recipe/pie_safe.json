@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "decorations",
+  "key": {
+    "B": "before_the_blight:rough_chestnut_boards",
+    "I": "minecraft:iron_nugget"
+  },
+  "pattern": [
+    "BIB",
+    "I I",
+    "BIB"
+  ],
+  "result": {
+    "id": "before_the_blight:pie_safe"
+  }
+}

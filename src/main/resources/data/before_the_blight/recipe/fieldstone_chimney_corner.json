@@ -1,0 +1,15 @@
+{
+  "category": "building",
+  "key": {
+    "#": "before_the_blight:fieldstone"
+  },
+  "pattern": [
+    "##",
+    "# "
+  ],
+  "result": {
+    "count": 3,
+    "id": "before_the_blight:fieldstone_chimney_corner"
+  },
+  "type": "minecraft:crafting_shaped"
+}

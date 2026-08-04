@@ -1,0 +1,11 @@
+{
+  "category": "building",
+  "ingredients": [
+    "before_the_blight:chopping_block",
+    "minecraft:iron_axe"
+  ],
+  "result": {
+    "id": "before_the_blight:axe_in_chopping_block"
+  },
+  "type": "minecraft:crafting_shapeless"
+}

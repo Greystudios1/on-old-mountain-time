@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:random_selector",
+  "config": {
+    "default": "before_the_blight:beech_checked",
+    "features": [
+      {
+        "chance": 0.6,
+        "feature": "before_the_blight:hemlock_tall_checked"
+      },
+      {
+        "chance": 0.5,
+        "feature": "before_the_blight:hemlock_spreading_checked"
+      }
+    ]
+  }
+}

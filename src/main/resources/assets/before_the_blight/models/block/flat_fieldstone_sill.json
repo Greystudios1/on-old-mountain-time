@@ -1,0 +1,40 @@
+{
+  "elements": [
+    {
+      "faces": {
+        "down": {
+          "texture": "#material"
+        },
+        "east": {
+          "texture": "#material"
+        },
+        "north": {
+          "texture": "#material"
+        },
+        "south": {
+          "texture": "#material"
+        },
+        "up": {
+          "texture": "#material"
+        },
+        "west": {
+          "texture": "#material"
+        }
+      },
+      "from": [
+        0,
+        0,
+        2
+      ],
+      "to": [
+        16,
+        5,
+        14
+      ]
+    }
+  ],
+  "textures": {
+    "material": "before_the_blight:block/fieldstone_foundation",
+    "particle": "before_the_blight:block/fieldstone_foundation"
+  }
+}

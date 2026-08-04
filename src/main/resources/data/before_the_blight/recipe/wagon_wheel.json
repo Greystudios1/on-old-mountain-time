@@ -1,0 +1,16 @@
+{
+  "category": "building",
+  "key": {
+    "B": "before_the_blight:rough_oak_boards",
+    "S": "minecraft:stick"
+  },
+  "pattern": [
+    "BSB",
+    "S S",
+    "BSB"
+  ],
+  "result": {
+    "id": "before_the_blight:wagon_wheel"
+  },
+  "type": "minecraft:crafting_shaped"
+}

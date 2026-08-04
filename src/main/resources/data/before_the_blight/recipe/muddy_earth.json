@@ -1,0 +1,12 @@
+{
+  "category": "building",
+  "ingredients": [
+    "before_the_blight:packed_earth",
+    "minecraft:water_bucket"
+  ],
+  "result": {
+    "count": 4,
+    "id": "before_the_blight:muddy_earth"
+  },
+  "type": "minecraft:crafting_shapeless"
+}

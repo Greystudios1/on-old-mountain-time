@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "before_the_blight:small_sash_window",
+    "before_the_blight:two_over_two_sash_window",
+    "before_the_blight:four_over_four_sash_window",
+    "before_the_blight:six_over_six_sash_window",
+    "before_the_blight:fixed_pane_window",
+    "before_the_blight:broken_pane_sash_window",
+    "before_the_blight:operable_sash_window",
+    "before_the_blight:shuttered_sash_window",
+    "before_the_blight:wooden_louver"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "category": "building",
+  "key": {
+    "S": "before_the_blight:fieldstone"
+  },
+  "pattern": [
+    " S ",
+    "SSS"
+  ],
+  "result": {
+    "count": 2,
+    "id": "before_the_blight:stream_bank_stones"
+  },
+  "type": "minecraft:crafting_shaped"
+}

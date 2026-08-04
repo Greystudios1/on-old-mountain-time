@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "N": "minecraft:iron_nugget"
+  },
+  "pattern": [
+    "NNN"
+  ],
+  "result": {
+    "id": "before_the_blight:tin_plate"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab_top",
+  "textures": {
+    "bottom": "before_the_blight:block/hemlock_planks",
+    "side": "before_the_blight:block/hemlock_planks",
+    "top": "before_the_blight:block/hemlock_planks"
+  }
+}

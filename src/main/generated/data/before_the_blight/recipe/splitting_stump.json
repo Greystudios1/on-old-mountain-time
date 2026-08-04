@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "B": "#before_the_blight:rough_boards",
+    "L": "#before_the_blight:chestnut_logs"
+  },
+  "pattern": [
+    " B ",
+    "BLB",
+    " B "
+  ],
+  "result": {
+    "id": "before_the_blight:splitting_stump"
+  }
+}

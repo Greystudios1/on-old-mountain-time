@@ -1,0 +1,360 @@
+{
+  "ambientocclusion": true,
+  "display": {
+    "fixed": {
+      "rotation": [
+        0,
+        180,
+        0
+      ],
+      "scale": [
+        0.62,
+        0.62,
+        0.62
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ]
+    },
+    "ground": {
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.42,
+        0.42,
+        0.42
+      ],
+      "translation": [
+        0,
+        3,
+        0
+      ]
+    },
+    "gui": {
+      "rotation": [
+        30,
+        225,
+        0
+      ],
+      "scale": [
+        0.72,
+        0.72,
+        0.72
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  "elements": [
+    {
+      "faces": {
+        "down": {
+          "texture": "#material"
+        },
+        "east": {
+          "texture": "#material"
+        },
+        "north": {
+          "texture": "#material"
+        },
+        "south": {
+          "texture": "#material"
+        },
+        "up": {
+          "texture": "#material"
+        },
+        "west": {
+          "texture": "#material"
+        }
+      },
+      "from": [
+        3.0,
+        0.4,
+        5
+      ],
+      "to": [
+        5.2,
+        2.0500000000000003,
+        7.2
+      ]
+    },
+    {
+      "faces": {
+        "down": {
+          "texture": "#accent"
+        },
+        "east": {
+          "texture": "#accent"
+        },
+        "north": {
+          "texture": "#accent"
+        },
+        "south": {
+          "texture": "#accent"
+        },
+        "up": {
+          "texture": "#accent"
+        },
+        "west": {
+          "texture": "#accent"
+        }
+      },
+      "from": [
+        3.88,
+        0.8,
+        5.88
+      ],
+      "rotation": {
+        "angle": 22.5,
+        "axis": "z",
+        "origin": [
+          4.1,
+          2.5,
+          6.1
+        ],
+        "rescale": true
+      },
+      "to": [
+        4.43,
+        5.5,
+        6.43
+      ]
+    },
+    {
+      "faces": {
+        "down": {
+          "texture": "#material"
+        },
+        "east": {
+          "texture": "#material"
+        },
+        "north": {
+          "texture": "#material"
+        },
+        "south": {
+          "texture": "#material"
+        },
+        "up": {
+          "texture": "#material"
+        },
+        "west": {
+          "texture": "#material"
+        }
+      },
+      "from": [
+        6.0,
+        0.4,
+        9
+      ],
+      "to": [
+        8.2,
+        2.0500000000000003,
+        11.2
+      ]
+    },
+    {
+      "faces": {
+        "down": {
+          "texture": "#accent"
+        },
+        "east": {
+          "texture": "#accent"
+        },
+        "north": {
+          "texture": "#accent"
+        },
+        "south": {
+          "texture": "#accent"
+        },
+        "up": {
+          "texture": "#accent"
+        },
+        "west": {
+          "texture": "#accent"
+        }
+      },
+      "from": [
+        6.88,
+        0.8,
+        9.88
+      ],
+      "rotation": {
+        "angle": 22.5,
+        "axis": "z",
+        "origin": [
+          7.1,
+          2.5,
+          10.1
+        ],
+        "rescale": true
+      },
+      "to": [
+        7.43,
+        5.5,
+        10.43
+      ]
+    },
+    {
+      "faces": {
+        "down": {
+          "texture": "#material"
+        },
+        "east": {
+          "texture": "#material"
+        },
+        "north": {
+          "texture": "#material"
+        },
+        "south": {
+          "texture": "#material"
+        },
+        "up": {
+          "texture": "#material"
+        },
+        "west": {
+          "texture": "#material"
+        }
+      },
+      "from": [
+        9.0,
+        0.4,
+        5
+      ],
+      "to": [
+        11.2,
+        2.0500000000000003,
+        7.2
+      ]
+    },
+    {
+      "faces": {
+        "down": {
+          "texture": "#accent"
+        },
+        "east": {
+          "texture": "#accent"
+        },
+        "north": {
+          "texture": "#accent"
+        },
+        "south": {
+          "texture": "#accent"
+        },
+        "up": {
+          "texture": "#accent"
+        },
+        "west": {
+          "texture": "#accent"
+        }
+      },
+      "from": [
+        9.88,
+        0.8,
+        5.88
+      ],
+      "rotation": {
+        "angle": 22.5,
+        "axis": "z",
+        "origin": [
+          10.1,
+          2.5,
+          6.1
+        ],
+        "rescale": true
+      },
+      "to": [
+        10.43,
+        5.5,
+        6.43
+      ]
+    },
+    {
+      "faces": {
+        "down": {
+          "texture": "#material"
+        },
+        "east": {
+          "texture": "#material"
+        },
+        "north": {
+          "texture": "#material"
+        },
+        "south": {
+          "texture": "#material"
+        },
+        "up": {
+          "texture": "#material"
+        },
+        "west": {
+          "texture": "#material"
+        }
+      },
+      "from": [
+        12.0,
+        0.4,
+        9
+      ],
+      "to": [
+        14.2,
+        2.0500000000000003,
+        11.2
+      ]
+    },
+    {
+      "faces": {
+        "down": {
+          "texture": "#accent"
+        },
+        "east": {
+          "texture": "#accent"
+        },
+        "north": {
+          "texture": "#accent"
+        },
+        "south": {
+          "texture": "#accent"
+        },
+        "up": {
+          "texture": "#accent"
+        },
+        "west": {
+          "texture": "#accent"
+        }
+      },
+      "from": [
+        12.88,
+        0.8,
+        9.88
+      ],
+      "rotation": {
+        "angle": 22.5,
+        "axis": "z",
+        "origin": [
+          13.1,
+          2.5,
+          10.1
+        ],
+        "rescale": true
+      },
+      "to": [
+        13.43,
+        5.5,
+        10.43
+      ]
+    }
+  ],
+  "parent": "minecraft:block/block",
+  "textures": {
+    "accent": "before_the_blight:block/hanging_dried_apples",
+    "material": "before_the_blight:block/hanging_dried_apples",
+    "particle": "before_the_blight:block/hanging_dried_apples"
+  }
+}

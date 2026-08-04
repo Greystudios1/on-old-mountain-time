@@ -1,0 +1,152 @@
+{
+  "parent": "minecraft:block/block",
+  "ambientocclusion": true,
+  "textures": {
+    "particle": "before_the_blight:block/rough_chestnut_boards",
+    "boards": "before_the_blight:block/rough_chestnut_boards",
+    "beam": "before_the_blight:block/hewn_chestnut_beam",
+    "end": "before_the_blight:block/hewn_chestnut_beam_top",
+    "seat": "before_the_blight:block/rocking_chair_woven_seat",
+    "poplar": "before_the_blight:block/hand_split_yellow_poplar_board",
+    "sawn_poplar": "before_the_blight:block/sash_sawn_yellow_poplar_board",
+    "oak": "before_the_blight:block/white_oak_furniture_board",
+    "oak_end": "before_the_blight:block/white_oak_end_grain",
+    "walnut": "before_the_blight:block/walnut_furniture_board",
+    "walnut_top": "before_the_blight:block/walnut_tabletop",
+    "walnut_post": "before_the_blight:block/walnut_turned_post",
+    "walnut_end": "before_the_blight:block/walnut_end_grain",
+    "cloth": "before_the_blight:block/folded_wool_blanket",
+    "weave": "before_the_blight:block/woven_wall_textile",
+    "iron": "before_the_blight:block/cast_iron_pot"
+  },
+  "elements": [
+    {
+      "from": [
+        1,
+        0.5,
+        2
+      ],
+      "to": [
+        15,
+        10,
+        14
+      ],
+      "faces": {
+        "north": {
+          "texture": "#poplar"
+        },
+        "east": {
+          "texture": "#poplar"
+        },
+        "south": {
+          "texture": "#poplar"
+        },
+        "west": {
+          "texture": "#poplar"
+        },
+        "up": {
+          "texture": "#poplar"
+        },
+        "down": {
+          "texture": "#poplar"
+        }
+      }
+    },
+    {
+      "from": [
+        0.75,
+        0,
+        1.75
+      ],
+      "to": [
+        2,
+        11,
+        3
+      ],
+      "faces": {
+        "north": {
+          "texture": "#poplar"
+        },
+        "east": {
+          "texture": "#poplar"
+        },
+        "south": {
+          "texture": "#poplar"
+        },
+        "west": {
+          "texture": "#poplar"
+        },
+        "up": {
+          "texture": "#end"
+        },
+        "down": {
+          "texture": "#end"
+        }
+      }
+    },
+    {
+      "from": [
+        14,
+        0,
+        13
+      ],
+      "to": [
+        15.25,
+        11,
+        14.25
+      ],
+      "faces": {
+        "north": {
+          "texture": "#poplar"
+        },
+        "east": {
+          "texture": "#poplar"
+        },
+        "south": {
+          "texture": "#poplar"
+        },
+        "west": {
+          "texture": "#poplar"
+        },
+        "up": {
+          "texture": "#end"
+        },
+        "down": {
+          "texture": "#end"
+        }
+      }
+    },
+    {
+      "from": [
+        0.5,
+        10,
+        12.5
+      ],
+      "to": [
+        15.5,
+        16,
+        14.5
+      ],
+      "faces": {
+        "north": {
+          "texture": "#poplar"
+        },
+        "east": {
+          "texture": "#poplar"
+        },
+        "south": {
+          "texture": "#poplar"
+        },
+        "west": {
+          "texture": "#poplar"
+        },
+        "up": {
+          "texture": "#poplar"
+        },
+        "down": {
+          "texture": "#poplar"
+        }
+      }
+    }
+  ]
+}

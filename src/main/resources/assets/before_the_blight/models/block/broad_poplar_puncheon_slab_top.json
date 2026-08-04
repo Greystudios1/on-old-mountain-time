@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab_top",
+  "textures": {
+    "bottom": "before_the_blight:block/broad_poplar_puncheon_floor",
+    "side": "before_the_blight:block/broad_poplar_puncheon_floor",
+    "top": "before_the_blight:block/broad_poplar_puncheon_floor"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "decorations",
+  "key": {
+    "S": "minecraft:stick",
+    "T": "minecraft:string",
+    "W": "minecraft:white_wool",
+    "B": "before_the_blight:rough_chestnut_boards"
+  },
+  "pattern": [
+    "S S",
+    "TWT",
+    "SBS"
+  ],
+  "result": {
+    "id": "before_the_blight:floor_loom"
+  }
+}

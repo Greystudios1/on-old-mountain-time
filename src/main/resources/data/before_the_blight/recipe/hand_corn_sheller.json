@@ -1,0 +1,17 @@
+{
+  "category": "equipment",
+  "key": {
+    "B": "before_the_blight:rough_chestnut_boards",
+    "I": "minecraft:iron_ingot",
+    "N": "minecraft:iron_nugget"
+  },
+  "pattern": [
+    " NI",
+    " BI",
+    "B  "
+  ],
+  "result": {
+    "id": "before_the_blight:hand_corn_sheller"
+  },
+  "type": "minecraft:crafting_shaped"
+}

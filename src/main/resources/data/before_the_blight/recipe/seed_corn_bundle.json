@@ -1,0 +1,16 @@
+{
+  "category": "misc",
+  "key": {
+    "E": "before_the_blight:dried_ear_of_corn",
+    "S": "minecraft:string"
+  },
+  "pattern": [
+    "EEE",
+    " S ",
+    " E "
+  ],
+  "result": {
+    "id": "before_the_blight:seed_corn_bundle"
+  },
+  "type": "minecraft:crafting_shaped"
+}

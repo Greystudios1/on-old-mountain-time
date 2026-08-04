@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "before_the_blight:block/fieldstone_chimney_open_flue_top",
+      "uvlock": true,
+      "y": 90
+    },
+    "facing=north": {
+      "model": "before_the_blight:block/fieldstone_chimney_open_flue_top"
+    },
+    "facing=south": {
+      "model": "before_the_blight:block/fieldstone_chimney_open_flue_top",
+      "uvlock": true,
+      "y": 180
+    },
+    "facing=west": {
+      "model": "before_the_blight:block/fieldstone_chimney_open_flue_top",
+      "uvlock": true,
+      "y": 270
+    }
+  }
+}

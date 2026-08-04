@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_ear_of_corn": {
+      "conditions": {
+        "items": [
+          {
+            "items": "before_the_blight:ear_of_corn"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "before_the_blight:cornmeal"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_ear_of_corn"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "before_the_blight:cornmeal"
+    ]
+  }
+}

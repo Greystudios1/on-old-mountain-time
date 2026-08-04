@@ -1,0 +1,49 @@
+{
+  "parent": "before_the_blight:onboarding/obtain_chestnut",
+  "criteria": {
+    "finish_hewn_chestnut_beam": {
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": "before_the_blight:hewn_chestnut_beam"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": "before_the_blight:broad_axe"
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:item_used_on_block"
+    }
+  },
+  "display": {
+    "description": {
+      "text": "Use a broad axe to square a chestnut log into a beam."
+    },
+    "icon": {
+      "id": "before_the_blight:hewn_chestnut_beam"
+    },
+    "title": {
+      "text": "Square and True"
+    }
+  },
+  "requirements": [
+    [
+      "finish_hewn_chestnut_beam"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "before_the_blight:sawing_trestles",
+      "before_the_blight:frame_saw"
+    ]
+  },
+  "sends_telemetry_event": false
+}

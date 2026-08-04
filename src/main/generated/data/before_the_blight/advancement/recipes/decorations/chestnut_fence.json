@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_chestnut_planks": {
+      "conditions": {
+        "items": [
+          {
+            "items": "before_the_blight:chestnut_planks"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "before_the_blight:chestnut_fence"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_chestnut_planks"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "before_the_blight:chestnut_fence"
+    ]
+  }
+}

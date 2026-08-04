@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": "before_the_blight:rough_chestnut_boards"
+  },
+  "pattern": [
+    "B B",
+    "BB "
+  ],
+  "result": {
+    "id": "before_the_blight:wooden_cup",
+    "count": 2
+  }
+}

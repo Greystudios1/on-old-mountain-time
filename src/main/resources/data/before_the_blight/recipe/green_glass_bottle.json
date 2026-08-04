@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:glass_bottle",
+    "minecraft:green_dye"
+  ],
+  "result": {
+    "id": "before_the_blight:green_glass_bottle"
+  }
+}

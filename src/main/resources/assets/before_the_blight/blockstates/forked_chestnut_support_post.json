@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "before_the_blight:block/forked_chestnut_support_post"
+    },
+    "facing=east": {
+      "model": "before_the_blight:block/forked_chestnut_support_post",
+      "y": 90,
+      "uvlock": true
+    },
+    "facing=south": {
+      "model": "before_the_blight:block/forked_chestnut_support_post",
+      "y": 180,
+      "uvlock": true
+    },
+    "facing=west": {
+      "model": "before_the_blight:block/forked_chestnut_support_post",
+      "y": 270,
+      "uvlock": true
+    }
+  }
+}

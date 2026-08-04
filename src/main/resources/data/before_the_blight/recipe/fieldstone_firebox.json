@@ -1,0 +1,17 @@
+{
+  "category": "building",
+  "key": {
+    "#": "before_the_blight:fieldstone",
+    "C": "minecraft:campfire"
+  },
+  "pattern": [
+    "###",
+    "#C#",
+    "###"
+  ],
+  "result": {
+    "count": 1,
+    "id": "before_the_blight:fieldstone_firebox"
+  },
+  "type": "minecraft:crafting_shaped"
+}

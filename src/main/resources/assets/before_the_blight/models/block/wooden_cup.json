@@ -1,0 +1,224 @@
+{
+  "ambientocclusion": true,
+  "display": {
+    "fixed": {
+      "rotation": [
+        0,
+        180,
+        0
+      ],
+      "scale": [
+        0.62,
+        0.62,
+        0.62
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ]
+    },
+    "ground": {
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.42,
+        0.42,
+        0.42
+      ],
+      "translation": [
+        0,
+        3,
+        0
+      ]
+    },
+    "gui": {
+      "rotation": [
+        30,
+        225,
+        0
+      ],
+      "scale": [
+        0.72,
+        0.72,
+        0.72
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  "elements": [
+    {
+      "faces": {
+        "down": {
+          "texture": "#material"
+        },
+        "east": {
+          "texture": "#material"
+        },
+        "north": {
+          "texture": "#material"
+        },
+        "south": {
+          "texture": "#material"
+        },
+        "up": {
+          "texture": "#material"
+        },
+        "west": {
+          "texture": "#material"
+        }
+      },
+      "from": [
+        4.5,
+        1,
+        4.5
+      ],
+      "to": [
+        10.5,
+        8.5,
+        10.5
+      ]
+    },
+    {
+      "faces": {
+        "down": {
+          "texture": "#material"
+        },
+        "east": {
+          "texture": "#material"
+        },
+        "north": {
+          "texture": "#material"
+        },
+        "south": {
+          "texture": "#material"
+        },
+        "up": {
+          "texture": "#material"
+        },
+        "west": {
+          "texture": "#material"
+        }
+      },
+      "from": [
+        4,
+        8.25,
+        4
+      ],
+      "to": [
+        11,
+        9.2,
+        11
+      ]
+    },
+    {
+      "faces": {
+        "down": {
+          "texture": "#material"
+        },
+        "east": {
+          "texture": "#material"
+        },
+        "north": {
+          "texture": "#material"
+        },
+        "south": {
+          "texture": "#material"
+        },
+        "up": {
+          "texture": "#material"
+        },
+        "west": {
+          "texture": "#material"
+        }
+      },
+      "from": [
+        10.25,
+        3,
+        6
+      ],
+      "to": [
+        13,
+        4.25,
+        9
+      ]
+    },
+    {
+      "faces": {
+        "down": {
+          "texture": "#material"
+        },
+        "east": {
+          "texture": "#material"
+        },
+        "north": {
+          "texture": "#material"
+        },
+        "south": {
+          "texture": "#material"
+        },
+        "up": {
+          "texture": "#material"
+        },
+        "west": {
+          "texture": "#material"
+        }
+      },
+      "from": [
+        12,
+        4,
+        6
+      ],
+      "to": [
+        13.25,
+        7.5,
+        9
+      ]
+    },
+    {
+      "faces": {
+        "down": {
+          "texture": "#material"
+        },
+        "east": {
+          "texture": "#material"
+        },
+        "north": {
+          "texture": "#material"
+        },
+        "south": {
+          "texture": "#material"
+        },
+        "up": {
+          "texture": "#material"
+        },
+        "west": {
+          "texture": "#material"
+        }
+      },
+      "from": [
+        10.25,
+        7.25,
+        6
+      ],
+      "to": [
+        13,
+        8.5,
+        9
+      ]
+    }
+  ],
+  "parent": "minecraft:block/block",
+  "textures": {
+    "accent": "before_the_blight:block/wooden_cup",
+    "material": "before_the_blight:block/wooden_cup",
+    "particle": "before_the_blight:block/wooden_cup"
+  }
+}

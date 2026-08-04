@@ -1,0 +1,42 @@
+{
+  "variants": {
+    "facing=north,active=false": {
+      "model": "before_the_blight:block/table_loom",
+      "uvlock": true
+    },
+    "facing=north,active=true": {
+      "model": "before_the_blight:block/table_loom_active",
+      "uvlock": true
+    },
+    "facing=east,active=false": {
+      "model": "before_the_blight:block/table_loom",
+      "uvlock": true,
+      "y": 90
+    },
+    "facing=east,active=true": {
+      "model": "before_the_blight:block/table_loom_active",
+      "uvlock": true,
+      "y": 90
+    },
+    "facing=south,active=false": {
+      "model": "before_the_blight:block/table_loom",
+      "uvlock": true,
+      "y": 180
+    },
+    "facing=south,active=true": {
+      "model": "before_the_blight:block/table_loom_active",
+      "uvlock": true,
+      "y": 180
+    },
+    "facing=west,active=false": {
+      "model": "before_the_blight:block/table_loom",
+      "uvlock": true,
+      "y": 270
+    },
+    "facing=west,active=true": {
+      "model": "before_the_blight:block/table_loom_active",
+      "uvlock": true,
+      "y": 270
+    }
+  }
+}

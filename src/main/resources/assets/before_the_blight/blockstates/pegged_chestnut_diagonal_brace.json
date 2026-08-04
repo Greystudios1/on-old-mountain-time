@@ -1,0 +1,40 @@
+{
+  "variants": {
+    "facing=north,mirrored=false": {
+      "model": "before_the_blight:block/pegged_chestnut_diagonal_brace"
+    },
+    "facing=north,mirrored=true": {
+      "model": "before_the_blight:block/pegged_chestnut_diagonal_brace_mirrored"
+    },
+    "facing=east,mirrored=false": {
+      "model": "before_the_blight:block/pegged_chestnut_diagonal_brace",
+      "y": 90,
+      "uvlock": true
+    },
+    "facing=east,mirrored=true": {
+      "model": "before_the_blight:block/pegged_chestnut_diagonal_brace_mirrored",
+      "y": 90,
+      "uvlock": true
+    },
+    "facing=south,mirrored=false": {
+      "model": "before_the_blight:block/pegged_chestnut_diagonal_brace",
+      "y": 180,
+      "uvlock": true
+    },
+    "facing=south,mirrored=true": {
+      "model": "before_the_blight:block/pegged_chestnut_diagonal_brace_mirrored",
+      "y": 180,
+      "uvlock": true
+    },
+    "facing=west,mirrored=false": {
+      "model": "before_the_blight:block/pegged_chestnut_diagonal_brace",
+      "y": 270,
+      "uvlock": true
+    },
+    "facing=west,mirrored=true": {
+      "model": "before_the_blight:block/pegged_chestnut_diagonal_brace_mirrored",
+      "y": 270,
+      "uvlock": true
+    }
+  }
+}

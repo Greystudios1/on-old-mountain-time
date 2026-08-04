@@ -1,0 +1,37 @@
+{
+  "parent": "before_the_blight:onboarding/enter_appalachians",
+  "criteria": {
+    "handful_of_chestnuts": {
+      "conditions": {
+        "items": [
+          {
+            "items": "before_the_blight:handful_of_chestnuts"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "text": "Gather a handful of American chestnuts."
+    },
+    "icon": {
+      "id": "before_the_blight:handful_of_chestnuts"
+    },
+    "title": {
+      "text": "The Old Giant Returns"
+    }
+  },
+  "requirements": [
+    [
+      "handful_of_chestnuts"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "before_the_blight:broad_axe"
+    ]
+  },
+  "sends_telemetry_event": false
+}

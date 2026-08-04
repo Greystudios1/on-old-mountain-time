@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "before_the_blight:block/broad_chestnut_puncheon_floor",
+    "side": "before_the_blight:block/broad_chestnut_puncheon_floor"
+  }
+}

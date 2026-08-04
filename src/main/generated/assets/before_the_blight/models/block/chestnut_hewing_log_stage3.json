@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "down": "before_the_blight:block/chestnut_log_top",
+    "east": "before_the_blight:block/hewn_chestnut_beam",
+    "north": "before_the_blight:block/hewn_chestnut_beam",
+    "particle": "before_the_blight:block/chestnut_log",
+    "south": "before_the_blight:block/hewn_chestnut_beam",
+    "up": "before_the_blight:block/chestnut_log_top",
+    "west": "before_the_blight:block/chestnut_log"
+  }
+}

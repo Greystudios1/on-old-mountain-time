@@ -1,0 +1,156 @@
+{
+  "ambientocclusion": false,
+  "textures": {
+    "particle": "before_the_blight:block/installed_cut_nails",
+    "hardware": "before_the_blight:block/installed_cut_nails"
+  },
+  "elements": [
+    {
+      "from": [
+        2,
+        4,
+        14
+      ],
+      "to": [
+        4,
+        6,
+        16
+      ],
+      "faces": {
+        "down": {
+          "texture": "#hardware"
+        },
+        "up": {
+          "texture": "#hardware"
+        },
+        "north": {
+          "texture": "#hardware"
+        },
+        "south": {
+          "texture": "#hardware"
+        },
+        "west": {
+          "texture": "#hardware"
+        },
+        "east": {
+          "texture": "#hardware"
+        }
+      }
+    },
+    {
+      "from": [
+        6,
+        8,
+        14
+      ],
+      "to": [
+        8,
+        10,
+        16
+      ],
+      "faces": {
+        "down": {
+          "texture": "#hardware"
+        },
+        "up": {
+          "texture": "#hardware"
+        },
+        "north": {
+          "texture": "#hardware"
+        },
+        "south": {
+          "texture": "#hardware"
+        },
+        "west": {
+          "texture": "#hardware"
+        },
+        "east": {
+          "texture": "#hardware"
+        }
+      }
+    },
+    {
+      "from": [
+        10,
+        5,
+        14
+      ],
+      "to": [
+        12,
+        7,
+        16
+      ],
+      "faces": {
+        "down": {
+          "texture": "#hardware"
+        },
+        "up": {
+          "texture": "#hardware"
+        },
+        "north": {
+          "texture": "#hardware"
+        },
+        "south": {
+          "texture": "#hardware"
+        },
+        "west": {
+          "texture": "#hardware"
+        },
+        "east": {
+          "texture": "#hardware"
+        }
+      }
+    },
+    {
+      "from": [
+        12,
+        10,
+        14
+      ],
+      "to": [
+        14,
+        12,
+        16
+      ],
+      "faces": {
+        "down": {
+          "texture": "#hardware"
+        },
+        "up": {
+          "texture": "#hardware"
+        },
+        "north": {
+          "texture": "#hardware"
+        },
+        "south": {
+          "texture": "#hardware"
+        },
+        "west": {
+          "texture": "#hardware"
+        },
+        "east": {
+          "texture": "#hardware"
+        }
+      }
+    }
+  ],
+  "display": {
+    "gui": {
+      "rotation": [
+        30,
+        225,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.9,
+        0.9,
+        0.9
+      ]
+    }
+  }
+}

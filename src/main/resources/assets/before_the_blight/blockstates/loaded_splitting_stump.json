@@ -1,0 +1,353 @@
+{
+  "multipart": [
+    {
+      "when": {
+        "facing": "north",
+        "froe_set": "false"
+      },
+      "apply": {
+        "model": "before_the_blight:block/loaded_splitting_stump",
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "froe_set": "false"
+      },
+      "apply": {
+        "model": "before_the_blight:block/loaded_splitting_stump",
+        "uvlock": true,
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "froe_set": "false"
+      },
+      "apply": {
+        "model": "before_the_blight:block/loaded_splitting_stump",
+        "uvlock": true,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "froe_set": "false"
+      },
+      "apply": {
+        "model": "before_the_blight:block/loaded_splitting_stump",
+        "uvlock": true,
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "split_kind": "shingles",
+        "froe_set": "true",
+        "strike_stage": "0"
+      },
+      "apply": {
+        "model": "before_the_blight:block/loaded_splitting_stump_froe_shingles_0",
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "split_kind": "shingles",
+        "froe_set": "true",
+        "strike_stage": "0"
+      },
+      "apply": {
+        "model": "before_the_blight:block/loaded_splitting_stump_froe_shingles_0",
+        "uvlock": true,
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "split_kind": "shingles",
+        "froe_set": "true",
+        "strike_stage": "0"
+      },
+      "apply": {
+        "model": "before_the_blight:block/loaded_splitting_stump_froe_shingles_0",
+        "uvlock": true,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "split_kind": "shingles",
+        "froe_set": "true",
+        "strike_stage": "0"
+      },
+      "apply": {
+        "model": "before_the_blight:block/loaded_splitting_stump_froe_shingles_0",
+        "uvlock": true,
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "split_kind": "shingles",
+        "froe_set": "true",
+        "strike_stage": "1"
+      },
+      "apply": {
+        "model": "before_the_blight:block/loaded_splitting_stump_froe_shingles_1",
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "split_kind": "shingles",
+        "froe_set": "true",
+        "strike_stage": "1"
+      },
+      "apply": {
+        "model": "before_the_blight:block/loaded_splitting_stump_froe_shingles_1",
+        "uvlock": true,
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "split_kind": "shingles",
+        "froe_set": "true",
+        "strike_stage": "1"
+      },
+      "apply": {
+        "model": "before_the_blight:block/loaded_splitting_stump_froe_shingles_1",
+        "uvlock": true,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "split_kind": "shingles",
+        "froe_set": "true",
+        "strike_stage": "1"
+      },
+      "apply": {
+        "model": "before_the_blight:block/loaded_splitting_stump_froe_shingles_1",
+        "uvlock": true,
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "split_kind": "shingles",
+        "froe_set": "true",
+        "strike_stage": "2"
+      },
+      "apply": {
+        "model": "before_the_blight:block/loaded_splitting_stump_froe_shingles_2",
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "split_kind": "shingles",
+        "froe_set": "true",
+        "strike_stage": "2"
+      },
+      "apply": {
+        "model": "before_the_blight:block/loaded_splitting_stump_froe_shingles_2",
+        "uvlock": true,
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "split_kind": "shingles",
+        "froe_set": "true",
+        "strike_stage": "2"
+      },
+      "apply": {
+        "model": "before_the_blight:block/loaded_splitting_stump_froe_shingles_2",
+        "uvlock": true,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "split_kind": "shingles",
+        "froe_set": "true",
+        "strike_stage": "2"
+      },
+      "apply": {
+        "model": "before_the_blight:block/loaded_splitting_stump_froe_shingles_2",
+        "uvlock": true,
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "split_kind": "rails",
+        "froe_set": "true",
+        "strike_stage": "0"
+      },
+      "apply": {
+        "model": "before_the_blight:block/loaded_splitting_stump_froe_rails_0",
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "split_kind": "rails",
+        "froe_set": "true",
+        "strike_stage": "0"
+      },
+      "apply": {
+        "model": "before_the_blight:block/loaded_splitting_stump_froe_rails_0",
+        "uvlock": true,
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "split_kind": "rails",
+        "froe_set": "true",
+        "strike_stage": "0"
+      },
+      "apply": {
+        "model": "before_the_blight:block/loaded_splitting_stump_froe_rails_0",
+        "uvlock": true,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "split_kind": "rails",
+        "froe_set": "true",
+        "strike_stage": "0"
+      },
+      "apply": {
+        "model": "before_the_blight:block/loaded_splitting_stump_froe_rails_0",
+        "uvlock": true,
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "split_kind": "rails",
+        "froe_set": "true",
+        "strike_stage": "1"
+      },
+      "apply": {
+        "model": "before_the_blight:block/loaded_splitting_stump_froe_rails_1",
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "split_kind": "rails",
+        "froe_set": "true",
+        "strike_stage": "1"
+      },
+      "apply": {
+        "model": "before_the_blight:block/loaded_splitting_stump_froe_rails_1",
+        "uvlock": true,
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "split_kind": "rails",
+        "froe_set": "true",
+        "strike_stage": "1"
+      },
+      "apply": {
+        "model": "before_the_blight:block/loaded_splitting_stump_froe_rails_1",
+        "uvlock": true,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "split_kind": "rails",
+        "froe_set": "true",
+        "strike_stage": "1"
+      },
+      "apply": {
+        "model": "before_the_blight:block/loaded_splitting_stump_froe_rails_1",
+        "uvlock": true,
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "split_kind": "rails",
+        "froe_set": "true",
+        "strike_stage": "2"
+      },
+      "apply": {
+        "model": "before_the_blight:block/loaded_splitting_stump_froe_rails_2",
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "split_kind": "rails",
+        "froe_set": "true",
+        "strike_stage": "2"
+      },
+      "apply": {
+        "model": "before_the_blight:block/loaded_splitting_stump_froe_rails_2",
+        "uvlock": true,
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "split_kind": "rails",
+        "froe_set": "true",
+        "strike_stage": "2"
+      },
+      "apply": {
+        "model": "before_the_blight:block/loaded_splitting_stump_froe_rails_2",
+        "uvlock": true,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "split_kind": "rails",
+        "froe_set": "true",
+        "strike_stage": "2"
+      },
+      "apply": {
+        "model": "before_the_blight:block/loaded_splitting_stump_froe_rails_2",
+        "uvlock": true,
+        "y": 270
+      }
+    }
+  ]
+}

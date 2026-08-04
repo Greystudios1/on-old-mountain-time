@@ -1,0 +1,12 @@
+{
+  "category": "building",
+  "ingredients": [
+    "before_the_blight:fieldstone",
+    "minecraft:flint"
+  ],
+  "result": {
+    "count": 1,
+    "id": "before_the_blight:broken_fieldstone_masonry"
+  },
+  "type": "minecraft:crafting_shapeless"
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "before_the_blight:block/random_width_poplar_boardwork",
+    "side": "before_the_blight:block/random_width_poplar_boardwork"
+  }
+}

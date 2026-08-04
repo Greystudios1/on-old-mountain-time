@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "L": "#before_the_blight:chestnut_logs",
+    "S": "minecraft:stick"
+  },
+  "pattern": [
+    "LLL",
+    " LS",
+    "  S"
+  ],
+  "result": {
+    "id": "before_the_blight:wooden_maul"
+  }
+}

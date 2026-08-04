@@ -1,0 +1,40 @@
+{
+  "elements": [
+    {
+      "faces": {
+        "down": {
+          "texture": "#material"
+        },
+        "east": {
+          "texture": "#material"
+        },
+        "north": {
+          "texture": "#material"
+        },
+        "south": {
+          "texture": "#material"
+        },
+        "up": {
+          "texture": "#material"
+        },
+        "west": {
+          "texture": "#material"
+        }
+      },
+      "from": [
+        4,
+        0,
+        5
+      ],
+      "to": [
+        12,
+        16,
+        16
+      ]
+    }
+  ],
+  "textures": {
+    "material": "before_the_blight:block/fireplace_fieldstone",
+    "particle": "before_the_blight:block/fireplace_fieldstone"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "replace": false,
+  "values": [
+    "before_the_blight:fieldstone_hearth",
+    "before_the_blight:fieldstone_firebox",
+    "before_the_blight:fieldstone_firebox_back",
+    "before_the_blight:fieldstone_firebox_wall",
+    "before_the_blight:fieldstone_firebox_arch",
+    "before_the_blight:fieldstone_firebox_keystone",
+    "before_the_blight:fieldstone_chimney_corner",
+    "before_the_blight:fieldstone_chimney_shoulder",
+    "before_the_blight:fieldstone_chimney_throat",
+    "before_the_blight:fieldstone_chimney_smoke_chamber",
+    "before_the_blight:fieldstone_chimney_flue",
+    "before_the_blight:fieldstone_chimney_cap",
+    "before_the_blight:fieldstone_chimney_rain_cap",
+    "before_the_blight:raised_fieldstone_hearth",
+    "before_the_blight:fieldstone_fireplace_jamb",
+    "before_the_blight:fieldstone_fireplace_lintel",
+    "before_the_blight:fieldstone_fireplace_side",
+    "before_the_blight:fieldstone_fireplace_corner",
+    "before_the_blight:fieldstone_chimney_roof_transition",
+    "before_the_blight:fieldstone_chimney_open_flue_top",
+    "before_the_blight:fieldstone_chimney_base",
+    "before_the_blight:fieldstone_chimney_lower_body",
+    "before_the_blight:fieldstone_chimney_upper_stack"
+  ]
+}

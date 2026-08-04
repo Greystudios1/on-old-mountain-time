@@ -1,0 +1,74 @@
+{
+  "criteria": {
+    "chestnut_oak_ridge": {
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biomes": "before_the_blight:chestnut_oak_ridge"
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:location"
+    },
+    "hemlock_beech_cove": {
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biomes": "before_the_blight:hemlock_beech_cove"
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:location"
+    },
+    "grassy_bald": {
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biomes": "before_the_blight:grassy_bald"
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:location"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "background": "minecraft:gui/advancements/backgrounds/adventure",
+    "description": {
+      "text": "Enter a restored Appalachian forest and begin making a place in it."
+    },
+    "icon": {
+      "id": "before_the_blight:chestnut_sapling"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "Before the Blight"
+    }
+  },
+  "requirements": [
+    [
+      "chestnut_oak_ridge",
+      "hemlock_beech_cove",
+      "grassy_bald"
+    ]
+  ],
+  "sends_telemetry_event": false
+}

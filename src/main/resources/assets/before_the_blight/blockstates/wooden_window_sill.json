@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "before_the_blight:block/wooden_window_sill"
+    },
+    "facing=east": {
+      "model": "before_the_blight:block/wooden_window_sill",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "before_the_blight:block/wooden_window_sill",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "before_the_blight:block/wooden_window_sill",
+      "y": 270
+    }
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "before_the_blight:item/handful_of_chestnuts"
+  }
+}

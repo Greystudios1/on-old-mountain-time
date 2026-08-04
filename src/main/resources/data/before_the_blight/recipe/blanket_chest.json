@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "decorations",
+  "key": {
+    "P": "minecraft:birch_planks",
+    "W": "minecraft:white_wool"
+  },
+  "pattern": [
+    "PPP",
+    "PWP",
+    "PPP"
+  ],
+  "result": {
+    "id": "before_the_blight:blanket_chest"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "before_the_blight:block/stripped_chestnut_wood",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "before_the_blight:block/stripped_chestnut_wood"
+    },
+    "axis=z": {
+      "model": "before_the_blight:block/stripped_chestnut_wood",
+      "x": 90
+    }
+  }
+}

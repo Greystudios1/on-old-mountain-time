@@ -1,0 +1,220 @@
+{
+  "ambientocclusion": true,
+  "display": {
+    "firstperson_lefthand": {
+      "rotation": [
+        0,
+        225,
+        0
+      ],
+      "scale": [
+        0.42,
+        0.42,
+        0.42
+      ],
+      "translation": [
+        0,
+        1,
+        0
+      ]
+    },
+    "firstperson_righthand": {
+      "rotation": [
+        0,
+        45,
+        0
+      ],
+      "scale": [
+        0.42,
+        0.42,
+        0.42
+      ],
+      "translation": [
+        0,
+        1,
+        0
+      ]
+    },
+    "fixed": {
+      "rotation": [
+        0,
+        180,
+        0
+      ],
+      "scale": [
+        0.55,
+        0.55,
+        0.55
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ]
+    },
+    "ground": {
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.34,
+        0.34,
+        0.34
+      ],
+      "translation": [
+        0,
+        3,
+        0
+      ]
+    },
+    "gui": {
+      "rotation": [
+        30,
+        225,
+        0
+      ],
+      "scale": [
+        0.62,
+        0.62,
+        0.62
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ]
+    },
+    "thirdperson_lefthand": {
+      "rotation": [
+        75,
+        225,
+        0
+      ],
+      "scale": [
+        0.38,
+        0.38,
+        0.38
+      ],
+      "translation": [
+        0,
+        2.5,
+        0
+      ]
+    },
+    "thirdperson_righthand": {
+      "rotation": [
+        75,
+        45,
+        0
+      ],
+      "scale": [
+        0.38,
+        0.38,
+        0.38
+      ],
+      "translation": [
+        0,
+        2.5,
+        0
+      ]
+    }
+  },
+  "elements": [
+    {
+      "faces": {
+        "east": {
+          "texture": "#floor"
+        },
+        "north": {
+          "texture": "#floor"
+        },
+        "south": {
+          "texture": "#floor"
+        },
+        "up": {
+          "texture": "#floor"
+        },
+        "west": {
+          "texture": "#floor"
+        }
+      },
+      "from": [
+        0,
+        12,
+        0
+      ],
+      "to": [
+        16,
+        16,
+        16
+      ]
+    },
+    {
+      "faces": {
+        "down": {
+          "texture": "#joist"
+        },
+        "east": {
+          "texture": "#joist"
+        },
+        "north": {
+          "texture": "#end"
+        },
+        "south": {
+          "texture": "#end"
+        },
+        "west": {
+          "texture": "#joist"
+        }
+      },
+      "from": [
+        1,
+        0,
+        0
+      ],
+      "to": [
+        5,
+        12,
+        16
+      ]
+    },
+    {
+      "faces": {
+        "down": {
+          "texture": "#joist"
+        },
+        "east": {
+          "texture": "#joist"
+        },
+        "north": {
+          "texture": "#end"
+        },
+        "south": {
+          "texture": "#end"
+        },
+        "west": {
+          "texture": "#joist"
+        }
+      },
+      "from": [
+        11,
+        0,
+        0
+      ],
+      "to": [
+        15,
+        12,
+        16
+      ]
+    }
+  ],
+  "parent": "minecraft:block/block",
+  "textures": {
+    "end": "before_the_blight:block/hewn_chestnut_beam_top",
+    "floor": "before_the_blight:block/broad_chestnut_puncheon_floor",
+    "joist": "before_the_blight:block/hewn_chestnut_beam",
+    "particle": "before_the_blight:block/broad_chestnut_puncheon_floor"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "before_the_blight:block/chinked_chestnut_logs",
+      "uvlock": true,
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "before_the_blight:block/chinked_chestnut_logs"
+    },
+    "axis=z": {
+      "model": "before_the_blight:block/chinked_chestnut_logs",
+      "uvlock": true,
+      "x": 90
+    }
+  }
+}

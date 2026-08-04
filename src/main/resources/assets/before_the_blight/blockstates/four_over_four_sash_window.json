@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "before_the_blight:block/four_over_four_sash_window"
+    },
+    "facing=east": {
+      "model": "before_the_blight:block/four_over_four_sash_window",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "before_the_blight:block/four_over_four_sash_window",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "before_the_blight:block/four_over_four_sash_window",
+      "y": 270
+    }
+  }
+}

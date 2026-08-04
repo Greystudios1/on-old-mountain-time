@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "BBB"
+  ],
+  "key": {
+    "B": "before_the_blight:white_oak_board"
+  },
+  "result": {
+    "count": 3,
+    "id": "before_the_blight:rough_door_threshold"
+  }
+}

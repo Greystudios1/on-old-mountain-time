@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "R": "minecraft:red_wool",
+    "B": "minecraft:blue_wool",
+    "Y": "minecraft:yellow_wool",
+    "W": "minecraft:white_wool"
+  },
+  "pattern": [
+    "RBY",
+    "WWW"
+  ],
+  "result": {
+    "id": "before_the_blight:folded_patchwork_quilt"
+  }
+}

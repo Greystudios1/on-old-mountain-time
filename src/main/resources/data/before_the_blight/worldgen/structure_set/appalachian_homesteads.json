@@ -1,0 +1,14 @@
+{
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 18260722,
+    "separation": 3,
+    "spacing": 8
+  },
+  "structures": [
+    {
+      "structure": "before_the_blight:appalachian_homestead",
+      "weight": 1
+    }
+  ]
+}

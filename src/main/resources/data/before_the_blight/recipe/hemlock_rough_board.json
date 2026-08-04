@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    "before_the_blight:hemlock_log"
+  ],
+  "result": {
+    "count": 4,
+    "id": "before_the_blight:hemlock_rough_board"
+  }
+}

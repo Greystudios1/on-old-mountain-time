@@ -1,0 +1,40 @@
+{
+  "variants": {
+    "axis=x,hewing_stage=1": {
+      "model": "before_the_blight:block/chestnut_hewing_log_stage1",
+      "x": 90,
+      "y": 90
+    },
+    "axis=x,hewing_stage=2": {
+      "model": "before_the_blight:block/chestnut_hewing_log_stage2",
+      "x": 90,
+      "y": 90
+    },
+    "axis=x,hewing_stage=3": {
+      "model": "before_the_blight:block/chestnut_hewing_log_stage3",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y,hewing_stage=1": {
+      "model": "before_the_blight:block/chestnut_hewing_log_stage1"
+    },
+    "axis=y,hewing_stage=2": {
+      "model": "before_the_blight:block/chestnut_hewing_log_stage2"
+    },
+    "axis=y,hewing_stage=3": {
+      "model": "before_the_blight:block/chestnut_hewing_log_stage3"
+    },
+    "axis=z,hewing_stage=1": {
+      "model": "before_the_blight:block/chestnut_hewing_log_stage1",
+      "x": 90
+    },
+    "axis=z,hewing_stage=2": {
+      "model": "before_the_blight:block/chestnut_hewing_log_stage2",
+      "x": 90
+    },
+    "axis=z,hewing_stage=3": {
+      "model": "before_the_blight:block/chestnut_hewing_log_stage3",
+      "x": 90
+    }
+  }
+}

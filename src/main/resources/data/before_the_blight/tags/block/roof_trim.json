@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "before_the_blight:white_oak_shingle_ridge_cap",
+    "before_the_blight:white_oak_shingle_ridge_end",
+    "before_the_blight:white_oak_shingle_rake_left",
+    "before_the_blight:white_oak_shingle_rake_right",
+    "before_the_blight:white_oak_shingle_lower_eave",
+    "before_the_blight:white_oak_shingle_chimney_transition"
+  ]
+}

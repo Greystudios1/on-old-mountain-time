@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "before_the_blight:block/installed_cut_nails"
+    },
+    "facing=east": {
+      "model": "before_the_blight:block/installed_cut_nails",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "before_the_blight:block/installed_cut_nails",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "before_the_blight:block/installed_cut_nails",
+      "y": 270
+    }
+  }
+}

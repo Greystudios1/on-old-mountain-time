@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "redstone",
+  "group": "wooden_button",
+  "ingredients": [
+    "before_the_blight:american_beech_planks"
+  ],
+  "result": {
+    "id": "before_the_blight:american_beech_button"
+  }
+}

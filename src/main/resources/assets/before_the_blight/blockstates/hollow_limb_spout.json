@@ -1,0 +1,42 @@
+{
+  "variants": {
+    "facing=east,flowing=false": {
+      "model": "before_the_blight:block/hollow_limb_spout_dry",
+      "uvlock": true,
+      "y": 90
+    },
+    "facing=east,flowing=true": {
+      "model": "before_the_blight:block/hollow_limb_spout_flowing",
+      "uvlock": true,
+      "y": 90
+    },
+    "facing=north,flowing=false": {
+      "model": "before_the_blight:block/hollow_limb_spout_dry",
+      "uvlock": true
+    },
+    "facing=north,flowing=true": {
+      "model": "before_the_blight:block/hollow_limb_spout_flowing",
+      "uvlock": true
+    },
+    "facing=south,flowing=false": {
+      "model": "before_the_blight:block/hollow_limb_spout_dry",
+      "uvlock": true,
+      "y": 180
+    },
+    "facing=south,flowing=true": {
+      "model": "before_the_blight:block/hollow_limb_spout_flowing",
+      "uvlock": true,
+      "y": 180
+    },
+    "facing=west,flowing=false": {
+      "model": "before_the_blight:block/hollow_limb_spout_dry",
+      "uvlock": true,
+      "y": 270
+    },
+    "facing=west,flowing=true": {
+      "model": "before_the_blight:block/hollow_limb_spout_flowing",
+      "uvlock": true,
+      "y": 270
+    }
+  }
+}

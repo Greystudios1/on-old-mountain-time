@@ -1,0 +1,12 @@
+{
+  "category": "building",
+  "ingredients": [
+    "minecraft:charcoal",
+    "minecraft:bone_meal"
+  ],
+  "result": {
+    "count": 4,
+    "id": "before_the_blight:ash_layer"
+  },
+  "type": "minecraft:crafting_shapeless"
+}

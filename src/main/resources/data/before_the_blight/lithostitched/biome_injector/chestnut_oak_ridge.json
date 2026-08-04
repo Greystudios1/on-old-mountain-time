@@ -1,0 +1,14 @@
+{
+  "type": "lithostitched:replace_partially",
+  "dimension": "minecraft:overworld",
+  "priority": 1000,
+  "targets": "#before_the_blight:chestnut_oak_ridge_targets",
+  "replacement": "before_the_blight:chestnut_oak_ridge",
+  "parameters": {
+    "erosion": {
+      "min_inclusive": -1.0,
+      "max_inclusive": -0.375
+    }
+  },
+  "region": "before_the_blight:appalachian"
+}

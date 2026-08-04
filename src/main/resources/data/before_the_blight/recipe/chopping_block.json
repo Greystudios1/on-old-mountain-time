@@ -1,0 +1,16 @@
+{
+  "category": "building",
+  "key": {
+    "B": "before_the_blight:rough_chestnut_boards",
+    "L": "#before_the_blight:chestnut_logs"
+  },
+  "pattern": [
+    " B ",
+    "BLB",
+    " B "
+  ],
+  "result": {
+    "id": "before_the_blight:chopping_block"
+  },
+  "type": "minecraft:crafting_shaped"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "H": "before_the_blight:hewn_chestnut_beam"
+  },
+  "pattern": [
+    " H ",
+    " H ",
+    " H "
+  ],
+  "result": {
+    "count": 3,
+    "id": "before_the_blight:tapered_hewn_chestnut_post"
+  }
+}

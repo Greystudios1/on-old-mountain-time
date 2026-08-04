@@ -1,0 +1,16 @@
+{
+  "category": "building",
+  "key": {
+    "B": "before_the_blight:rough_chestnut_boards",
+    "S": "minecraft:stick"
+  },
+  "pattern": [
+    "BSB",
+    "BSB"
+  ],
+  "result": {
+    "count": 6,
+    "id": "before_the_blight:chestnut_board_and_batten_siding"
+  },
+  "type": "minecraft:crafting_shaped"
+}

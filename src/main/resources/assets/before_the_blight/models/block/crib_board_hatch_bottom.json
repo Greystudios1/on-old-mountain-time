@@ -1,0 +1,171 @@
+{
+  "ambientocclusion": false,
+  "textures": {
+    "particle": "before_the_blight:block/crib_board_hatch",
+    "panel": "before_the_blight:block/crib_board_hatch",
+    "hardware": "before_the_blight:block/door_hardware_wood",
+    "peg": "before_the_blight:block/door_peg_wood"
+  },
+  "elements": [
+    {
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        16,
+        3,
+        16
+      ],
+      "faces": {
+        "down": {
+          "texture": "#panel"
+        },
+        "up": {
+          "texture": "#panel"
+        },
+        "north": {
+          "texture": "#panel"
+        },
+        "south": {
+          "texture": "#panel"
+        },
+        "west": {
+          "texture": "#panel"
+        },
+        "east": {
+          "texture": "#panel"
+        }
+      }
+    },
+    {
+      "from": [
+        1,
+        3.05,
+        2
+      ],
+      "to": [
+        15,
+        3.7,
+        4
+      ],
+      "faces": {
+        "down": {
+          "texture": "#hardware"
+        },
+        "up": {
+          "texture": "#hardware"
+        },
+        "north": {
+          "texture": "#hardware"
+        },
+        "south": {
+          "texture": "#hardware"
+        },
+        "west": {
+          "texture": "#hardware"
+        },
+        "east": {
+          "texture": "#hardware"
+        }
+      }
+    },
+    {
+      "from": [
+        1,
+        3.05,
+        12
+      ],
+      "to": [
+        15,
+        3.7,
+        14
+      ],
+      "faces": {
+        "down": {
+          "texture": "#hardware"
+        },
+        "up": {
+          "texture": "#hardware"
+        },
+        "north": {
+          "texture": "#hardware"
+        },
+        "south": {
+          "texture": "#hardware"
+        },
+        "west": {
+          "texture": "#hardware"
+        },
+        "east": {
+          "texture": "#hardware"
+        }
+      }
+    },
+    {
+      "from": [
+        2,
+        3.72,
+        2.5
+      ],
+      "to": [
+        3,
+        4.18,
+        3.5
+      ],
+      "faces": {
+        "down": {
+          "texture": "#peg"
+        },
+        "up": {
+          "texture": "#peg"
+        },
+        "north": {
+          "texture": "#peg"
+        },
+        "south": {
+          "texture": "#peg"
+        },
+        "west": {
+          "texture": "#peg"
+        },
+        "east": {
+          "texture": "#peg"
+        }
+      }
+    },
+    {
+      "from": [
+        2,
+        3.72,
+        12.5
+      ],
+      "to": [
+        3,
+        4.18,
+        13.5
+      ],
+      "faces": {
+        "down": {
+          "texture": "#peg"
+        },
+        "up": {
+          "texture": "#peg"
+        },
+        "north": {
+          "texture": "#peg"
+        },
+        "south": {
+          "texture": "#peg"
+        },
+        "west": {
+          "texture": "#peg"
+        },
+        "east": {
+          "texture": "#peg"
+        }
+      }
+    }
+  ]
+}

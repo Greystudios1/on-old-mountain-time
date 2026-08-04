@@ -1,0 +1,17 @@
+{
+  "category": "building",
+  "key": {
+    "B": "before_the_blight:rough_chestnut_boards",
+    "S": "minecraft:stick"
+  },
+  "pattern": [
+    "BSB",
+    "BSB",
+    "BSB"
+  ],
+  "result": {
+    "count": 2,
+    "id": "before_the_blight:wooden_louver"
+  },
+  "type": "minecraft:crafting_shaped"
+}

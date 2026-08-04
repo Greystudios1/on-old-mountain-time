@@ -1,0 +1,69 @@
+{
+  "ambientocclusion": false,
+  "textures": {
+    "particle": "before_the_blight:block/chinked_chestnut_logs",
+    "chink": "before_the_blight:block/chinked_chestnut_logs"
+  },
+  "elements": [
+    {
+      "from": [2, 7.75, 2],
+      "to": [14, 8.25, 14],
+      "faces": {
+        "down": {"uv": [2, 7.75, 14, 8.25], "texture": "#chink"},
+        "up": {"uv": [2, 7.75, 14, 8.25], "texture": "#chink"},
+        "north": {"uv": [2, 7.75, 14, 8.25], "texture": "#chink"},
+        "south": {"uv": [2, 7.75, 14, 8.25], "texture": "#chink"},
+        "west": {"uv": [2, 7.75, 14, 8.25], "texture": "#chink"},
+        "east": {"uv": [2, 7.75, 14, 8.25], "texture": "#chink"}
+      }
+    },
+    {
+      "from": [0, 7.75, 2],
+      "to": [2, 8.25, 14],
+      "faces": {
+        "down": {"texture": "#chink"},
+        "up": {"texture": "#chink"},
+        "north": {"texture": "#chink"},
+        "south": {"texture": "#chink"},
+        "west": {"texture": "#chink", "cullface": "west"},
+        "east": {"texture": "#chink"}
+      }
+    },
+    {
+      "from": [14, 7.75, 2],
+      "to": [16, 8.25, 14],
+      "faces": {
+        "down": {"texture": "#chink"},
+        "up": {"texture": "#chink"},
+        "north": {"texture": "#chink"},
+        "south": {"texture": "#chink"},
+        "west": {"texture": "#chink"},
+        "east": {"texture": "#chink", "cullface": "east"}
+      }
+    },
+    {
+      "from": [2, 7.75, 0],
+      "to": [14, 8.25, 2],
+      "faces": {
+        "down": {"texture": "#chink"},
+        "up": {"texture": "#chink"},
+        "north": {"texture": "#chink", "cullface": "north"},
+        "south": {"texture": "#chink"},
+        "west": {"texture": "#chink"},
+        "east": {"texture": "#chink"}
+      }
+    },
+    {
+      "from": [2, 7.75, 14],
+      "to": [14, 8.25, 16],
+      "faces": {
+        "down": {"texture": "#chink"},
+        "up": {"texture": "#chink"},
+        "north": {"texture": "#chink"},
+        "south": {"texture": "#chink", "cullface": "south"},
+        "west": {"texture": "#chink"},
+        "east": {"texture": "#chink"}
+      }
+    }
+  ]
+}

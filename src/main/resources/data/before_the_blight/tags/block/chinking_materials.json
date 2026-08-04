@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "before_the_blight:clay_chinking",
+    "before_the_blight:mud_chinking",
+    "before_the_blight:dried_mud_daub",
+    "before_the_blight:wood_splint_chinking",
+    "before_the_blight:cracked_mud_chinking",
+    "before_the_blight:repaired_mud_chinking"
+  ]
+}

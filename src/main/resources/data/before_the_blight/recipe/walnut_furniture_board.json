@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    "before_the_blight:black_walnut_log"
+  ],
+  "result": {
+    "count": 1,
+    "id": "before_the_blight:walnut_furniture_board"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "category": "building",
+  "ingredients": [
+    "minecraft:charcoal",
+    "before_the_blight:ash_layer"
+  ],
+  "result": {
+    "count": 4,
+    "id": "before_the_blight:cold_coal_scatter"
+  },
+  "type": "minecraft:crafting_shapeless"
+}

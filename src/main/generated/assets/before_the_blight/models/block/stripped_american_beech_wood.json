@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "before_the_blight:block/stripped_american_beech_log",
+    "side": "before_the_blight:block/stripped_american_beech_log"
+  }
+}

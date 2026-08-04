@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "before_the_blight:block/chestnut_sapling"
+  }
+}

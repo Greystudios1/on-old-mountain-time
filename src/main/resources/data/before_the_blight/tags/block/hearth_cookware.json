@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "before_the_blight:cast_iron_pot",
+    "before_the_blight:iron_kettle",
+    "before_the_blight:spider_skillet",
+    "before_the_blight:dutch_oven"
+  ]
+}

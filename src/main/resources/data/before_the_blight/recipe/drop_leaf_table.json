@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "decorations",
+  "key": {
+    "D": "minecraft:dark_oak_planks",
+    "O": "minecraft:oak_planks",
+    "S": "minecraft:stick"
+  },
+  "pattern": [
+    "DOD",
+    " S ",
+    " S "
+  ],
+  "result": {
+    "id": "before_the_blight:drop_leaf_table"
+  }
+}

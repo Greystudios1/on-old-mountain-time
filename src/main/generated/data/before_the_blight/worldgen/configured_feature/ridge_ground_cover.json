@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:simple_block",
+  "config": {
+    "to_place": {
+      "type": "minecraft:weighted_state_provider",
+      "entries": [
+        {
+          "data": {
+            "Name": "minecraft:short_grass"
+          },
+          "weight": 5
+        },
+        {
+          "data": {
+            "Name": "minecraft:fern"
+          },
+          "weight": 3
+        },
+        {
+          "data": {
+            "Name": "minecraft:leaf_litter",
+            "Properties": {
+              "facing": "north",
+              "segment_amount": "1"
+            }
+          },
+          "weight": 2
+        }
+      ]
+    }
+  }
+}

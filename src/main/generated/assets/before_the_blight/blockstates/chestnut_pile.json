@@ -1,0 +1,28 @@
+{
+  "variants": {
+    "layers=1": {
+      "model": "before_the_blight:block/chestnut_pile_height2"
+    },
+    "layers=2": {
+      "model": "before_the_blight:block/chestnut_pile_height4"
+    },
+    "layers=3": {
+      "model": "before_the_blight:block/chestnut_pile_height6"
+    },
+    "layers=4": {
+      "model": "before_the_blight:block/chestnut_pile_height8"
+    },
+    "layers=5": {
+      "model": "before_the_blight:block/chestnut_pile_height10"
+    },
+    "layers=6": {
+      "model": "before_the_blight:block/chestnut_pile_height12"
+    },
+    "layers=7": {
+      "model": "before_the_blight:block/chestnut_pile_height14"
+    },
+    "layers=8": {
+      "model": "before_the_blight:block/chestnut_pile"
+    }
+  }
+}

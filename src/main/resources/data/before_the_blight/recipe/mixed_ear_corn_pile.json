@@ -1,0 +1,11 @@
+{
+  "category": "misc",
+  "ingredients": [
+    "before_the_blight:yellow_ear_corn_pile",
+    "before_the_blight:corn_kernels"
+  ],
+  "result": {
+    "id": "before_the_blight:mixed_ear_corn_pile"
+  },
+  "type": "minecraft:crafting_shapeless"
+}

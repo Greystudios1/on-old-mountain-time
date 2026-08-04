@@ -1,0 +1,100 @@
+{
+  "ambientocclusion": true,
+  "elements": [
+    {
+      "faces": {
+        "down": {
+          "texture": "#wood"
+        },
+        "east": {
+          "texture": "#wood"
+        },
+        "up": {
+          "texture": "#wood"
+        },
+        "west": {
+          "texture": "#wood"
+        }
+      },
+      "from": [
+        0,
+        3,
+        0
+      ],
+      "to": [
+        3,
+        10,
+        16
+      ]
+    },
+    {
+      "faces": {
+        "down": {
+          "texture": "#wood"
+        },
+        "east": {
+          "texture": "#wood"
+        },
+        "up": {
+          "texture": "#wood"
+        },
+        "west": {
+          "texture": "#wood"
+        }
+      },
+      "from": [
+        13,
+        3,
+        0
+      ],
+      "to": [
+        16,
+        10,
+        16
+      ]
+    },
+    {
+      "faces": {
+        "down": {
+          "texture": "#wood"
+        },
+        "up": {
+          "texture": "#wood"
+        }
+      },
+      "from": [
+        3,
+        2.75,
+        0
+      ],
+      "to": [
+        13,
+        5,
+        16
+      ]
+    },
+    {
+      "faces": {
+        "up": {
+          "texture": "#silt"
+        }
+      },
+      "from": [
+        3,
+        5.01,
+        0.25
+      ],
+      "to": [
+        13,
+        5.08,
+        15.75
+      ]
+    }
+  ],
+  "parent": "minecraft:block/block",
+  "textures": {
+    "particle": "before_the_blight:block/hollowed_chestnut_trough",
+    "silt": "before_the_blight:block/trough_silt",
+    "wood": "before_the_blight:block/hollowed_chestnut_trough"
+  }
+}

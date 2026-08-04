@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "decorations",
+  "key": {
+    "O": "minecraft:oak_planks",
+    "S": "minecraft:stick"
+  },
+  "pattern": [
+    "OOO",
+    " S ",
+    "SOS"
+  ],
+  "result": {
+    "id": "before_the_blight:trestle_table"
+  }
+}

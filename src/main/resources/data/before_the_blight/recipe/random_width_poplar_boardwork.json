@@ -1,0 +1,15 @@
+{
+  "category": "building",
+  "key": {
+    "B": "before_the_blight:hand_split_yellow_poplar_board"
+  },
+  "pattern": [
+    "BB",
+    "BB"
+  ],
+  "result": {
+    "count": 4,
+    "id": "before_the_blight:random_width_poplar_boardwork"
+  },
+  "type": "minecraft:crafting_shaped"
+}

@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "before_the_blight:weathered_split_rail_fence",
+    "before_the_blight:broken_split_rail_fence",
+    "before_the_blight:rotted_log_stack"
+  ]
+}

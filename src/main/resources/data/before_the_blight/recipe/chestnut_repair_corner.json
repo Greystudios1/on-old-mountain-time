@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "R": "before_the_blight:hewn_chestnut_beam"
+  },
+  "pattern": [
+    "R R",
+    " R ",
+    "R R"
+  ],
+  "result": {
+    "count": 4,
+    "id": "before_the_blight:chestnut_repair_corner"
+  }
+}

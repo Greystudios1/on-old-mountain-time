@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "before_the_blight:split_rail_fence",
+    "before_the_blight:split_rail_gate",
+    "before_the_blight:weathered_split_rail_fence",
+    "before_the_blight:broken_split_rail_fence",
+    "before_the_blight:peeled_pole_fence",
+    "before_the_blight:peeled_pole_gate"
+  ]
+}

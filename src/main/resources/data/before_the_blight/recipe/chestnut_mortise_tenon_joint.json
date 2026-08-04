@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "H": "before_the_blight:hewn_chestnut_beam",
+    "P": "minecraft:stick"
+  },
+  "pattern": [
+    "HHH",
+    " P "
+  ],
+  "result": {
+    "count": 3,
+    "id": "before_the_blight:chestnut_mortise_tenon_joint"
+  }
+}

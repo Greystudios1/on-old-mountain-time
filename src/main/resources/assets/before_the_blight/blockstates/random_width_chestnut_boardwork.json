@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "before_the_blight:block/random_width_chestnut_boardwork",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "before_the_blight:block/random_width_chestnut_boardwork"
+    },
+    "axis=z": {
+      "model": "before_the_blight:block/random_width_chestnut_boardwork",
+      "x": 90
+    }
+  }
+}

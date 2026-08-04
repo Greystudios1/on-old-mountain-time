@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "before_the_blight:block/american_beech_slab"
+    },
+    "type=double": {
+      "model": "before_the_blight:block/american_beech_planks"
+    },
+    "type=top": {
+      "model": "before_the_blight:block/american_beech_slab_top"
+    }
+  }
+}

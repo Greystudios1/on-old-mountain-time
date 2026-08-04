@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "before_the_blight:block/dressed_fieldstone_slab"
+    },
+    "type=double": {
+      "model": "before_the_blight:block/dressed_fieldstone"
+    },
+    "type=top": {
+      "model": "before_the_blight:block/dressed_fieldstone_slab_top"
+    }
+  }
+}

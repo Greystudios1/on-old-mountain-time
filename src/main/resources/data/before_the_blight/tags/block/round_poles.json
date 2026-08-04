@@ -1,0 +1,15 @@
+{
+  "replace": false,
+  "values": [
+    "before_the_blight:peeled_yellow_poplar_pole",
+    "before_the_blight:peeled_white_oak_pole",
+    "before_the_blight:peeled_chestnut_pole",
+    "before_the_blight:partially_peeled_chestnut_pole",
+    "before_the_blight:projecting_chestnut_log_end",
+    "before_the_blight:round_chestnut_support_pole",
+    "before_the_blight:chestnut_rafter",
+    "before_the_blight:chestnut_ridgepole",
+    "before_the_blight:chestnut_purlin",
+    "before_the_blight:chestnut_rafter_tail"
+  ]
+}

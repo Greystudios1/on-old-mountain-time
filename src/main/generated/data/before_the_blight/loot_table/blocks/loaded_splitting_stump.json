@@ -1,0 +1,34 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "before_the_blight:splitting_stump"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "block": "before_the_blight:loaded_splitting_stump",
+          "condition": "minecraft:block_state_property",
+          "properties": {
+            "wood_type": "chestnut"
+          }
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "before_the_blight:hewn_chestnut_beam"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

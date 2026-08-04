@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "before_the_blight:chopping_block",
+    "before_the_blight:axe_in_chopping_block",
+    "before_the_blight:sawhorse",
+    "before_the_blight:wall_tool_rack"
+  ]
+}

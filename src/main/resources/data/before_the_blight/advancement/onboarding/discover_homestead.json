@@ -1,0 +1,39 @@
+{
+  "parent": "before_the_blight:onboarding/obtain_shingles",
+  "criteria": {
+    "appalachian_homestead": {
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structures": "before_the_blight:appalachian_homestead"
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:location"
+    }
+  },
+  "display": {
+    "description": {
+      "text": "Find an Appalachian homestead rooted in the mountain landscape."
+    },
+    "frame": "goal",
+    "icon": {
+      "id": "before_the_blight:chinked_chestnut_logs"
+    },
+    "title": {
+      "text": "A Place Already Rooted"
+    }
+  },
+  "requirements": [
+    [
+      "appalachian_homestead"
+    ]
+  ],
+  "sends_telemetry_event": false
+}

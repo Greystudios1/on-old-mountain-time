@@ -1,0 +1,15 @@
+{
+  "category": "building",
+  "key": {
+    "W": "minecraft:white_wool"
+  },
+  "pattern": [
+    " W ",
+    "WWW",
+    "WWW"
+  ],
+  "result": {
+    "id": "before_the_blight:feed_sack"
+  },
+  "type": "minecraft:crafting_shaped"
+}

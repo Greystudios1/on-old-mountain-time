@@ -1,0 +1,42 @@
+{
+  "variants": {
+    "attachment=ceiling,facing=east": {
+      "model": "before_the_blight:block/seed_corn_bundle_ceiling",
+      "uvlock": true,
+      "y": 90
+    },
+    "attachment=ceiling,facing=north": {
+      "model": "before_the_blight:block/seed_corn_bundle_ceiling",
+      "uvlock": true
+    },
+    "attachment=ceiling,facing=south": {
+      "model": "before_the_blight:block/seed_corn_bundle_ceiling",
+      "uvlock": true,
+      "y": 180
+    },
+    "attachment=ceiling,facing=west": {
+      "model": "before_the_blight:block/seed_corn_bundle_ceiling",
+      "uvlock": true,
+      "y": 270
+    },
+    "attachment=wall,facing=east": {
+      "model": "before_the_blight:block/seed_corn_bundle_wall",
+      "uvlock": true,
+      "y": 90
+    },
+    "attachment=wall,facing=north": {
+      "model": "before_the_blight:block/seed_corn_bundle_wall",
+      "uvlock": true
+    },
+    "attachment=wall,facing=south": {
+      "model": "before_the_blight:block/seed_corn_bundle_wall",
+      "uvlock": true,
+      "y": 180
+    },
+    "attachment=wall,facing=west": {
+      "model": "before_the_blight:block/seed_corn_bundle_wall",
+      "uvlock": true,
+      "y": 270
+    }
+  }
+}

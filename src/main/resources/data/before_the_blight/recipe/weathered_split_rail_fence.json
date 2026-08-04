@@ -1,0 +1,11 @@
+{
+  "category": "building",
+  "ingredients": [
+    "before_the_blight:split_rail_fence",
+    "minecraft:vine"
+  ],
+  "result": {
+    "id": "before_the_blight:weathered_split_rail_fence"
+  },
+  "type": "minecraft:crafting_shapeless"
+}

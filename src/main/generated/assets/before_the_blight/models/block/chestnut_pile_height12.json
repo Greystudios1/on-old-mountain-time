@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/snow_height12",
+  "textures": {
+    "particle": "before_the_blight:block/chestnut_pile",
+    "texture": "before_the_blight:block/chestnut_pile"
+  }
+}

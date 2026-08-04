@@ -1,0 +1,12 @@
+{
+  "category": "building",
+  "group": "split_shingles",
+  "ingredients": [
+    "before_the_blight:white_oak_board"
+  ],
+  "result": {
+    "count": 4,
+    "id": "before_the_blight:white_oak_shingles"
+  },
+  "type": "minecraft:crafting_shapeless"
+}

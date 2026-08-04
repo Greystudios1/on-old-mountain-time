@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "before_the_blight:block/fieldstone_chimney_cap"
+    },
+    "type=double": {
+      "model": "before_the_blight:block/fieldstone_chimney_cap_double"
+    },
+    "type=top": {
+      "model": "before_the_blight:block/fieldstone_chimney_cap_top"
+    }
+  }
+}

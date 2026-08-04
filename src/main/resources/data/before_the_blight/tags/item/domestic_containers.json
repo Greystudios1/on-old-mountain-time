@@ -1,0 +1,20 @@
+{
+  "replace": false,
+  "values": [
+    "before_the_blight:wooden_bowl",
+    "before_the_blight:wooden_trencher",
+    "before_the_blight:wooden_cup",
+    "before_the_blight:wooden_spoon",
+    "before_the_blight:wooden_ladle",
+    "before_the_blight:woven_basket",
+    "before_the_blight:wooden_bucket",
+    "before_the_blight:wooden_pail",
+    "before_the_blight:stoneware_crock",
+    "before_the_blight:stoneware_jug",
+    "before_the_blight:ceramic_pitcher",
+    "before_the_blight:tin_cup",
+    "before_the_blight:tin_plate",
+    "before_the_blight:preserving_jar",
+    "before_the_blight:green_glass_bottle"
+  ]
+}

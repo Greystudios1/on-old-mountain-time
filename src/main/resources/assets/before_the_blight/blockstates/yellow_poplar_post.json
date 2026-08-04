@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "before_the_blight:block/yellow_poplar_post_x"
+    },
+    "axis=y": {
+      "model": "before_the_blight:block/yellow_poplar_post_y"
+    },
+    "axis=z": {
+      "model": "before_the_blight:block/yellow_poplar_post_z"
+    }
+  }
+}

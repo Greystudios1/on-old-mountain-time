@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    " B",
+    "BB"
+  ],
+  "key": {
+    "B": "before_the_blight:white_oak_board"
+  },
+  "result": {
+    "count": 4,
+    "id": "before_the_blight:wooden_leveling_wedge"
+  }
+}

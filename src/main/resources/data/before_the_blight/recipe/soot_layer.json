@@ -1,0 +1,11 @@
+{
+  "category": "building",
+  "ingredients": [
+    "minecraft:charcoal"
+  ],
+  "result": {
+    "count": 4,
+    "id": "before_the_blight:soot_layer"
+  },
+  "type": "minecraft:crafting_shapeless"
+}

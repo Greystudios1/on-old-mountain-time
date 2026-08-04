@@ -1,0 +1,41 @@
+{
+  "ambientocclusion": true,
+  "textures": {
+    "particle": "before_the_blight:block/wooden_window_sill",
+    "wood": "before_the_blight:block/wooden_window_sill"
+  },
+  "elements": [
+    {
+      "from": [
+        1,
+        0,
+        4
+      ],
+      "to": [
+        15,
+        3,
+        12
+      ],
+      "faces": {
+        "down": {
+          "texture": "#wood"
+        },
+        "up": {
+          "texture": "#wood"
+        },
+        "north": {
+          "texture": "#wood"
+        },
+        "south": {
+          "texture": "#wood"
+        },
+        "west": {
+          "texture": "#wood"
+        },
+        "east": {
+          "texture": "#wood"
+        }
+      }
+    }
+  ]
+}

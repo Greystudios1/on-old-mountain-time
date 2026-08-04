@@ -1,0 +1,12 @@
+{
+  "category": "building",
+  "ingredients": [
+    "before_the_blight:packed_dirt_path",
+    "minecraft:dirt"
+  ],
+  "result": {
+    "count": 4,
+    "id": "before_the_blight:path_edge"
+  },
+  "type": "minecraft:crafting_shapeless"
+}

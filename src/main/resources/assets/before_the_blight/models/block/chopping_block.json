@@ -1,0 +1,43 @@
+{
+  "ambientocclusion": true,
+  "elements": [
+    {
+      "faces": {
+        "down": {
+          "texture": "#end"
+        },
+        "east": {
+          "texture": "#wood"
+        },
+        "north": {
+          "texture": "#wood"
+        },
+        "south": {
+          "texture": "#wood"
+        },
+        "up": {
+          "texture": "#end"
+        },
+        "west": {
+          "texture": "#wood"
+        }
+      },
+      "from": [
+        1.8,
+        0,
+        1.8
+      ],
+      "to": [
+        14.2,
+        9.8,
+        14.2
+      ]
+    }
+  ],
+  "parent": "minecraft:block/block",
+  "textures": {
+    "end": "before_the_blight:block/splitting_stump_top",
+    "particle": "before_the_blight:block/splitting_stump_side",
+    "wood": "before_the_blight:block/splitting_stump_side"
+  }
+}

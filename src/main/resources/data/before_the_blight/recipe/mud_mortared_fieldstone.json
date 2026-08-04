@@ -1,0 +1,12 @@
+{
+  "category": "building",
+  "ingredients": [
+    "before_the_blight:fieldstone",
+    "minecraft:mud"
+  ],
+  "result": {
+    "count": 1,
+    "id": "before_the_blight:mud_mortared_fieldstone"
+  },
+  "type": "minecraft:crafting_shapeless"
+}

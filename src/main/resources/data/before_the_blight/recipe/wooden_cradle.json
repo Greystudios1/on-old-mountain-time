@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "decorations",
+  "key": {
+    "P": "minecraft:birch_planks",
+    "W": "minecraft:white_wool",
+    "S": "minecraft:stick"
+  },
+  "pattern": [
+    "P P",
+    "PWP",
+    "S S"
+  ],
+  "result": {
+    "id": "before_the_blight:wooden_cradle"
+  }
+}

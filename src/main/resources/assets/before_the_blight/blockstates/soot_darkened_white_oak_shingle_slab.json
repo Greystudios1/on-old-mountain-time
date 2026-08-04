@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "before_the_blight:block/soot_darkened_white_oak_shingle_slab"
+    },
+    "type=double": {
+      "model": "before_the_blight:block/soot_darkened_white_oak_shingles"
+    },
+    "type=top": {
+      "model": "before_the_blight:block/soot_darkened_white_oak_shingle_slab_top"
+    }
+  }
+}

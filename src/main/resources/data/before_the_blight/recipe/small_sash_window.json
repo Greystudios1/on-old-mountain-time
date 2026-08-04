@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "BGB",
+    "GGG",
+    "BGB"
+  ],
+  "key": {
+    "B": "before_the_blight:rough_chestnut_boards",
+    "G": "minecraft:glass_pane"
+  },
+  "result": {
+    "count": 2,
+    "id": "before_the_blight:small_sash_window"
+  }
+}

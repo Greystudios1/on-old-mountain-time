@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:string",
+    "minecraft:allium",
+    "minecraft:allium"
+  ],
+  "result": {
+    "id": "before_the_blight:hanging_onions"
+  }
+}

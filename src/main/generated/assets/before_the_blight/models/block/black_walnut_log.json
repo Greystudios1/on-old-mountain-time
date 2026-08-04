@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "before_the_blight:block/black_walnut_log_top",
+    "side": "before_the_blight:block/black_walnut_log"
+  }
+}

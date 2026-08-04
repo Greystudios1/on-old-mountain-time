@@ -1,0 +1,571 @@
+plugins {
+    id 'net.fabricmc.fabric-loom' version "${loom_version}"
+    id 'maven-publish'
+}
+
+version = project.mod_version
+group = project.maven_group
+
+def btbGameTestSeed = Long.parseLong(
+    providers.gradleProperty('btbGameTestSeed').getOrElse('0')
+).toString()
+def btbGameTestFilter = providers.gradleProperty('btbGameTestFilter')
+    .getOrElse('before_the_blight_gametest:*')
+    .toString()
+def btbClientHewingPersistencePhase = providers.gradleProperty('btbClientHewingPersistencePhase')
+    .getOrElse('')
+    .toString()
+    .trim()
+def btbClientHewingPersistenceRunId = providers.gradleProperty('btbClientHewingPersistenceRunId')
+    .getOrElse('')
+    .toString()
+    .trim()
+def btbClientHewingPersistenceCommit = providers.gradleProperty('btbClientHewingPersistenceCommit')
+    .getOrElse('')
+    .toString()
+    .trim()
+def btbTectonicJarPath = providers.gradleProperty('btbTectonicJar')
+    .getOrElse('')
+    .toString()
+    .trim()
+def btbTectonicJar = btbTectonicJarPath.isEmpty() ? null : file(btbTectonicJarPath)
+def btbSereneSeasonsJarPath = providers.gradleProperty('btbSereneSeasonsJar')
+    .getOrElse('')
+    .toString()
+    .trim()
+def btbGlitchCoreJarPath = providers.gradleProperty('btbGlitchCoreJar')
+    .getOrElse('')
+    .toString()
+    .trim()
+def btbSereneSeasonsJar = btbSereneSeasonsJarPath.isEmpty()
+    ? null
+    : file(btbSereneSeasonsJarPath)
+def btbGlitchCoreJar = btbGlitchCoreJarPath.isEmpty()
+    ? null
+    : file(btbGlitchCoreJarPath)
+def btbSereneSeasonsSha256 =
+    'f964b71300263a25565f71850cadb01290197b48824301923a1b599f03b64892'
+def btbGlitchCoreSha256 =
+    '31a6e2a05b241c90e790d5f79f1afd5721a62a22dd14168549141f412cefc109'
+def btbSereneSeasonsGameTestValue =
+    providers.gradleProperty('btbSereneSeasonsGameTest')
+        .getOrElse('false')
+        .toString()
+        .trim()
+if (!(btbSereneSeasonsGameTestValue in ['true', 'false'])) {
+    throw new GradleException(
+        'btbSereneSeasonsGameTest must be exactly true or false'
+    )
+}
+def btbSereneSeasonsGameTest = btbSereneSeasonsGameTestValue == 'true'
+def btbNaturalStructureGameTest = providers.gradleProperty('btbNaturalStructureGameTest')
+    .map { it.toBoolean() }
+    .getOrElse(false)
+def btbNaturalStructureProfile = providers.gradleProperty('btbNaturalStructureProfile')
+    .getOrElse('')
+    .toString()
+    .trim()
+def resolveProjectPath = { String propertyName, String defaultPath ->
+    def configuredPath = providers.gradleProperty(propertyName)
+        .getOrElse(defaultPath)
+        .toString()
+        .trim()
+    if (configuredPath.isEmpty()) {
+        throw new GradleException("${propertyName} cannot be empty")
+    }
+    return file(configuredPath).absoluteFile.toPath().normalize().toFile()
+}
+def btbGameTestRunRoot = resolveProjectPath(
+    'btbGameTestRunRoot',
+    'build/run/gameTest'
+)
+def btbGameTestReportRoot = resolveProjectPath(
+    'btbGameTestReportRoot',
+    'build/test-results'
+)
+def calculateSha256 = { File artifact ->
+    def digest = java.security.MessageDigest.getInstance('SHA-256')
+    artifact.withInputStream { stream ->
+        byte[] buffer = new byte[8192]
+        int count
+        while ((count = stream.read(buffer)) != -1) {
+            digest.update(buffer, 0, count)
+        }
+    }
+    return digest.digest().encodeHex().toString()
+}
+
+if (btbTectonicJar != null && !btbTectonicJar.isFile()) {
+    throw new GradleException("btbTectonicJar is not a file: ${btbTectonicJar}")
+}
+
+if ((btbSereneSeasonsJar == null) != (btbGlitchCoreJar == null)) {
+    throw new GradleException(
+        'btbSereneSeasonsJar and btbGlitchCoreJar must be supplied together'
+    )
+}
+if (btbSereneSeasonsGameTest && btbSereneSeasonsJar == null) {
+    throw new GradleException(
+        'btbSereneSeasonsGameTest=true requires btbSereneSeasonsJar and btbGlitchCoreJar'
+    )
+}
+if (!btbSereneSeasonsGameTest && btbSereneSeasonsJar != null) {
+    throw new GradleException(
+        'btbSereneSeasonsJar and btbGlitchCoreJar require btbSereneSeasonsGameTest=true'
+    )
+}
+if (btbSereneSeasonsJar != null) {
+    if (!btbSereneSeasonsJar.isFile()) {
+        throw new GradleException(
+            "btbSereneSeasonsJar is not a file: ${btbSereneSeasonsJar}"
+        )
+    }
+    if (!btbGlitchCoreJar.isFile()) {
+        throw new GradleException(
+            "btbGlitchCoreJar is not a file: ${btbGlitchCoreJar}"
+        )
+    }
+    if (btbSereneSeasonsJar.canonicalFile == btbGlitchCoreJar.canonicalFile) {
+        throw new GradleException(
+            'btbSereneSeasonsJar and btbGlitchCoreJar must be different files'
+        )
+    }
+
+    def actualSereneSeasonsSha256 = calculateSha256(btbSereneSeasonsJar)
+    if (actualSereneSeasonsSha256 != btbSereneSeasonsSha256) {
+        throw new GradleException(
+            "btbSereneSeasonsJar SHA-256 mismatch: expected ${btbSereneSeasonsSha256}, got ${actualSereneSeasonsSha256}"
+        )
+    }
+
+    def actualGlitchCoreSha256 = calculateSha256(btbGlitchCoreJar)
+    if (actualGlitchCoreSha256 != btbGlitchCoreSha256) {
+        throw new GradleException(
+            "btbGlitchCoreJar SHA-256 mismatch: expected ${btbGlitchCoreSha256}, got ${actualGlitchCoreSha256}"
+        )
+    }
+}
+
+if (btbNaturalStructureGameTest
+    && !(btbNaturalStructureProfile in ['base', 'tectonic'])) {
+    throw new GradleException(
+        'btbNaturalStructureProfile must be exactly base or tectonic when the natural structure GameTest is enabled'
+    )
+}
+if (!btbNaturalStructureGameTest && !btbNaturalStructureProfile.isEmpty()) {
+    throw new GradleException(
+        'btbNaturalStructureProfile cannot be set unless btbNaturalStructureGameTest=true'
+    )
+}
+if (btbNaturalStructureGameTest
+    && btbNaturalStructureProfile == 'base'
+    && btbTectonicJar != null) {
+    throw new GradleException(
+        'The base natural structure profile must not receive btbTectonicJar'
+    )
+}
+if (btbNaturalStructureGameTest
+    && btbNaturalStructureProfile == 'tectonic'
+    && btbTectonicJar == null) {
+    throw new GradleException(
+        'The tectonic natural structure profile requires btbTectonicJar'
+    )
+}
+
+if (!(btbClientHewingPersistencePhase in ['', 'write', 'read'])) {
+    throw new GradleException(
+        "btbClientHewingPersistencePhase must be empty, write, or read; got '${btbClientHewingPersistencePhase}'"
+    )
+}
+
+if (!btbClientHewingPersistencePhase.isEmpty()) {
+    if (!(btbClientHewingPersistenceRunId ==~ /[A-Za-z0-9][A-Za-z0-9_-]{0,47}/)) {
+        throw new GradleException(
+            'btbClientHewingPersistenceRunId must contain 1-48 safe filename characters'
+        )
+    }
+    if (!(btbClientHewingPersistenceCommit ==~ /[0-9a-fA-F]{40}/)) {
+        throw new GradleException(
+            'btbClientHewingPersistenceCommit must be a full 40-character Git object ID'
+        )
+    }
+} else if (!btbClientHewingPersistenceRunId.isEmpty()
+    || !btbClientHewingPersistenceCommit.isEmpty()) {
+    throw new GradleException(
+        'Client hewing persistence run ID/commit cannot be set without a write/read phase'
+    )
+}
+
+def btbClientHewingPersistenceRunDirectory = btbClientHewingPersistencePhase.isEmpty()
+    ? 'unconfigured'
+    : btbClientHewingPersistenceRunId
+
+base {
+    archivesName = project.archives_base_name
+}
+
+repositories {
+    exclusiveContent {
+        forRepository {
+            maven {
+                name = 'Shedaniel'
+                url = 'https://maven.shedaniel.me'
+            }
+        }
+        filter {
+            includeGroupByRegex 'me\\.shedaniel(\\..*)?'
+        }
+    }
+
+    exclusiveContent {
+        forRepository {
+            maven {
+                name = 'Architectury'
+                url = 'https://maven.architectury.dev'
+            }
+        }
+        filter {
+            includeGroup 'dev.architectury'
+        }
+    }
+
+    exclusiveContent {
+        forRepository {
+            maven {
+                name = 'Modrinth'
+                url = 'https://api.modrinth.com/maven'
+            }
+        }
+        filter {
+            includeGroup 'maven.modrinth'
+        }
+    }
+}
+
+loom {
+    splitEnvironmentSourceSets()
+
+    mods {
+        before_the_blight {
+            sourceSet sourceSets.main
+            sourceSet sourceSets.client
+        }
+    }
+
+    runs {
+        client {
+            runDir 'run/client'
+        }
+
+        baseReviewClient {
+            inherit client
+            runDir 'run/base-review-client'
+        }
+
+        structureWorkshopClient {
+            inherit client
+            // Structure-editing profile with WorldEdit plus the pinned optional
+            // rendering, terrain, recipe-viewer, and locator companions.
+            runDir 'run/structure-workshop-client'
+        }
+
+        connectedPbrClient {
+            inherit client
+            runDir 'run/connected-pbr-client'
+        }
+
+        complementaryVisualClient {
+            inherit client
+            runDir 'run/complementary-visual-client'
+        }
+
+        natureCompassClient {
+            inherit client
+            runDir 'run/nature-compass-client'
+        }
+
+        performanceClient {
+            inherit client
+            runDir 'run/performance-client'
+        }
+
+        recipeViewerClient {
+            inherit client
+            runDir 'run/recipe-viewer-client'
+        }
+
+        tectonicClient {
+            inherit client
+            // The isolated Tectonic profile loads its pinned JAR from runDir/mods.
+            // btbTectonicJar is reserved for explicit GameTest wiring and must not
+            // also be configured as a localRuntime dependency.
+            runDir 'run/tectonic-client'
+        }
+
+        sereneSeasonsClient {
+            inherit client
+            // The optional companion and its library remain isolated in this
+            // profile's mods directory; neither is a production dependency.
+            runDir 'run/serene-seasons-client'
+        }
+
+        sereneSeasonsServer {
+            inherit server
+            // Headless counterpart to the client profile. The pinned optional
+            // JARs live only in this run directory's mods folder.
+            runDir 'run/serene-seasons-server'
+        }
+
+        server {
+            runDir 'run/server'
+        }
+
+        datagen {
+            inherit client
+            name 'Data Generation'
+            vmArg '-Dfabric-api.datagen'
+            vmArg "-Dfabric-api.datagen.output-dir=${file('src/main/generated')}"
+            vmArg '-Dfabric-api.datagen.modid=before_the_blight'
+            runDir 'run/datagen'
+        }
+    }
+}
+
+def btbSereneSeasonsProfileJarName =
+    "SereneSeasons-fabric-${project.minecraft_version}-${project.serene_seasons_version}.jar"
+        .toString()
+def btbGlitchCoreProfileJarName =
+    "GlitchCore-fabric-${project.minecraft_version}-${project.glitchcore_version}.jar"
+        .toString()
+def btbSereneSeasonsProfileArtifacts = [
+    (btbSereneSeasonsProfileJarName): btbSereneSeasonsSha256,
+    (btbGlitchCoreProfileJarName): btbGlitchCoreSha256,
+].asImmutable()
+
+def registerSereneSeasonsProfileVerifier = {
+        String taskName,
+        def runDirectory ->
+    tasks.register(taskName) {
+        group = 'verification'
+        description =
+            'Verifies the exact pinned Serene Seasons profile dependencies.'
+        outputs.upToDateWhen { false }
+
+        doLast {
+            File profileDirectory = runDirectory.get().asFile
+            File modsDirectory = new File(profileDirectory, 'mods')
+            if (!modsDirectory.isDirectory()) {
+                throw new GradleException(
+                    "Missing Serene Seasons profile mods directory: ${modsDirectory}"
+                )
+            }
+
+            File[] installedFiles = modsDirectory.listFiles()
+            if (installedFiles == null) {
+                throw new GradleException(
+                    "Cannot enumerate Serene Seasons profile mods directory: ${modsDirectory}"
+                )
+            }
+
+            def actualJarNames = installedFiles
+                .findAll { File artifact ->
+                    artifact.isFile()
+                        && artifact.name
+                            .toLowerCase(java.util.Locale.ROOT)
+                            .endsWith('.jar')
+                }
+                .collect { it.name }
+                .sort()
+            def expectedJarNames =
+                btbSereneSeasonsProfileArtifacts.keySet().toList().sort()
+            if (actualJarNames != expectedJarNames) {
+                throw new GradleException(
+                    "Serene Seasons profile ${profileDirectory} must contain exactly "
+                        + "${expectedJarNames}; found ${actualJarNames}"
+                )
+            }
+
+            btbSereneSeasonsProfileArtifacts.each {
+                    String artifactName,
+                    String expectedSha256 ->
+                File artifact = new File(modsDirectory, artifactName)
+                String actualSha256 = calculateSha256(artifact)
+                if (actualSha256 != expectedSha256) {
+                    throw new GradleException(
+                        "${artifactName} SHA-256 mismatch in ${profileDirectory}: "
+                            + "expected ${expectedSha256}, got ${actualSha256}"
+                    )
+                }
+            }
+        }
+    }
+}
+
+def verifySereneSeasonsClientProfile =
+    registerSereneSeasonsProfileVerifier(
+        'verifySereneSeasonsClientProfile',
+        loom.runs.named('sereneSeasonsClient').flatMap { it.runDirectory }
+    )
+def verifySereneSeasonsServerProfile =
+    registerSereneSeasonsProfileVerifier(
+        'verifySereneSeasonsServerProfile',
+        loom.runs.named('sereneSeasonsServer').flatMap { it.runDirectory }
+    )
+
+tasks.named('runSereneSeasonsClient') {
+    dependsOn verifySereneSeasonsClientProfile
+}
+tasks.named('runSereneSeasonsServer') {
+    dependsOn verifySereneSeasonsServerProfile
+}
+
+fabricApi {
+    configureTests {
+        createSourceSet = true
+        modId = 'before_the_blight_gametest'
+        enableGameTests = true
+        enableClientGameTests = true
+        eula = false
+        clearRunDirectory = btbClientHewingPersistencePhase.isEmpty()
+    }
+}
+
+loom.runs.named('gameTest') {
+    runDir new File(btbGameTestRunRoot, "seed-${btbGameTestSeed}").absolutePath
+    vmArg "-Dbefore_the_blight.gametest.seed=${btbGameTestSeed}"
+    vmArg "-Dfabric-api.gametest.filter=${btbGameTestFilter}"
+    vmArg "-Dfabric-api.gametest.report-file=${new File(btbGameTestReportRoot, "gametest-seed-${btbGameTestSeed}.xml").absolutePath}"
+    // Expose the isolated run root to GameTests that verify process cleanup.
+    vmArg "-Dbefore_the_blight.gametest.run_root=${btbGameTestRunRoot.absolutePath}"
+    vmArg "-Dbefore_the_blight.gametest.natural_structure_world=${btbNaturalStructureGameTest}"
+    vmArg "-Dbefore_the_blight.gametest.serene_seasons=${btbSereneSeasonsGameTest}"
+    if (btbNaturalStructureGameTest) {
+        vmArg "-Dbefore_the_blight.gametest.natural_structure_profile=${btbNaturalStructureProfile}"
+    }
+    def btbAdditionalGameTestMods = []
+    if (btbTectonicJar != null) {
+        // Fabric Loader discovers this optional compatibility input directly.
+        // This is the only automatic Tectonic loading path for GameTests:
+        // do not duplicate it with a localRuntime file dependency.
+        btbAdditionalGameTestMods.add(btbTectonicJar)
+    }
+    if (btbSereneSeasonsJar != null) {
+        // The exact Serene Seasons and GlitchCore pins are validated above
+        // before either can enter the isolated compatibility GameTest.
+        btbAdditionalGameTestMods.add(btbSereneSeasonsJar)
+        btbAdditionalGameTestMods.add(btbGlitchCoreJar)
+    }
+    if (!btbAdditionalGameTestMods.isEmpty()) {
+        vmArg "-Dfabric.addMods=${btbAdditionalGameTestMods.collect { it.absolutePath }.join(File.pathSeparator)}"
+    }
+}
+
+loom.runs.named('clientGameTest') {
+    runDir "build/run/clientGameTest/${btbClientHewingPersistenceRunDirectory}"
+    if (!btbClientHewingPersistencePhase.isEmpty()) {
+        vmArg "-Dbefore_the_blight.client_gametest.hewing_persistence_phase=${btbClientHewingPersistencePhase}"
+        vmArg "-Dbefore_the_blight.client_gametest.hewing_persistence_run_id=${btbClientHewingPersistenceRunId}"
+        vmArg "-Dbefore_the_blight.client_gametest.hewing_persistence_commit=${btbClientHewingPersistenceCommit.toLowerCase()}"
+    }
+}
+
+sourceSets {
+    main {
+        resources {
+            srcDir 'src/main/generated'
+        }
+    }
+}
+
+dependencies {
+    minecraft "com.mojang:minecraft:${project.minecraft_version}"
+    implementation "net.fabricmc:fabric-loader:${project.loader_version}"
+    implementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_api_version}"
+    implementation "maven.modrinth:lithostitched:${project.lithostitched_version}"
+
+    // Optional Serene Seasons compatibility API. These compile-only mods are
+    // never packaged or installed in ordinary run profiles.
+    compileOnly("maven.modrinth:serene-seasons:${project.serene_seasons_version}") {
+        transitive = false
+    }
+    compileOnly("maven.modrinth:glitchcore:${project.glitchcore_version}") {
+        transitive = false
+    }
+    // GlitchCore embeds Night Config at runtime. Its public Config superclass
+    // must also be visible while compiling the exact pinned adapter.
+    compileOnly "com.electronwill.night-config:core:${project.night_config_version}"
+
+    // REI is an optional client companion. Compile against its pinned API and
+    // built-in information display only; never place it on every Loom runtime.
+    compileOnly("me.shedaniel:RoughlyEnoughItems-api-fabric:${project.rei_version}") {
+        transitive = false
+    }
+    compileOnly("me.shedaniel:RoughlyEnoughItems-default-plugin-fabric:${project.rei_version}") {
+        transitive = false
+    }
+    compileOnly("me.shedaniel.cloth:cloth-config-fabric:${project.cloth_config_version}") {
+        transitive = false
+    }
+    compileOnly("me.shedaniel.cloth:basic-math:${project.basic_math_version}") {
+        transitive = false
+    }
+    compileOnly("dev.architectury:architectury-fabric:${project.architectury_version}") {
+        transitive = false
+    }
+}
+
+def modVersion = project.version
+def sereneSeasonsMetadataVersion =
+    project.serene_seasons_version.toString()
+
+processResources {
+    includeEmptyDirs = false
+    exclude '.cache/**'
+    inputs.property 'version', modVersion
+    inputs.property 'serene_seasons_version', sereneSeasonsMetadataVersion
+
+    filesMatching('fabric.mod.json') {
+        expand(
+            version: modVersion,
+            serene_seasons_version: sereneSeasonsMetadataVersion
+        )
+    }
+}
+
+tasks.named('processClientResources') {
+    includeEmptyDirs = false
+}
+
+tasks.withType(JavaCompile).configureEach {
+    options.encoding = 'UTF-8'
+    options.release = 25
+}
+
+java {
+    withSourcesJar()
+    sourceCompatibility = JavaVersion.VERSION_25
+    targetCompatibility = JavaVersion.VERSION_25
+}
+
+tasks.named('sourcesJar') {
+    includeEmptyDirs = false
+    exclude '.cache/**'
+    exclude '**/.cache/**'
+}
+
+jar {
+    inputs.property 'archivesName', project.base.archivesName
+
+    from('LICENSE.md') {
+        rename { "${it}_${inputs.properties.archivesName}" }
+    }
+}
+
+publishing {
+    publications {
+        create('mavenJava', MavenPublication) {
+            artifactId = project.archives_base_name
+            from components.java
+        }
+    }
+}

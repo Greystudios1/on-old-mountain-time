@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "before_the_blight:block/peeled_yellow_poplar_pole_x"
+    },
+    "axis=y": {
+      "model": "before_the_blight:block/peeled_yellow_poplar_pole_y"
+    },
+    "axis=z": {
+      "model": "before_the_blight:block/peeled_yellow_poplar_pole_z"
+    }
+  }
+}

@@ -1,0 +1,384 @@
+{
+  "variants": {
+    "facing=east,fullness=full,pile_shape=center": {
+      "model": "before_the_blight:block/mixed_ear_corn_pile_full_center",
+      "uvlock": true,
+      "y": 90
+    },
+    "facing=east,fullness=full,pile_shape=edge": {
+      "model": "before_the_blight:block/mixed_ear_corn_pile_full_edge",
+      "uvlock": true,
+      "y": 90
+    },
+    "facing=east,fullness=full,pile_shape=inside_corner": {
+      "model": "before_the_blight:block/mixed_ear_corn_pile_full_inside_corner",
+      "uvlock": true,
+      "y": 90
+    },
+    "facing=east,fullness=full,pile_shape=outside_corner": {
+      "model": "before_the_blight:block/mixed_ear_corn_pile_full_outside_corner",
+      "uvlock": true,
+      "y": 90
+    },
+    "facing=east,fullness=half,pile_shape=center": {
+      "model": "before_the_blight:block/mixed_ear_corn_pile_half_center",
+      "uvlock": true,
+      "y": 90
+    },
+    "facing=east,fullness=half,pile_shape=edge": {
+      "model": "before_the_blight:block/mixed_ear_corn_pile_half_edge",
+      "uvlock": true,
+      "y": 90
+    },
+    "facing=east,fullness=half,pile_shape=inside_corner": {
+      "model": "before_the_blight:block/mixed_ear_corn_pile_half_inside_corner",
+      "uvlock": true,
+      "y": 90
+    },
+    "facing=east,fullness=half,pile_shape=outside_corner": {
+      "model": "before_the_blight:block/mixed_ear_corn_pile_half_outside_corner",
+      "uvlock": true,
+      "y": 90
+    },
+    "facing=east,fullness=overflow,pile_shape=center": {
+      "model": "before_the_blight:block/mixed_ear_corn_pile_overflow_center",
+      "uvlock": true,
+      "y": 90
+    },
+    "facing=east,fullness=overflow,pile_shape=edge": {
+      "model": "before_the_blight:block/mixed_ear_corn_pile_overflow_edge",
+      "uvlock": true,
+      "y": 90
+    },
+    "facing=east,fullness=overflow,pile_shape=inside_corner": {
+      "model": "before_the_blight:block/mixed_ear_corn_pile_overflow_inside_corner",
+      "uvlock": true,
+      "y": 90
+    },
+    "facing=east,fullness=overflow,pile_shape=outside_corner": {
+      "model": "before_the_blight:block/mixed_ear_corn_pile_overflow_outside_corner",
+      "uvlock": true,
+      "y": 90
+    },
+    "facing=east,fullness=quarter,pile_shape=center": {
+      "model": "before_the_blight:block/mixed_ear_corn_pile_quarter_center",
+      "uvlock": true,
+      "y": 90
+    },
+    "facing=east,fullness=quarter,pile_shape=edge": {
+      "model": "before_the_blight:block/mixed_ear_corn_pile_quarter_edge",
+      "uvlock": true,
+      "y": 90
+    },
+    "facing=east,fullness=quarter,pile_shape=inside_corner": {
+      "model": "before_the_blight:block/mixed_ear_corn_pile_quarter_inside_corner",
+      "uvlock": true,
+      "y": 90
+    },
+    "facing=east,fullness=quarter,pile_shape=outside_corner": {
+      "model": "before_the_blight:block/mixed_ear_corn_pile_quarter_outside_corner",
+      "uvlock": true,
+      "y": 90
+    },
+    "facing=east,fullness=three_quarter,pile_shape=center": {
+      "model": "before_the_blight:block/mixed_ear_corn_pile_three_quarter_center",
+      "uvlock": true,
+      "y": 90
+    },
+    "facing=east,fullness=three_quarter,pile_shape=edge": {
+      "model": "before_the_blight:block/mixed_ear_corn_pile_three_quarter_edge",
+      "uvlock": true,
+      "y": 90
+    },
+    "facing=east,fullness=three_quarter,pile_shape=inside_corner": {
+      "model": "before_the_blight:block/mixed_ear_corn_pile_three_quarter_inside_corner",
+      "uvlock": true,
+      "y": 90
+    },
+    "facing=east,fullness=three_quarter,pile_shape=outside_corner": {
+      "model": "before_the_blight:block/mixed_ear_corn_pile_three_quarter_outside_corner",
+      "uvlock": true,
+      "y": 90
+    },
+    "facing=north,fullness=full,pile_shape=center": {
+      "model": "before_the_blight:block/mixed_ear_corn_pile_full_center",
+      "uvlock": true
+    },
+    "facing=north,fullness=full,pile_shape=edge": {
+      "model": "before_the_blight:block/mixed_ear_corn_pile_full_edge",
+      "uvlock": true
+    },
+    "facing=north,fullness=full,pile_shape=inside_corner": {
+      "model": "before_the_blight:block/mixed_ear_corn_pile_full_inside_corner",
+      "uvlock": true
+    },
+    "facing=north,fullness=full,pile_shape=outside_corner": {
+      "model": "before_the_blight:block/mixed_ear_corn_pile_full_outside_corner",
+      "uvlock": true
+    },
+    "facing=north,fullness=half,pile_shape=center": {
+      "model": "before_the_blight:block/mixed_ear_corn_pile_half_center",
+      "uvlock": true
+    },
+    "facing=north,fullness=half,pile_shape=edge": {
+      "model": "before_the_blight:block/mixed_ear_corn_pile_half_edge",
+      "uvlock": true
+    },
+    "facing=north,fullness=half,pile_shape=inside_corner": {
+      "model": "before_the_blight:block/mixed_ear_corn_pile_half_inside_corner",
+      "uvlock": true
+    },
+    "facing=north,fullness=half,pile_shape=outside_corner": {
+      "model": "before_the_blight:block/mixed_ear_corn_pile_half_outside_corner",
+      "uvlock": true
+    },
+    "facing=north,fullness=overflow,pile_shape=center": {
+      "model": "before_the_blight:block/mixed_ear_corn_pile_overflow_center",
+      "uvlock": true
+    },
+    "facing=north,fullness=overflow,pile_shape=edge": {
+      "model": "before_the_blight:block/mixed_ear_corn_pile_overflow_edge",
+      "uvlock": true
+    },
+    "facing=north,fullness=overflow,pile_shape=inside_corner": {
+      "model": "before_the_blight:block/mixed_ear_corn_pile_overflow_inside_corner",
+      "uvlock": true
+    },
+    "facing=north,fullness=overflow,pile_shape=outside_corner": {
+      "model": "before_the_blight:block/mixed_ear_corn_pile_overflow_outside_corner",
+      "uvlock": true
+    },
+    "facing=north,fullness=quarter,pile_shape=center": {
+      "model": "before_the_blight:block/mixed_ear_corn_pile_quarter_center",
+      "uvlock": true
+    },
+    "facing=north,fullness=quarter,pile_shape=edge": {
+      "model": "before_the_blight:block/mixed_ear_corn_pile_quarter_edge",
+      "uvlock": true
+    },
+    "facing=north,fullness=quarter,pile_shape=inside_corner": {
+      "model": "before_the_blight:block/mixed_ear_corn_pile_quarter_inside_corner",
+      "uvlock": true
+    },
+    "facing=north,fullness=quarter,pile_shape=outside_corner": {
+      "model": "before_the_blight:block/mixed_ear_corn_pile_quarter_outside_corner",
+      "uvlock": true
+    },
+    "facing=north,fullness=three_quarter,pile_shape=center": {
+      "model": "before_the_blight:block/mixed_ear_corn_pile_three_quarter_center",
+      "uvlock": true
+    },
+    "facing=north,fullness=three_quarter,pile_shape=edge": {
+      "model": "before_the_blight:block/mixed_ear_corn_pile_three_quarter_edge",
+      "uvlock": true
+    },
+    "facing=north,fullness=three_quarter,pile_shape=inside_corner": {
+      "model": "before_the_blight:block/mixed_ear_corn_pile_three_quarter_inside_corner",
+      "uvlock": true
+    },
+    "facing=north,fullness=three_quarter,pile_shape=outside_corner": {
+      "model": "before_the_blight:block/mixed_ear_corn_pile_three_quarter_outside_corner",
+      "uvlock": true
+    },
+    "facing=south,fullness=full,pile_shape=center": {
+      "model": "before_the_blight:block/mixed_ear_corn_pile_full_center",
+      "uvlock": true,
+      "y": 180
+    },
+    "facing=south,fullness=full,pile_shape=edge": {
+      "model": "before_the_blight:block/mixed_ear_corn_pile_full_edge",
+      "uvlock": true,
+      "y": 180
+    },
+    "facing=south,fullness=full,pile_shape=inside_corner": {
+      "model": "before_the_blight:block/mixed_ear_corn_pile_full_inside_corner",
+      "uvlock": true,
+      "y": 180
+    },
+    "facing=south,fullness=full,pile_shape=outside_corner": {
+      "model": "before_the_blight:block/mixed_ear_corn_pile_full_outside_corner",
+      "uvlock": true,
+      "y": 180
+    },
+    "facing=south,fullness=half,pile_shape=center": {
+      "model": "before_the_blight:block/mixed_ear_corn_pile_half_center",
+      "uvlock": true,
+      "y": 180
+    },
+    "facing=south,fullness=half,pile_shape=edge": {
+      "model": "before_the_blight:block/mixed_ear_corn_pile_half_edge",
+      "uvlock": true,
+      "y": 180
+    },
+    "facing=south,fullness=half,pile_shape=inside_corner": {
+      "model": "before_the_blight:block/mixed_ear_corn_pile_half_inside_corner",
+      "uvlock": true,
+      "y": 180
+    },
+    "facing=south,fullness=half,pile_shape=outside_corner": {
+      "model": "before_the_blight:block/mixed_ear_corn_pile_half_outside_corner",
+      "uvlock": true,
+      "y": 180
+    },
+    "facing=south,fullness=overflow,pile_shape=center": {
+      "model": "before_the_blight:block/mixed_ear_corn_pile_overflow_center",
+      "uvlock": true,
+      "y": 180
+    },
+    "facing=south,fullness=overflow,pile_shape=edge": {
+      "model": "before_the_blight:block/mixed_ear_corn_pile_overflow_edge",
+      "uvlock": true,
+      "y": 180
+    },
+    "facing=south,fullness=overflow,pile_shape=inside_corner": {
+      "model": "before_the_blight:block/mixed_ear_corn_pile_overflow_inside_corner",
+      "uvlock": true,
+      "y": 180
+    },
+    "facing=south,fullness=overflow,pile_shape=outside_corner": {
+      "model": "before_the_blight:block/mixed_ear_corn_pile_overflow_outside_corner",
+      "uvlock": true,
+      "y": 180
+    },
+    "facing=south,fullness=quarter,pile_shape=center": {
+      "model": "before_the_blight:block/mixed_ear_corn_pile_quarter_center",
+      "uvlock": true,
+      "y": 180
+    },
+    "facing=south,fullness=quarter,pile_shape=edge": {
+      "model": "before_the_blight:block/mixed_ear_corn_pile_quarter_edge",
+      "uvlock": true,
+      "y": 180
+    },
+    "facing=south,fullness=quarter,pile_shape=inside_corner": {
+      "model": "before_the_blight:block/mixed_ear_corn_pile_quarter_inside_corner",
+      "uvlock": true,
+      "y": 180
+    },
+    "facing=south,fullness=quarter,pile_shape=outside_corner": {
+      "model": "before_the_blight:block/mixed_ear_corn_pile_quarter_outside_corner",
+      "uvlock": true,
+      "y": 180
+    },
+    "facing=south,fullness=three_quarter,pile_shape=center": {
+      "model": "before_the_blight:block/mixed_ear_corn_pile_three_quarter_center",
+      "uvlock": true,
+      "y": 180
+    },
+    "facing=south,fullness=three_quarter,pile_shape=edge": {
+      "model": "before_the_blight:block/mixed_ear_corn_pile_three_quarter_edge",
+      "uvlock": true,
+      "y": 180
+    },
+    "facing=south,fullness=three_quarter,pile_shape=inside_corner": {
+      "model": "before_the_blight:block/mixed_ear_corn_pile_three_quarter_inside_corner",
+      "uvlock": true,
+      "y": 180
+    },
+    "facing=south,fullness=three_quarter,pile_shape=outside_corner": {
+      "model": "before_the_blight:block/mixed_ear_corn_pile_three_quarter_outside_corner",
+      "uvlock": true,
+      "y": 180
+    },
+    "facing=west,fullness=full,pile_shape=center": {
+      "model": "before_the_blight:block/mixed_ear_corn_pile_full_center",
+      "uvlock": true,
+      "y": 270
+    },
+    "facing=west,fullness=full,pile_shape=edge": {
+      "model": "before_the_blight:block/mixed_ear_corn_pile_full_edge",
+      "uvlock": true,
+      "y": 270
+    },
+    "facing=west,fullness=full,pile_shape=inside_corner": {
+      "model": "before_the_blight:block/mixed_ear_corn_pile_full_inside_corner",
+      "uvlock": true,
+      "y": 270
+    },
+    "facing=west,fullness=full,pile_shape=outside_corner": {
+      "model": "before_the_blight:block/mixed_ear_corn_pile_full_outside_corner",
+      "uvlock": true,
+      "y": 270
+    },
+    "facing=west,fullness=half,pile_shape=center": {
+      "model": "before_the_blight:block/mixed_ear_corn_pile_half_center",
+      "uvlock": true,
+      "y": 270
+    },
+    "facing=west,fullness=half,pile_shape=edge": {
+      "model": "before_the_blight:block/mixed_ear_corn_pile_half_edge",
+      "uvlock": true,
+      "y": 270
+    },
+    "facing=west,fullness=half,pile_shape=inside_corner": {
+      "model": "before_the_blight:block/mixed_ear_corn_pile_half_inside_corner",
+      "uvlock": true,
+      "y": 270
+    },
+    "facing=west,fullness=half,pile_shape=outside_corner": {
+      "model": "before_the_blight:block/mixed_ear_corn_pile_half_outside_corner",
+      "uvlock": true,
+      "y": 270
+    },
+    "facing=west,fullness=overflow,pile_shape=center": {
+      "model": "before_the_blight:block/mixed_ear_corn_pile_overflow_center",
+      "uvlock": true,
+      "y": 270
+    },
+    "facing=west,fullness=overflow,pile_shape=edge": {
+      "model": "before_the_blight:block/mixed_ear_corn_pile_overflow_edge",
+      "uvlock": true,
+      "y": 270
+    },
+    "facing=west,fullness=overflow,pile_shape=inside_corner": {
+      "model": "before_the_blight:block/mixed_ear_corn_pile_overflow_inside_corner",
+      "uvlock": true,
+      "y": 270
+    },
+    "facing=west,fullness=overflow,pile_shape=outside_corner": {
+      "model": "before_the_blight:block/mixed_ear_corn_pile_overflow_outside_corner",
+      "uvlock": true,
+      "y": 270
+    },
+    "facing=west,fullness=quarter,pile_shape=center": {
+      "model": "before_the_blight:block/mixed_ear_corn_pile_quarter_center",
+      "uvlock": true,
+      "y": 270
+    },
+    "facing=west,fullness=quarter,pile_shape=edge": {
+      "model": "before_the_blight:block/mixed_ear_corn_pile_quarter_edge",
+      "uvlock": true,
+      "y": 270
+    },
+    "facing=west,fullness=quarter,pile_shape=inside_corner": {
+      "model": "before_the_blight:block/mixed_ear_corn_pile_quarter_inside_corner",
+      "uvlock": true,
+      "y": 270
+    },
+    "facing=west,fullness=quarter,pile_shape=outside_corner": {
+      "model": "before_the_blight:block/mixed_ear_corn_pile_quarter_outside_corner",
+      "uvlock": true,
+      "y": 270
+    },
+    "facing=west,fullness=three_quarter,pile_shape=center": {
+      "model": "before_the_blight:block/mixed_ear_corn_pile_three_quarter_center",
+      "uvlock": true,
+      "y": 270
+    },
+    "facing=west,fullness=three_quarter,pile_shape=edge": {
+      "model": "before_the_blight:block/mixed_ear_corn_pile_three_quarter_edge",
+      "uvlock": true,
+      "y": 270
+    },
+    "facing=west,fullness=three_quarter,pile_shape=inside_corner": {
+      "model": "before_the_blight:block/mixed_ear_corn_pile_three_quarter_inside_corner",
+      "uvlock": true,
+      "y": 270
+    },
+    "facing=west,fullness=three_quarter,pile_shape=outside_corner": {
+      "model": "before_the_blight:block/mixed_ear_corn_pile_three_quarter_outside_corner",
+      "uvlock": true,
+      "y": 270
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "category": "building",
+  "key": {
+    "S": "before_the_blight:chestnut_shingles"
+  },
+  "pattern": [
+    "SSS",
+    "SSS"
+  ],
+  "result": {
+    "id": "before_the_blight:shingle_stack"
+  },
+  "type": "minecraft:crafting_shaped"
+}

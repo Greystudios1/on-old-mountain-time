@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "R": "before_the_blight:chestnut_log",
+    "P": "before_the_blight:chestnut_planks"
+  },
+  "pattern": [
+    "R R",
+    "RPR"
+  ],
+  "result": {
+    "count": 2,
+    "id": "before_the_blight:chestnut_log_door_termination"
+  }
+}

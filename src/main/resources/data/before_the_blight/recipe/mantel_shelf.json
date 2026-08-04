@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "decorations",
+  "key": {
+    "D": "minecraft:dark_oak_planks",
+    "S": "minecraft:stick"
+  },
+  "pattern": [
+    "DDD",
+    " S ",
+    "S S"
+  ],
+  "result": {
+    "id": "before_the_blight:mantel_shelf"
+  }
+}

@@ -1,0 +1,226 @@
+{
+  "parent": "minecraft:block/block",
+  "ambientocclusion": true,
+  "textures": {
+    "particle": "before_the_blight:block/rough_chestnut_boards",
+    "boards": "before_the_blight:block/rough_chestnut_boards",
+    "beam": "before_the_blight:block/hewn_chestnut_beam",
+    "end": "before_the_blight:block/hewn_chestnut_beam_top",
+    "seat": "before_the_blight:block/rocking_chair_woven_seat",
+    "poplar": "before_the_blight:block/hand_split_yellow_poplar_board",
+    "sawn_poplar": "before_the_blight:block/sash_sawn_yellow_poplar_board",
+    "oak": "before_the_blight:block/white_oak_furniture_board",
+    "oak_end": "before_the_blight:block/white_oak_end_grain",
+    "walnut": "before_the_blight:block/walnut_furniture_board",
+    "walnut_top": "before_the_blight:block/walnut_tabletop",
+    "walnut_post": "before_the_blight:block/walnut_turned_post",
+    "walnut_end": "before_the_blight:block/walnut_end_grain",
+    "cloth": "before_the_blight:block/folded_wool_blanket",
+    "weave": "before_the_blight:block/woven_wall_textile",
+    "iron": "before_the_blight:block/cast_iron_pot"
+  },
+  "elements": [
+    {
+      "from": [
+        0.5,
+        6,
+        2
+      ],
+      "to": [
+        15.5,
+        9,
+        14
+      ],
+      "faces": {
+        "north": {
+          "texture": "#oak"
+        },
+        "east": {
+          "texture": "#oak"
+        },
+        "south": {
+          "texture": "#oak"
+        },
+        "west": {
+          "texture": "#oak"
+        },
+        "up": {
+          "texture": "#oak"
+        },
+        "down": {
+          "texture": "#oak"
+        }
+      },
+      "rotation": {
+        "origin": [
+          8,
+          7,
+          8
+        ],
+        "axis": "x",
+        "angle": -22.5,
+        "rescale": true
+      }
+    },
+    {
+      "from": [
+        2,
+        0,
+        3
+      ],
+      "to": [
+        4,
+        7,
+        5
+      ],
+      "faces": {
+        "north": {
+          "texture": "#oak"
+        },
+        "east": {
+          "texture": "#oak"
+        },
+        "south": {
+          "texture": "#oak"
+        },
+        "west": {
+          "texture": "#oak"
+        },
+        "up": {
+          "texture": "#oak_end"
+        },
+        "down": {
+          "texture": "#oak_end"
+        }
+      }
+    },
+    {
+      "from": [
+        12,
+        0,
+        11
+      ],
+      "to": [
+        14,
+        7,
+        13
+      ],
+      "faces": {
+        "north": {
+          "texture": "#oak"
+        },
+        "east": {
+          "texture": "#oak"
+        },
+        "south": {
+          "texture": "#oak"
+        },
+        "west": {
+          "texture": "#oak"
+        },
+        "up": {
+          "texture": "#oak_end"
+        },
+        "down": {
+          "texture": "#oak_end"
+        }
+      }
+    },
+    {
+      "from": [
+        6.5,
+        8,
+        6
+      ],
+      "to": [
+        9.5,
+        15.75,
+        9
+      ],
+      "faces": {
+        "north": {
+          "texture": "#oak"
+        },
+        "east": {
+          "texture": "#oak"
+        },
+        "south": {
+          "texture": "#oak"
+        },
+        "west": {
+          "texture": "#oak"
+        },
+        "up": {
+          "texture": "#oak_end"
+        },
+        "down": {
+          "texture": "#oak_end"
+        }
+      }
+    },
+    {
+      "from": [
+        4,
+        13,
+        5
+      ],
+      "to": [
+        12,
+        16,
+        10
+      ],
+      "faces": {
+        "north": {
+          "texture": "#oak"
+        },
+        "east": {
+          "texture": "#oak_end"
+        },
+        "south": {
+          "texture": "#oak"
+        },
+        "west": {
+          "texture": "#oak_end"
+        },
+        "up": {
+          "texture": "#oak"
+        },
+        "down": {
+          "texture": "#oak"
+        }
+      }
+    },
+    {
+      "from": [
+        9,
+        3,
+        7
+      ],
+      "to": [
+        15,
+        5,
+        9
+      ],
+      "faces": {
+        "north": {
+          "texture": "#oak"
+        },
+        "east": {
+          "texture": "#oak_end"
+        },
+        "south": {
+          "texture": "#oak"
+        },
+        "west": {
+          "texture": "#oak_end"
+        },
+        "up": {
+          "texture": "#oak"
+        },
+        "down": {
+          "texture": "#oak"
+        }
+      }
+    }
+  ]
+}

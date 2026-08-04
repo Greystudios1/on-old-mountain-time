@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_cornmeal": {
+      "conditions": {
+        "items": [
+          {
+            "items": "before_the_blight:cornmeal"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "before_the_blight:corn_bread"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_cornmeal"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "before_the_blight:corn_bread"
+    ]
+  }
+}

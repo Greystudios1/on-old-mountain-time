@@ -1,0 +1,14 @@
+{
+  "category": "building",
+  "key": {
+    "L": "before_the_blight:chestnut_log"
+  },
+  "pattern": [
+    "LL"
+  ],
+  "result": {
+    "count": 2,
+    "id": "before_the_blight:hollow_limb_spout"
+  },
+  "type": "minecraft:crafting_shaped"
+}

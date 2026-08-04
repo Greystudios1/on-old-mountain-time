@@ -1,0 +1,10 @@
+{
+  "category": "building",
+  "ingredients": [
+    "before_the_blight:rough_chestnut_boards"
+  ],
+  "result": {
+    "id": "before_the_blight:loose_board"
+  },
+  "type": "minecraft:crafting_shapeless"
+}

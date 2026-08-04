@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    "before_the_blight:walnut_furniture_board",
+    "before_the_blight:walnut_furniture_board"
+  ],
+  "result": {
+    "count": 1,
+    "id": "before_the_blight:walnut_turned_post"
+  }
+}

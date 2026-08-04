@@ -1,0 +1,27 @@
+{
+  "replace": false,
+  "values": [
+    "before_the_blight:irregular_fieldstone_corner",
+    "before_the_blight:irregular_fieldstone_edge",
+    "before_the_blight:irregular_fieldstone_arch_wedge",
+    "before_the_blight:dressed_fieldstone_corner",
+    "before_the_blight:dressed_fieldstone_edge",
+    "before_the_blight:dressed_fieldstone_arch_wedge",
+    "before_the_blight:mud_mortared_fieldstone",
+    "before_the_blight:dried_mud_daub",
+    "before_the_blight:wood_splint_chinking",
+    "before_the_blight:cracked_mud_chinking",
+    "before_the_blight:repaired_mud_chinking",
+    "before_the_blight:peeling_whitewashed_fieldstone",
+    "before_the_blight:soot_stained_whitewashed_fieldstone",
+    "before_the_blight:single_fieldstone",
+    "before_the_blight:fieldstone_pile",
+    "before_the_blight:broken_fieldstone_masonry",
+    "before_the_blight:clay_chinking",
+    "before_the_blight:fieldstone_rubble",
+    "before_the_blight:loose_fieldstone",
+    "before_the_blight:mud_chinking",
+    "before_the_blight:soot_stained_fieldstone",
+    "before_the_blight:whitewashed_fieldstone"
+  ]
+}

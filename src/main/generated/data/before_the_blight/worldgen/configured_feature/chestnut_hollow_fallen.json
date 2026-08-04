@@ -1,0 +1,52 @@
+{
+  "type": "before_the_blight:hollow_fallen_log",
+  "config": {
+    "log_length": {
+      "type": "minecraft:uniform",
+      "max_inclusive": 10,
+      "min_inclusive": 6
+    },
+    "maximum_unsupported_sections": 2,
+    "shell_decay_chance": 0.08,
+    "stripped_trunk_provider": {
+      "type": "minecraft:simple_state_provider",
+      "state": {
+        "Name": "before_the_blight:stripped_chestnut_log",
+        "Properties": {
+          "axis": "y"
+        }
+      }
+    },
+    "surface_cover_chance": 0.32,
+    "surface_cover_provider": {
+      "type": "minecraft:weighted_state_provider",
+      "entries": [
+        {
+          "data": {
+            "Name": "minecraft:leaf_litter",
+            "Properties": {
+              "facing": "north",
+              "segment_amount": "1"
+            }
+          },
+          "weight": 3
+        },
+        {
+          "data": {
+            "Name": "minecraft:moss_carpet"
+          },
+          "weight": 1
+        }
+      ]
+    },
+    "trunk_provider": {
+      "type": "minecraft:simple_state_provider",
+      "state": {
+        "Name": "before_the_blight:chestnut_log",
+        "Properties": {
+          "axis": "y"
+        }
+      }
+    }
+  }
+}

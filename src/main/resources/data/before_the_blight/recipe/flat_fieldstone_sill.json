@@ -1,0 +1,14 @@
+{
+  "category": "building",
+  "key": {
+    "#": "before_the_blight:fieldstone"
+  },
+  "pattern": [
+    "###"
+  ],
+  "result": {
+    "count": 3,
+    "id": "before_the_blight:flat_fieldstone_sill"
+  },
+  "type": "minecraft:crafting_shaped"
+}

@@ -1,0 +1,7 @@
+{
+  "type": "before_the_blight:appalachian_homestead",
+  "biomes": "#before_the_blight:has_structure/appalachian_homestead",
+  "spawn_overrides": {},
+  "step": "surface_structures",
+  "terrain_adaptation": "none"
+}

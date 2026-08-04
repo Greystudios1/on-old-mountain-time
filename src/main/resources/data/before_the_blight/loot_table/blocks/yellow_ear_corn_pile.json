@@ -1,0 +1,130 @@
+{
+  "pools": [
+    {
+      "entries": [
+        {
+          "children": [
+            {
+              "conditions": [
+                {
+                  "block": "before_the_blight:yellow_ear_corn_pile",
+                  "condition": "minecraft:block_state_property",
+                  "properties": {
+                    "fullness": "quarter"
+                  }
+                }
+              ],
+              "functions": [
+                {
+                  "add": false,
+                  "count": 4,
+                  "function": "minecraft:set_count"
+                },
+                {
+                  "function": "minecraft:explosion_decay"
+                }
+              ],
+              "name": "before_the_blight:dried_ear_of_corn",
+              "type": "minecraft:item"
+            },
+            {
+              "conditions": [
+                {
+                  "block": "before_the_blight:yellow_ear_corn_pile",
+                  "condition": "minecraft:block_state_property",
+                  "properties": {
+                    "fullness": "half"
+                  }
+                }
+              ],
+              "functions": [
+                {
+                  "add": false,
+                  "count": 8,
+                  "function": "minecraft:set_count"
+                },
+                {
+                  "function": "minecraft:explosion_decay"
+                }
+              ],
+              "name": "before_the_blight:dried_ear_of_corn",
+              "type": "minecraft:item"
+            },
+            {
+              "conditions": [
+                {
+                  "block": "before_the_blight:yellow_ear_corn_pile",
+                  "condition": "minecraft:block_state_property",
+                  "properties": {
+                    "fullness": "three_quarter"
+                  }
+                }
+              ],
+              "functions": [
+                {
+                  "add": false,
+                  "count": 12,
+                  "function": "minecraft:set_count"
+                },
+                {
+                  "function": "minecraft:explosion_decay"
+                }
+              ],
+              "name": "before_the_blight:dried_ear_of_corn",
+              "type": "minecraft:item"
+            },
+            {
+              "conditions": [
+                {
+                  "block": "before_the_blight:yellow_ear_corn_pile",
+                  "condition": "minecraft:block_state_property",
+                  "properties": {
+                    "fullness": "full"
+                  }
+                }
+              ],
+              "functions": [
+                {
+                  "add": false,
+                  "count": 16,
+                  "function": "minecraft:set_count"
+                },
+                {
+                  "function": "minecraft:explosion_decay"
+                }
+              ],
+              "name": "before_the_blight:dried_ear_of_corn",
+              "type": "minecraft:item"
+            },
+            {
+              "conditions": [
+                {
+                  "block": "before_the_blight:yellow_ear_corn_pile",
+                  "condition": "minecraft:block_state_property",
+                  "properties": {
+                    "fullness": "overflow"
+                  }
+                }
+              ],
+              "functions": [
+                {
+                  "add": false,
+                  "count": 20,
+                  "function": "minecraft:set_count"
+                },
+                {
+                  "function": "minecraft:explosion_decay"
+                }
+              ],
+              "name": "before_the_blight:dried_ear_of_corn",
+              "type": "minecraft:item"
+            }
+          ],
+          "type": "minecraft:alternatives"
+        }
+      ],
+      "rolls": 1
+    }
+  ],
+  "type": "minecraft:block"
+}

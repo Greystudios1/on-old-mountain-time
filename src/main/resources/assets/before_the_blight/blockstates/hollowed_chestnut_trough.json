@@ -1,0 +1,232 @@
+{
+  "variants": {
+    "facing=east,part=inlet,content=clear": {
+      "model": "before_the_blight:block/hollowed_chestnut_trough_inlet_clear",
+      "uvlock": true,
+      "y": 90
+    },
+    "facing=east,part=inlet,content=empty": {
+      "model": "before_the_blight:block/hollowed_chestnut_trough_inlet_empty",
+      "uvlock": true,
+      "y": 90
+    },
+    "facing=east,part=inlet,content=silty": {
+      "model": "before_the_blight:block/hollowed_chestnut_trough_inlet_silty",
+      "uvlock": true,
+      "y": 90
+    },
+    "facing=east,part=middle,content=clear": {
+      "model": "before_the_blight:block/hollowed_chestnut_trough_middle_clear",
+      "uvlock": true,
+      "y": 90
+    },
+    "facing=east,part=middle,content=empty": {
+      "model": "before_the_blight:block/hollowed_chestnut_trough_middle_empty",
+      "uvlock": true,
+      "y": 90
+    },
+    "facing=east,part=middle,content=silty": {
+      "model": "before_the_blight:block/hollowed_chestnut_trough_middle_silty",
+      "uvlock": true,
+      "y": 90
+    },
+    "facing=east,part=outlet,content=clear": {
+      "model": "before_the_blight:block/hollowed_chestnut_trough_outlet_clear",
+      "uvlock": true,
+      "y": 90
+    },
+    "facing=east,part=outlet,content=empty": {
+      "model": "before_the_blight:block/hollowed_chestnut_trough_outlet_empty",
+      "uvlock": true,
+      "y": 90
+    },
+    "facing=east,part=outlet,content=silty": {
+      "model": "before_the_blight:block/hollowed_chestnut_trough_outlet_silty",
+      "uvlock": true,
+      "y": 90
+    },
+    "facing=east,part=standalone,content=clear": {
+      "model": "before_the_blight:block/hollowed_chestnut_trough_standalone_clear",
+      "uvlock": true,
+      "y": 90
+    },
+    "facing=east,part=standalone,content=empty": {
+      "model": "before_the_blight:block/hollowed_chestnut_trough_standalone_empty",
+      "uvlock": true,
+      "y": 90
+    },
+    "facing=east,part=standalone,content=silty": {
+      "model": "before_the_blight:block/hollowed_chestnut_trough_standalone_silty",
+      "uvlock": true,
+      "y": 90
+    },
+    "facing=north,part=inlet,content=clear": {
+      "model": "before_the_blight:block/hollowed_chestnut_trough_inlet_clear",
+      "uvlock": true
+    },
+    "facing=north,part=inlet,content=empty": {
+      "model": "before_the_blight:block/hollowed_chestnut_trough_inlet_empty",
+      "uvlock": true
+    },
+    "facing=north,part=inlet,content=silty": {
+      "model": "before_the_blight:block/hollowed_chestnut_trough_inlet_silty",
+      "uvlock": true
+    },
+    "facing=north,part=middle,content=clear": {
+      "model": "before_the_blight:block/hollowed_chestnut_trough_middle_clear",
+      "uvlock": true
+    },
+    "facing=north,part=middle,content=empty": {
+      "model": "before_the_blight:block/hollowed_chestnut_trough_middle_empty",
+      "uvlock": true
+    },
+    "facing=north,part=middle,content=silty": {
+      "model": "before_the_blight:block/hollowed_chestnut_trough_middle_silty",
+      "uvlock": true
+    },
+    "facing=north,part=outlet,content=clear": {
+      "model": "before_the_blight:block/hollowed_chestnut_trough_outlet_clear",
+      "uvlock": true
+    },
+    "facing=north,part=outlet,content=empty": {
+      "model": "before_the_blight:block/hollowed_chestnut_trough_outlet_empty",
+      "uvlock": true
+    },
+    "facing=north,part=outlet,content=silty": {
+      "model": "before_the_blight:block/hollowed_chestnut_trough_outlet_silty",
+      "uvlock": true
+    },
+    "facing=north,part=standalone,content=clear": {
+      "model": "before_the_blight:block/hollowed_chestnut_trough_standalone_clear",
+      "uvlock": true
+    },
+    "facing=north,part=standalone,content=empty": {
+      "model": "before_the_blight:block/hollowed_chestnut_trough_standalone_empty",
+      "uvlock": true
+    },
+    "facing=north,part=standalone,content=silty": {
+      "model": "before_the_blight:block/hollowed_chestnut_trough_standalone_silty",
+      "uvlock": true
+    },
+    "facing=south,part=inlet,content=clear": {
+      "model": "before_the_blight:block/hollowed_chestnut_trough_inlet_clear",
+      "uvlock": true,
+      "y": 180
+    },
+    "facing=south,part=inlet,content=empty": {
+      "model": "before_the_blight:block/hollowed_chestnut_trough_inlet_empty",
+      "uvlock": true,
+      "y": 180
+    },
+    "facing=south,part=inlet,content=silty": {
+      "model": "before_the_blight:block/hollowed_chestnut_trough_inlet_silty",
+      "uvlock": true,
+      "y": 180
+    },
+    "facing=south,part=middle,content=clear": {
+      "model": "before_the_blight:block/hollowed_chestnut_trough_middle_clear",
+      "uvlock": true,
+      "y": 180
+    },
+    "facing=south,part=middle,content=empty": {
+      "model": "before_the_blight:block/hollowed_chestnut_trough_middle_empty",
+      "uvlock": true,
+      "y": 180
+    },
+    "facing=south,part=middle,content=silty": {
+      "model": "before_the_blight:block/hollowed_chestnut_trough_middle_silty",
+      "uvlock": true,
+      "y": 180
+    },
+    "facing=south,part=outlet,content=clear": {
+      "model": "before_the_blight:block/hollowed_chestnut_trough_outlet_clear",
+      "uvlock": true,
+      "y": 180
+    },
+    "facing=south,part=outlet,content=empty": {
+      "model": "before_the_blight:block/hollowed_chestnut_trough_outlet_empty",
+      "uvlock": true,
+      "y": 180
+    },
+    "facing=south,part=outlet,content=silty": {
+      "model": "before_the_blight:block/hollowed_chestnut_trough_outlet_silty",
+      "uvlock": true,
+      "y": 180
+    },
+    "facing=south,part=standalone,content=clear": {
+      "model": "before_the_blight:block/hollowed_chestnut_trough_standalone_clear",
+      "uvlock": true,
+      "y": 180
+    },
+    "facing=south,part=standalone,content=empty": {
+      "model": "before_the_blight:block/hollowed_chestnut_trough_standalone_empty",
+      "uvlock": true,
+      "y": 180
+    },
+    "facing=south,part=standalone,content=silty": {
+      "model": "before_the_blight:block/hollowed_chestnut_trough_standalone_silty",
+      "uvlock": true,
+      "y": 180
+    },
+    "facing=west,part=inlet,content=clear": {
+      "model": "before_the_blight:block/hollowed_chestnut_trough_inlet_clear",
+      "uvlock": true,
+      "y": 270
+    },
+    "facing=west,part=inlet,content=empty": {
+      "model": "before_the_blight:block/hollowed_chestnut_trough_inlet_empty",
+      "uvlock": true,
+      "y": 270
+    },
+    "facing=west,part=inlet,content=silty": {
+      "model": "before_the_blight:block/hollowed_chestnut_trough_inlet_silty",
+      "uvlock": true,
+      "y": 270
+    },
+    "facing=west,part=middle,content=clear": {
+      "model": "before_the_blight:block/hollowed_chestnut_trough_middle_clear",
+      "uvlock": true,
+      "y": 270
+    },
+    "facing=west,part=middle,content=empty": {
+      "model": "before_the_blight:block/hollowed_chestnut_trough_middle_empty",
+      "uvlock": true,
+      "y": 270
+    },
+    "facing=west,part=middle,content=silty": {
+      "model": "before_the_blight:block/hollowed_chestnut_trough_middle_silty",
+      "uvlock": true,
+      "y": 270
+    },
+    "facing=west,part=outlet,content=clear": {
+      "model": "before_the_blight:block/hollowed_chestnut_trough_outlet_clear",
+      "uvlock": true,
+      "y": 270
+    },
+    "facing=west,part=outlet,content=empty": {
+      "model": "before_the_blight:block/hollowed_chestnut_trough_outlet_empty",
+      "uvlock": true,
+      "y": 270
+    },
+    "facing=west,part=outlet,content=silty": {
+      "model": "before_the_blight:block/hollowed_chestnut_trough_outlet_silty",
+      "uvlock": true,
+      "y": 270
+    },
+    "facing=west,part=standalone,content=clear": {
+      "model": "before_the_blight:block/hollowed_chestnut_trough_standalone_clear",
+      "uvlock": true,
+      "y": 270
+    },
+    "facing=west,part=standalone,content=empty": {
+      "model": "before_the_blight:block/hollowed_chestnut_trough_standalone_empty",
+      "uvlock": true,
+      "y": 270
+    },
+    "facing=west,part=standalone,content=silty": {
+      "model": "before_the_blight:block/hollowed_chestnut_trough_standalone_silty",
+      "uvlock": true,
+      "y": 270
+    }
+  }
+}

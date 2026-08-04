@@ -1,0 +1,14 @@
+{
+  "category": "building",
+  "key": {
+    "B": "minecraft:brick"
+  },
+  "pattern": [
+    "B B",
+    "BBB"
+  ],
+  "result": {
+    "id": "before_the_blight:shallow_milk_pan"
+  },
+  "type": "minecraft:crafting_shaped"
+}

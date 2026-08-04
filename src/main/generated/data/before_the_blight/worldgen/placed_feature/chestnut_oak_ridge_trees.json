@@ -1,0 +1,19 @@
+{
+  "feature": "before_the_blight:chestnut_oak_ridge_trees",
+  "placement": [
+    {
+      "type": "before_the_blight:staggered_chestnut"
+    },
+    {
+      "type": "minecraft:surface_water_depth_filter",
+      "max_water_depth": 0
+    },
+    {
+      "type": "minecraft:heightmap",
+      "heightmap": "OCEAN_FLOOR"
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

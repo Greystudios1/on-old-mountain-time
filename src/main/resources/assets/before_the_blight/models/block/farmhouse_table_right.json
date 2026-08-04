@@ -1,0 +1,312 @@
+{
+  "parent": "minecraft:block/block",
+  "ambientocclusion": true,
+  "textures": {
+    "particle": "before_the_blight:block/rough_chestnut_boards",
+    "boards": "before_the_blight:block/rough_chestnut_boards",
+    "beam": "before_the_blight:block/hewn_chestnut_beam",
+    "end": "before_the_blight:block/hewn_chestnut_beam_top",
+    "seat": "before_the_blight:block/rocking_chair_woven_seat",
+    "poplar": "before_the_blight:block/hand_split_yellow_poplar_board",
+    "sawn_poplar": "before_the_blight:block/sash_sawn_yellow_poplar_board",
+    "oak": "before_the_blight:block/white_oak_furniture_board",
+    "oak_end": "before_the_blight:block/white_oak_end_grain",
+    "walnut": "before_the_blight:block/walnut_furniture_board",
+    "walnut_top": "before_the_blight:block/walnut_tabletop",
+    "walnut_post": "before_the_blight:block/walnut_turned_post",
+    "walnut_end": "before_the_blight:block/walnut_end_grain",
+    "cloth": "before_the_blight:block/folded_wool_blanket",
+    "weave": "before_the_blight:block/woven_wall_textile",
+    "iron": "before_the_blight:block/cast_iron_pot"
+  },
+  "elements": [
+    {
+      "from": [
+        0.25,
+        12,
+        1
+      ],
+      "to": [
+        15.75,
+        14,
+        5.2
+      ],
+      "faces": {
+        "north": {
+          "texture": "#sawn_poplar"
+        },
+        "east": {
+          "texture": "#sawn_poplar"
+        },
+        "south": {
+          "texture": "#sawn_poplar"
+        },
+        "west": {
+          "texture": "#sawn_poplar"
+        },
+        "up": {
+          "texture": "#sawn_poplar"
+        },
+        "down": {
+          "texture": "#sawn_poplar"
+        }
+      }
+    },
+    {
+      "from": [
+        0.25,
+        12,
+        5.45
+      ],
+      "to": [
+        15.75,
+        14,
+        10.1
+      ],
+      "faces": {
+        "north": {
+          "texture": "#sawn_poplar"
+        },
+        "east": {
+          "texture": "#sawn_poplar"
+        },
+        "south": {
+          "texture": "#sawn_poplar"
+        },
+        "west": {
+          "texture": "#sawn_poplar"
+        },
+        "up": {
+          "texture": "#sawn_poplar"
+        },
+        "down": {
+          "texture": "#sawn_poplar"
+        }
+      }
+    },
+    {
+      "from": [
+        0.25,
+        12,
+        10.35
+      ],
+      "to": [
+        15.75,
+        14,
+        15
+      ],
+      "faces": {
+        "north": {
+          "texture": "#sawn_poplar"
+        },
+        "east": {
+          "texture": "#sawn_poplar"
+        },
+        "south": {
+          "texture": "#sawn_poplar"
+        },
+        "west": {
+          "texture": "#sawn_poplar"
+        },
+        "up": {
+          "texture": "#sawn_poplar"
+        },
+        "down": {
+          "texture": "#sawn_poplar"
+        }
+      }
+    },
+    {
+      "from": [
+        1.5,
+        8.75,
+        2
+      ],
+      "to": [
+        14.5,
+        11.75,
+        3.5
+      ],
+      "faces": {
+        "north": {
+          "texture": "#poplar"
+        },
+        "east": {
+          "texture": "#end"
+        },
+        "south": {
+          "texture": "#poplar"
+        },
+        "west": {
+          "texture": "#end"
+        },
+        "up": {
+          "texture": "#poplar"
+        },
+        "down": {
+          "texture": "#poplar"
+        }
+      }
+    },
+    {
+      "from": [
+        1.5,
+        8.75,
+        12.5
+      ],
+      "to": [
+        14.5,
+        11.75,
+        14
+      ],
+      "faces": {
+        "north": {
+          "texture": "#poplar"
+        },
+        "east": {
+          "texture": "#end"
+        },
+        "south": {
+          "texture": "#poplar"
+        },
+        "west": {
+          "texture": "#end"
+        },
+        "up": {
+          "texture": "#poplar"
+        },
+        "down": {
+          "texture": "#poplar"
+        }
+      }
+    },
+    {
+      "from": [
+        12.25,
+        0,
+        2.25
+      ],
+      "to": [
+        14.25,
+        12.5,
+        4.25
+      ],
+      "faces": {
+        "north": {
+          "texture": "#poplar"
+        },
+        "east": {
+          "texture": "#poplar"
+        },
+        "south": {
+          "texture": "#poplar"
+        },
+        "west": {
+          "texture": "#poplar"
+        },
+        "up": {
+          "texture": "#end"
+        },
+        "down": {
+          "texture": "#end"
+        }
+      }
+    },
+    {
+      "from": [
+        12.25,
+        0,
+        11.75
+      ],
+      "to": [
+        14.25,
+        12.5,
+        13.75
+      ],
+      "faces": {
+        "north": {
+          "texture": "#poplar"
+        },
+        "east": {
+          "texture": "#poplar"
+        },
+        "south": {
+          "texture": "#poplar"
+        },
+        "west": {
+          "texture": "#poplar"
+        },
+        "up": {
+          "texture": "#end"
+        },
+        "down": {
+          "texture": "#end"
+        }
+      }
+    },
+    {
+      "from": [
+        2.25,
+        0,
+        2.25
+      ],
+      "to": [
+        3.75,
+        12.5,
+        4.25
+      ],
+      "faces": {
+        "north": {
+          "texture": "#poplar"
+        },
+        "east": {
+          "texture": "#poplar"
+        },
+        "south": {
+          "texture": "#poplar"
+        },
+        "west": {
+          "texture": "#poplar"
+        },
+        "up": {
+          "texture": "#end"
+        },
+        "down": {
+          "texture": "#end"
+        }
+      }
+    },
+    {
+      "from": [
+        2.25,
+        0,
+        11.75
+      ],
+      "to": [
+        3.75,
+        12.5,
+        13.75
+      ],
+      "faces": {
+        "north": {
+          "texture": "#poplar"
+        },
+        "east": {
+          "texture": "#poplar"
+        },
+        "south": {
+          "texture": "#poplar"
+        },
+        "west": {
+          "texture": "#poplar"
+        },
+        "up": {
+          "texture": "#end"
+        },
+        "down": {
+          "texture": "#end"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "category": "building",
+  "ingredients": [
+    "before_the_blight:produce_crate"
+  ],
+  "result": {
+    "id": "before_the_blight:broken_crate"
+  },
+  "type": "minecraft:crafting_shapeless"
+}

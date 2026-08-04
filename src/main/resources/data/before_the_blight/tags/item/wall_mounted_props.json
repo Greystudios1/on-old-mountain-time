@@ -1,0 +1,27 @@
+{
+  "replace": false,
+  "values": [
+    "before_the_blight:hanging_dried_apples",
+    "before_the_blight:dried_herb_bunch",
+    "before_the_blight:hanging_onions",
+    "before_the_blight:hanging_garlic",
+    "before_the_blight:woven_wall_textile",
+    "before_the_blight:washboard",
+    {
+      "id": "#before_the_blight:wall_mounted_props/cabin",
+      "required": false
+    },
+    {
+      "id": "#before_the_blight:wall_mounted_props/exterior",
+      "required": false
+    },
+    {
+      "id": "#before_the_blight:door_hardware",
+      "required": false
+    },
+    {
+      "id": "#before_the_blight:springhouse_wall_mounted_props",
+      "required": false
+    }
+  ]
+}

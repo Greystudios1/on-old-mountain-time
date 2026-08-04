@@ -1,0 +1,16 @@
+{
+  "category": "building",
+  "key": {
+    "B": "before_the_blight:hewn_chestnut_beam"
+  },
+  "pattern": [
+    "BBB",
+    "   ",
+    "BBB"
+  ],
+  "result": {
+    "count": 6,
+    "id": "before_the_blight:wide_set_chestnut_crib_wall"
+  },
+  "type": "minecraft:crafting_shaped"
+}

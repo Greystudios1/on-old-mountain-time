@@ -1,0 +1,42 @@
+# Gradle and build output
+.gradle/
+build/
+out/
+
+# Loom/Minecraft runtime data
+run/
+runs/
+logs/
+crash-reports/
+saves/
+screenshots/
+mods/
+config/
+resourcepacks/
+shaderpacks/
+
+# IDE and OS files
+.idea/
+.vscode/
+*.iml
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Python cache files
+__pycache__/
+*.py[cod]
+
+# Diagnostics and local secrets
+*.log
+*.hprof
+hs_err_pid*
+replay_pid*
+.env
+.env.*
+gradle-local.properties
+
+# Datagen bookkeeping is machine-local; generated JSON remains tracked.
+/src/main/generated/.cache/
+
+# Keep the Gradle wrapper JAR: it is required for reproducible builds.

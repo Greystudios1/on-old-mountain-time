@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/crop",
+  "textures": {
+    "crop": "before_the_blight:block/corn_stage_4"
+  }
+}

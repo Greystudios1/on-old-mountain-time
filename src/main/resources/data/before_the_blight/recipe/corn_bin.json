@@ -1,0 +1,15 @@
+{
+  "category": "misc",
+  "key": {
+    "B": "before_the_blight:rough_chestnut_boards"
+  },
+  "pattern": [
+    "B B",
+    "B B",
+    "BBB"
+  ],
+  "result": {
+    "id": "before_the_blight:corn_bin"
+  },
+  "type": "minecraft:crafting_shaped"
+}

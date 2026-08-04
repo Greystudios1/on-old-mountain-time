@@ -1,0 +1,42 @@
+{
+  "variants": {
+    "facing=north,part=left": {
+      "model": "before_the_blight:block/trestle_table_left",
+      "uvlock": true
+    },
+    "facing=north,part=right": {
+      "model": "before_the_blight:block/trestle_table_right",
+      "uvlock": true
+    },
+    "facing=east,part=left": {
+      "model": "before_the_blight:block/trestle_table_left",
+      "uvlock": true,
+      "y": 90
+    },
+    "facing=east,part=right": {
+      "model": "before_the_blight:block/trestle_table_right",
+      "uvlock": true,
+      "y": 90
+    },
+    "facing=south,part=left": {
+      "model": "before_the_blight:block/trestle_table_left",
+      "uvlock": true,
+      "y": 180
+    },
+    "facing=south,part=right": {
+      "model": "before_the_blight:block/trestle_table_right",
+      "uvlock": true,
+      "y": 180
+    },
+    "facing=west,part=left": {
+      "model": "before_the_blight:block/trestle_table_left",
+      "uvlock": true,
+      "y": 270
+    },
+    "facing=west,part=right": {
+      "model": "before_the_blight:block/trestle_table_right",
+      "uvlock": true,
+      "y": 270
+    }
+  }
+}

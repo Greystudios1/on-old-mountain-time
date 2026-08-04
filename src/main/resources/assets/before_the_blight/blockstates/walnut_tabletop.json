@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "facing=down": {
+      "model": "before_the_blight:block/walnut_tabletop_facing_down"
+    },
+    "facing=up": {
+      "model": "before_the_blight:block/walnut_tabletop_facing_up"
+    },
+    "facing=north": {
+      "model": "before_the_blight:block/walnut_tabletop_facing_north"
+    },
+    "facing=south": {
+      "model": "before_the_blight:block/walnut_tabletop_facing_south"
+    },
+    "facing=west": {
+      "model": "before_the_blight:block/walnut_tabletop_facing_west"
+    },
+    "facing=east": {
+      "model": "before_the_blight:block/walnut_tabletop_facing_east"
+    }
+  }
+}

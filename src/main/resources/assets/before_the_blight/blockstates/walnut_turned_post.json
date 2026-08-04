@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "before_the_blight:block/walnut_turned_post_x"
+    },
+    "axis=y": {
+      "model": "before_the_blight:block/walnut_turned_post_y"
+    },
+    "axis=z": {
+      "model": "before_the_blight:block/walnut_turned_post_z"
+    }
+  }
+}

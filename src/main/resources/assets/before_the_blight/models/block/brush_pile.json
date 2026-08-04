@@ -1,0 +1,257 @@
+{
+  "ambientocclusion": true,
+  "elements": [
+    {
+      "faces": {
+        "down": {
+          "texture": "#leaf"
+        },
+        "up": {
+          "texture": "#leaf"
+        }
+      },
+      "from": [
+        1.0,
+        0.02,
+        1.0
+      ],
+      "shade": false,
+      "to": [
+        15.0,
+        0.18,
+        15.0
+      ]
+    },
+    {
+      "faces": {
+        "down": {
+          "texture": "#wood"
+        },
+        "east": {
+          "texture": "#end"
+        },
+        "north": {
+          "texture": "#wood"
+        },
+        "south": {
+          "texture": "#wood"
+        },
+        "up": {
+          "texture": "#wood"
+        },
+        "west": {
+          "texture": "#end"
+        }
+      },
+      "from": [
+        1.0,
+        0.0,
+        2.0
+      ],
+      "to": [
+        15.0,
+        2.0,
+        4.1
+      ]
+    },
+    {
+      "faces": {
+        "down": {
+          "texture": "#wood"
+        },
+        "east": {
+          "texture": "#wood"
+        },
+        "north": {
+          "texture": "#end"
+        },
+        "south": {
+          "texture": "#end"
+        },
+        "up": {
+          "texture": "#wood"
+        },
+        "west": {
+          "texture": "#wood"
+        }
+      },
+      "from": [
+        4.0,
+        0.0,
+        1.0
+      ],
+      "to": [
+        6.1,
+        2.2,
+        15.0
+      ]
+    },
+    {
+      "faces": {
+        "down": {
+          "texture": "#wood"
+        },
+        "east": {
+          "texture": "#end"
+        },
+        "north": {
+          "texture": "#wood"
+        },
+        "south": {
+          "texture": "#wood"
+        },
+        "up": {
+          "texture": "#wood"
+        },
+        "west": {
+          "texture": "#end"
+        }
+      },
+      "from": [
+        1.5,
+        1.7,
+        7.0
+      ],
+      "to": [
+        14.5,
+        3.9,
+        9.2
+      ]
+    },
+    {
+      "faces": {
+        "down": {
+          "texture": "#wood"
+        },
+        "east": {
+          "texture": "#wood"
+        },
+        "north": {
+          "texture": "#end"
+        },
+        "south": {
+          "texture": "#end"
+        },
+        "up": {
+          "texture": "#wood"
+        },
+        "west": {
+          "texture": "#wood"
+        }
+      },
+      "from": [
+        9.0,
+        1.8,
+        2.5
+      ],
+      "to": [
+        11.2,
+        4.4,
+        13.8
+      ]
+    },
+    {
+      "faces": {
+        "down": {
+          "texture": "#wood"
+        },
+        "east": {
+          "texture": "#end"
+        },
+        "north": {
+          "texture": "#wood"
+        },
+        "south": {
+          "texture": "#wood"
+        },
+        "up": {
+          "texture": "#wood"
+        },
+        "west": {
+          "texture": "#end"
+        }
+      },
+      "from": [
+        3.0,
+        3.5,
+        4.5
+      ],
+      "to": [
+        13.0,
+        5.7,
+        6.7
+      ]
+    },
+    {
+      "faces": {
+        "down": {
+          "texture": "#wood"
+        },
+        "east": {
+          "texture": "#wood"
+        },
+        "north": {
+          "texture": "#end"
+        },
+        "south": {
+          "texture": "#end"
+        },
+        "up": {
+          "texture": "#wood"
+        },
+        "west": {
+          "texture": "#wood"
+        }
+      },
+      "from": [
+        6.8,
+        3.8,
+        5.0
+      ],
+      "to": [
+        8.9,
+        7.1,
+        12.8
+      ]
+    },
+    {
+      "faces": {
+        "down": {
+          "texture": "#wood"
+        },
+        "east": {
+          "texture": "#end"
+        },
+        "north": {
+          "texture": "#wood"
+        },
+        "south": {
+          "texture": "#wood"
+        },
+        "up": {
+          "texture": "#wood"
+        },
+        "west": {
+          "texture": "#end"
+        }
+      },
+      "from": [
+        4.0,
+        6.5,
+        8.0
+      ],
+      "to": [
+        12.0,
+        8.7,
+        10.1
+      ]
+    }
+  ],
+  "parent": "minecraft:block/block",
+  "textures": {
+    "end": "before_the_blight:block/chestnut_log_top",
+    "leaf": "before_the_blight:block/forest_duff",
+    "particle": "before_the_blight:block/chestnut_log",
+    "wood": "before_the_blight:block/chestnut_log"
+  }
+}

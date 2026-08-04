@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "before_the_blight:packed_earth",
+    "before_the_blight:muddy_earth",
+    "before_the_blight:damp_earth"
+  ]
+}

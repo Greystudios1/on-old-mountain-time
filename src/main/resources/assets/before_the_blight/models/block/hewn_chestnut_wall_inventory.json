@@ -1,0 +1,105 @@
+{
+  "parent": "minecraft:block/block",
+  "display": {
+    "gui": {
+      "rotation": [30, 135, 0],
+      "translation": [0, 0, 0],
+      "scale": [0.625, 0.625, 0.625]
+    },
+    "fixed": {
+      "rotation": [0, 90, 0],
+      "translation": [0, 0, 0],
+      "scale": [0.5, 0.5, 0.5]
+    },
+    "on_shelf": {
+      "rotation": [0, 90, 0],
+      "translation": [0, 0, 0],
+      "scale": [1, 1, 1]
+    }
+  },
+  "textures": {
+    "particle": "before_the_blight:block/hewn_chestnut_beam",
+    "side": "before_the_blight:block/hewn_chestnut_beam",
+    "end": "before_the_blight:block/hewn_chestnut_beam_top"
+  },
+  "elements": [
+    {
+      "from": [4, 0, 4],
+      "to": [12, 16, 12],
+      "faces": {
+        "down": {"uv": [4, 4, 12, 12], "texture": "#end"},
+        "up": {"uv": [4, 4, 12, 12], "texture": "#end"},
+        "north": {"uv": [4, 0, 12, 16], "texture": "#side"},
+        "south": {"uv": [4, 0, 12, 16], "texture": "#side"},
+        "west": {"uv": [4, 0, 12, 16], "texture": "#side"},
+        "east": {"uv": [4, 0, 12, 16], "texture": "#side"}
+      }
+    },
+    {
+      "from": [5, 0, 0],
+      "to": [11, 4.5, 4],
+      "faces": {
+        "down": {"texture": "#side"},
+        "up": {"texture": "#side"},
+        "north": {"uv": [5, 6, 11, 10], "texture": "#end"},
+        "west": {"texture": "#side", "rotation": 90},
+        "east": {"texture": "#side", "rotation": 90}
+      }
+    },
+    {
+      "from": [5, 0, 12],
+      "to": [11, 4.5, 16],
+      "faces": {
+        "down": {"texture": "#side"},
+        "up": {"texture": "#side"},
+        "south": {"uv": [5, 6, 11, 10], "texture": "#end"},
+        "west": {"texture": "#side", "rotation": 90},
+        "east": {"texture": "#side", "rotation": 90}
+      }
+    },
+    {
+      "from": [5, 4.75, 0],
+      "to": [11, 9.25, 4],
+      "faces": {
+        "down": {"texture": "#side"},
+        "up": {"texture": "#side"},
+        "north": {"uv": [5, 6, 11, 10], "texture": "#end"},
+        "west": {"texture": "#side", "rotation": 90},
+        "east": {"texture": "#side", "rotation": 90}
+      }
+    },
+    {
+      "from": [5, 4.75, 12],
+      "to": [11, 9.25, 16],
+      "faces": {
+        "down": {"texture": "#side"},
+        "up": {"texture": "#side"},
+        "south": {"uv": [5, 6, 11, 10], "texture": "#end"},
+        "west": {"texture": "#side", "rotation": 90},
+        "east": {"texture": "#side", "rotation": 90}
+      }
+    },
+    {
+      "from": [5, 9.5, 0],
+      "to": [11, 14, 4],
+      "faces": {
+        "down": {"texture": "#side"},
+        "up": {"texture": "#side"},
+        "north": {"uv": [5, 6, 11, 10], "texture": "#end"},
+        "west": {"texture": "#side", "rotation": 90},
+        "east": {"texture": "#side", "rotation": 90}
+      }
+    },
+    {
+      "from": [5, 9.5, 12],
+      "to": [11, 14, 16],
+      "faces": {
+        "down": {"texture": "#side"},
+        "up": {"texture": "#side"},
+        "south": {"uv": [5, 6, 11, 10], "texture": "#end"},
+        "west": {"texture": "#side", "rotation": 90},
+        "east": {"texture": "#side", "rotation": 90}
+      }
+    }
+  ]
+}

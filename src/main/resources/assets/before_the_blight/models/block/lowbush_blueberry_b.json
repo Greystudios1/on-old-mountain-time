@@ -1,0 +1,8 @@
+{
+  "ambientocclusion": false,
+  "parent": "minecraft:block/tinted_cross",
+  "textures": {
+    "cross": "before_the_blight:block/lowbush_blueberry_b",
+    "particle": "before_the_blight:block/lowbush_blueberry_b"
+  }
+}

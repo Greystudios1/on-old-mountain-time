@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "before_the_blight:block/white_oak_split_rail_x"
+    },
+    "axis=y": {
+      "model": "before_the_blight:block/white_oak_split_rail_y"
+    },
+    "axis=z": {
+      "model": "before_the_blight:block/white_oak_split_rail_z"
+    }
+  }
+}

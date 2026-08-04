@@ -1,0 +1,32 @@
+{
+  "type": "before_the_blight:sparse_understory",
+  "config": {
+    "attempts": 12,
+    "foliage_provider": {
+      "type": "minecraft:weighted_state_provider",
+      "entries": [
+        {
+          "data": {
+            "Name": "before_the_blight:mountain_laurel"
+          },
+          "weight": 3
+        },
+        {
+          "data": {
+            "Name": "before_the_blight:lowbush_blueberry"
+          },
+          "weight": 5
+        },
+        {
+          "data": {
+            "Name": "before_the_blight:forest_duff"
+          },
+          "weight": 4
+        }
+      ]
+    },
+    "maximum_placements": 5,
+    "minimum_separation": 2,
+    "radius": 5
+  }
+}

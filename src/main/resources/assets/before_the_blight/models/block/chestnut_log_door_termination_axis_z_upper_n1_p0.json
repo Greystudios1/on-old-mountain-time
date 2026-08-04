@@ -1,0 +1,112 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "particle": "#side",
+    "side": "before_the_blight:block/chestnut_log",
+    "end": "before_the_blight:block/chestnut_log_top",
+    "cap_side": "before_the_blight:block/hewn_chestnut_beam",
+    "cap_end": "before_the_blight:block/hewn_chestnut_beam_top",
+    "chink": "before_the_blight:block/clay_chinking"
+  },
+  "elements": [
+    {
+      "from": [
+        2,
+        2,
+        0
+      ],
+      "to": [
+        14,
+        14,
+        14
+      ],
+      "faces": {
+        "west": {
+          "texture": "#side",
+          "rotation": 180
+        },
+        "east": {
+          "texture": "#side",
+          "rotation": 180
+        }
+      }
+    },
+    {
+      "from": [
+        2,
+        2,
+        14
+      ],
+      "to": [
+        14,
+        14,
+        16
+      ],
+      "faces": {
+        "south": {
+          "texture": "#cap_end"
+        },
+        "west": {
+          "texture": "#cap_side",
+          "rotation": 180
+        },
+        "east": {
+          "texture": "#cap_side",
+          "rotation": 180
+        }
+      }
+    },
+    {
+      "from": [
+        2,
+        0,
+        0
+      ],
+      "to": [
+        14,
+        2,
+        16
+      ],
+      "faces": {
+        "down": {
+          "texture": "#chink"
+        },
+        "south": {
+          "texture": "#chink"
+        },
+        "west": {
+          "texture": "#chink"
+        },
+        "east": {
+          "texture": "#chink"
+        }
+      }
+    },
+    {
+      "from": [
+        2,
+        14,
+        0
+      ],
+      "to": [
+        14,
+        16,
+        16
+      ],
+      "faces": {
+        "up": {
+          "texture": "#chink"
+        },
+        "south": {
+          "texture": "#chink"
+        },
+        "west": {
+          "texture": "#chink"
+        },
+        "east": {
+          "texture": "#chink"
+        }
+      }
+    }
+  ]
+}

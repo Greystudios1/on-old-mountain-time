@@ -1,0 +1,42 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "side": "before_the_blight:block/yellow_poplar_post",
+    "end": "before_the_blight:block/yellow_poplar_post_top",
+    "particle": "before_the_blight:block/yellow_poplar_post"
+  },
+  "elements": [
+    {
+      "from": [
+        0,
+        4,
+        4
+      ],
+      "to": [
+        16,
+        12,
+        12
+      ],
+      "faces": {
+        "down": {
+          "texture": "#side"
+        },
+        "up": {
+          "texture": "#side"
+        },
+        "north": {
+          "texture": "#side"
+        },
+        "south": {
+          "texture": "#side"
+        },
+        "west": {
+          "texture": "#end"
+        },
+        "east": {
+          "texture": "#end"
+        }
+      }
+    }
+  ]
+}

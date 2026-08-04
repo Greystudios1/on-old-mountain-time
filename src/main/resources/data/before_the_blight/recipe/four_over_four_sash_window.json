@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "BGB",
+    "GBG",
+    "BGB"
+  ],
+  "key": {
+    "B": "before_the_blight:sash_sawn_yellow_poplar_board",
+    "G": "minecraft:glass_pane"
+  },
+  "result": {
+    "count": 1,
+    "id": "before_the_blight:four_over_four_sash_window"
+  }
+}

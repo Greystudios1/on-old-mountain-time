@@ -1,0 +1,16 @@
+{
+  "category": "building",
+  "key": {
+    "B": "before_the_blight:rough_chestnut_boards",
+    "S": "minecraft:stick"
+  },
+  "pattern": [
+    " S ",
+    "BBB",
+    "BBB"
+  ],
+  "result": {
+    "id": "before_the_blight:dasher_churn"
+  },
+  "type": "minecraft:crafting_shaped"
+}

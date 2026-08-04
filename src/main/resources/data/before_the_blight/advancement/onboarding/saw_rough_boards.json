@@ -1,0 +1,50 @@
+{
+  "parent": "before_the_blight:onboarding/load_trestles",
+  "criteria": {
+    "finish_sawing_chestnut_beam": {
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": "before_the_blight:sawing_trestles"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": "before_the_blight:frame_saw"
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:item_used_on_block"
+    }
+  },
+  "display": {
+    "description": {
+      "text": "Work a loaded beam with the frame saw until it yields rough boards."
+    },
+    "icon": {
+      "id": "before_the_blight:rough_chestnut_boards"
+    },
+    "title": {
+      "text": "Boards by Hand"
+    }
+  },
+  "requirements": [
+    [
+      "finish_sawing_chestnut_beam"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "before_the_blight:splitting_stump",
+      "before_the_blight:froe",
+      "before_the_blight:wooden_maul"
+    ]
+  },
+  "sends_telemetry_event": false
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "before_the_blight:cornmeal",
+    "before_the_blight:cornmeal",
+    "before_the_blight:cornmeal"
+  ],
+  "result": {
+    "id": "minecraft:bread"
+  }
+}

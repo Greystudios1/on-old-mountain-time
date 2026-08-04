@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "before_the_blight:block/installed_forged_staple"
+    },
+    "facing=east": {
+      "model": "before_the_blight:block/installed_forged_staple",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "before_the_blight:block/installed_forged_staple",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "before_the_blight:block/installed_forged_staple",
+      "y": 270
+    }
+  }
+}

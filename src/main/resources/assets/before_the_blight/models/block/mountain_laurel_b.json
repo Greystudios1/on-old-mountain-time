@@ -1,0 +1,8 @@
+{
+  "ambientocclusion": false,
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "before_the_blight:block/mountain_laurel_b",
+    "particle": "before_the_blight:block/mountain_laurel_b"
+  }
+}

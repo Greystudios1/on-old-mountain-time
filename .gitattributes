@@ -1,0 +1,17 @@
+* text=auto
+.gitattributes text eol=lf
+*.java text eol=lf
+*.gradle text eol=lf
+*.json text eol=lf
+# Preserve the mixed line endings present in the 0.1.0-alpha.1 release resources.
+src/main/resources/**/*.json -text
+*.properties text eol=lf
+*.md text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+gradlew text eol=lf
+gradlew.bat text eol=crlf
+*.jar binary
+*.png binary
+*.ogg binary
+*.nbt binary

@@ -1,0 +1,23 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "before_the_blight:block/folded_patchwork_quilt",
+      "uvlock": true,
+      "y": 90
+    },
+    "facing=north": {
+      "model": "before_the_blight:block/folded_patchwork_quilt",
+      "uvlock": true
+    },
+    "facing=south": {
+      "model": "before_the_blight:block/folded_patchwork_quilt",
+      "uvlock": true,
+      "y": 180
+    },
+    "facing=west": {
+      "model": "before_the_blight:block/folded_patchwork_quilt",
+      "uvlock": true,
+      "y": 270
+    }
+  }
+}

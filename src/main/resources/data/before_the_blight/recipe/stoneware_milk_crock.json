@@ -1,0 +1,15 @@
+{
+  "category": "building",
+  "key": {
+    "B": "minecraft:brick"
+  },
+  "pattern": [
+    "B B",
+    "B B",
+    "BBB"
+  ],
+  "result": {
+    "id": "before_the_blight:stoneware_milk_crock"
+  },
+  "type": "minecraft:crafting_shaped"
+}

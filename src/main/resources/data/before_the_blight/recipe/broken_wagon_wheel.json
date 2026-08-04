@@ -1,0 +1,10 @@
+{
+  "category": "building",
+  "ingredients": [
+    "before_the_blight:wagon_wheel"
+  ],
+  "result": {
+    "id": "before_the_blight:broken_wagon_wheel"
+  },
+  "type": "minecraft:crafting_shapeless"
+}

@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "facing=down": {
+      "model": "before_the_blight:block/white_oak_furniture_board_facing_down"
+    },
+    "facing=up": {
+      "model": "before_the_blight:block/white_oak_furniture_board_facing_up"
+    },
+    "facing=north": {
+      "model": "before_the_blight:block/white_oak_furniture_board_facing_north"
+    },
+    "facing=south": {
+      "model": "before_the_blight:block/white_oak_furniture_board_facing_south"
+    },
+    "facing=west": {
+      "model": "before_the_blight:block/white_oak_furniture_board_facing_west"
+    },
+    "facing=east": {
+      "model": "before_the_blight:block/white_oak_furniture_board_facing_east"
+    }
+  }
+}

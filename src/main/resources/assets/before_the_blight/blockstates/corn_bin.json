@@ -1,0 +1,99 @@
+{
+  "variants": {
+    "facing=east,level=0": {
+      "model": "before_the_blight:block/corn_bin_level_0",
+      "uvlock": true,
+      "y": 90
+    },
+    "facing=east,level=1": {
+      "model": "before_the_blight:block/corn_bin_level_1",
+      "uvlock": true,
+      "y": 90
+    },
+    "facing=east,level=2": {
+      "model": "before_the_blight:block/corn_bin_level_2",
+      "uvlock": true,
+      "y": 90
+    },
+    "facing=east,level=3": {
+      "model": "before_the_blight:block/corn_bin_level_3",
+      "uvlock": true,
+      "y": 90
+    },
+    "facing=east,level=4": {
+      "model": "before_the_blight:block/corn_bin_level_4",
+      "uvlock": true,
+      "y": 90
+    },
+    "facing=north,level=0": {
+      "model": "before_the_blight:block/corn_bin_level_0",
+      "uvlock": true
+    },
+    "facing=north,level=1": {
+      "model": "before_the_blight:block/corn_bin_level_1",
+      "uvlock": true
+    },
+    "facing=north,level=2": {
+      "model": "before_the_blight:block/corn_bin_level_2",
+      "uvlock": true
+    },
+    "facing=north,level=3": {
+      "model": "before_the_blight:block/corn_bin_level_3",
+      "uvlock": true
+    },
+    "facing=north,level=4": {
+      "model": "before_the_blight:block/corn_bin_level_4",
+      "uvlock": true
+    },
+    "facing=south,level=0": {
+      "model": "before_the_blight:block/corn_bin_level_0",
+      "uvlock": true,
+      "y": 180
+    },
+    "facing=south,level=1": {
+      "model": "before_the_blight:block/corn_bin_level_1",
+      "uvlock": true,
+      "y": 180
+    },
+    "facing=south,level=2": {
+      "model": "before_the_blight:block/corn_bin_level_2",
+      "uvlock": true,
+      "y": 180
+    },
+    "facing=south,level=3": {
+      "model": "before_the_blight:block/corn_bin_level_3",
+      "uvlock": true,
+      "y": 180
+    },
+    "facing=south,level=4": {
+      "model": "before_the_blight:block/corn_bin_level_4",
+      "uvlock": true,
+      "y": 180
+    },
+    "facing=west,level=0": {
+      "model": "before_the_blight:block/corn_bin_level_0",
+      "uvlock": true,
+      "y": 270
+    },
+    "facing=west,level=1": {
+      "model": "before_the_blight:block/corn_bin_level_1",
+      "uvlock": true,
+      "y": 270
+    },
+    "facing=west,level=2": {
+      "model": "before_the_blight:block/corn_bin_level_2",
+      "uvlock": true,
+      "y": 270
+    },
+    "facing=west,level=3": {
+      "model": "before_the_blight:block/corn_bin_level_3",
+      "uvlock": true,
+      "y": 270
+    },
+    "facing=west,level=4": {
+      "model": "before_the_blight:block/corn_bin_level_4",
+      "uvlock": true,
+      "y": 270
+    }
+  }
+}

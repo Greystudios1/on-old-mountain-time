@@ -1,0 +1,106 @@
+{
+  "ambientocclusion": true,
+  "elements": [
+    {
+      "faces": {
+        "down": {
+          "texture": "#wood"
+        },
+        "east": {
+          "texture": "#wood"
+        },
+        "north": {
+          "texture": "#wood"
+        },
+        "south": {
+          "texture": "#wood"
+        },
+        "up": {
+          "texture": "#wood"
+        },
+        "west": {
+          "texture": "#wood"
+        }
+      },
+      "from": [
+        3.1,
+        4.4,
+        -0.1
+      ],
+      "to": [
+        7.0,
+        7.0,
+        8.15
+      ]
+    },
+    {
+      "faces": {
+        "down": {
+          "texture": "#wood"
+        },
+        "east": {
+          "texture": "#wood"
+        },
+        "north": {
+          "texture": "#wood"
+        },
+        "south": {
+          "texture": "#wood"
+        },
+        "up": {
+          "texture": "#wood"
+        },
+        "west": {
+          "texture": "#wood"
+        }
+      },
+      "from": [
+        9.0,
+        9.6,
+        -0.1
+      ],
+      "to": [
+        12.9,
+        12.1,
+        4.8
+      ]
+    },
+    {
+      "faces": {
+        "down": {
+          "texture": "#wood"
+        },
+        "east": {
+          "texture": "#wood"
+        },
+        "north": {
+          "texture": "#wood"
+        },
+        "south": {
+          "texture": "#wood"
+        },
+        "up": {
+          "texture": "#wood"
+        },
+        "west": {
+          "texture": "#wood"
+        }
+      },
+      "from": [
+        8.9,
+        7.9,
+        4.6
+      ],
+      "to": [
+        12.8,
+        10.2,
+        8.15
+      ]
+    }
+  ],
+  "parent": "minecraft:block/block",
+  "textures": {
+    "particle": "before_the_blight:block/split_chestnut_rails",
+    "wood": "before_the_blight:block/split_chestnut_rails"
+  }
+}

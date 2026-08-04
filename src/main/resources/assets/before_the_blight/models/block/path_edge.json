@@ -1,0 +1,74 @@
+{
+  "ambientocclusion": true,
+  "elements": [
+    {
+      "faces": {
+        "down": {
+          "texture": "#ground"
+        },
+        "east": {
+          "texture": "#ground"
+        },
+        "north": {
+          "texture": "#ground"
+        },
+        "south": {
+          "texture": "#ground"
+        },
+        "up": {
+          "texture": "#ground"
+        },
+        "west": {
+          "texture": "#ground"
+        }
+      },
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        16,
+        0.6,
+        4.0
+      ]
+    },
+    {
+      "faces": {
+        "down": {
+          "texture": "#ground"
+        },
+        "east": {
+          "texture": "#ground"
+        },
+        "north": {
+          "texture": "#ground"
+        },
+        "south": {
+          "texture": "#ground"
+        },
+        "up": {
+          "texture": "#ground"
+        },
+        "west": {
+          "texture": "#ground"
+        }
+      },
+      "from": [
+        1.0,
+        0,
+        3.8
+      ],
+      "to": [
+        9.0,
+        0.8,
+        6.0
+      ]
+    }
+  ],
+  "parent": "minecraft:block/block",
+  "textures": {
+    "ground": "before_the_blight:block/forest_duff",
+    "particle": "before_the_blight:block/forest_duff"
+  }
+}

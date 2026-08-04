@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/leaves",
+  "textures": {
+    "all": "before_the_blight:block/chestnut_leaves"
+  }
+}

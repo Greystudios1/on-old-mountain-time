@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "pattern": [
+    "BBB",
+    "BSB",
+    "BBB"
+  ],
+  "key": {
+    "B": "before_the_blight:rough_chestnut_boards",
+    "S": "minecraft:stick"
+  },
+  "result": {
+    "count": 1,
+    "id": "before_the_blight:cellar_hatch"
+  }
+}

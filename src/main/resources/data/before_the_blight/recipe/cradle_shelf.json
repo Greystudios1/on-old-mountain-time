@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "decorations",
+  "key": {
+    "P": "minecraft:birch_planks",
+    "S": "minecraft:stick"
+  },
+  "pattern": [
+    "PPP",
+    "P P",
+    " S "
+  ],
+  "result": {
+    "id": "before_the_blight:cradle_shelf"
+  }
+}

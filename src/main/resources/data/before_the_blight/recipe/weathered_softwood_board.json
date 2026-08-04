@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    "#before_the_blight:rough_softwood_boards"
+  ],
+  "result": {
+    "count": 1,
+    "id": "before_the_blight:weathered_softwood_board"
+  }
+}

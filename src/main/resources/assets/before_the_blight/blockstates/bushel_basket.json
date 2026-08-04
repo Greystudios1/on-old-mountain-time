@@ -1,0 +1,42 @@
+{
+  "variants": {
+    "facing=east,filled=false": {
+      "model": "before_the_blight:block/bushel_basket_empty",
+      "uvlock": true,
+      "y": 90
+    },
+    "facing=east,filled=true": {
+      "model": "before_the_blight:block/bushel_basket_filled",
+      "uvlock": true,
+      "y": 90
+    },
+    "facing=north,filled=false": {
+      "model": "before_the_blight:block/bushel_basket_empty",
+      "uvlock": true
+    },
+    "facing=north,filled=true": {
+      "model": "before_the_blight:block/bushel_basket_filled",
+      "uvlock": true
+    },
+    "facing=south,filled=false": {
+      "model": "before_the_blight:block/bushel_basket_empty",
+      "uvlock": true,
+      "y": 180
+    },
+    "facing=south,filled=true": {
+      "model": "before_the_blight:block/bushel_basket_filled",
+      "uvlock": true,
+      "y": 180
+    },
+    "facing=west,filled=false": {
+      "model": "before_the_blight:block/bushel_basket_empty",
+      "uvlock": true,
+      "y": 270
+    },
+    "facing=west,filled=true": {
+      "model": "before_the_blight:block/bushel_basket_filled",
+      "uvlock": true,
+      "y": 270
+    }
+  }
+}

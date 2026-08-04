@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "before_the_blight:block/chestnut_ridgepole_axis_x"
+    },
+    "axis=y": {
+      "model": "before_the_blight:block/chestnut_ridgepole_axis_y"
+    },
+    "axis=z": {
+      "model": "before_the_blight:block/chestnut_ridgepole_axis_z"
+    }
+  }
+}

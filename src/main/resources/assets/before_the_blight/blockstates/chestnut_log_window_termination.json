@@ -1,0 +1,260 @@
+{
+  "multipart": [
+    {
+      "when": {
+        "axis": "x",
+        "course": "lower",
+        "negative_connected": "false",
+        "positive_connected": "false"
+      },
+      "apply": {
+        "model": "before_the_blight:block/chestnut_log_window_termination_axis_x_lower_n0_p0"
+      }
+    },
+    {
+      "when": {
+        "axis": "x",
+        "course": "lower",
+        "negative_connected": "false",
+        "positive_connected": "true"
+      },
+      "apply": {
+        "model": "before_the_blight:block/chestnut_log_window_termination_axis_x_lower_n0_p1"
+      }
+    },
+    {
+      "when": {
+        "axis": "x",
+        "course": "lower",
+        "negative_connected": "true",
+        "positive_connected": "false"
+      },
+      "apply": {
+        "model": "before_the_blight:block/chestnut_log_window_termination_axis_x_lower_n1_p0"
+      }
+    },
+    {
+      "when": {
+        "axis": "x",
+        "course": "lower",
+        "negative_connected": "true",
+        "positive_connected": "true"
+      },
+      "apply": {
+        "model": "before_the_blight:block/chestnut_log_window_termination_axis_x_lower_n1_p1"
+      }
+    },
+    {
+      "when": {
+        "axis": "x",
+        "course": "upper",
+        "negative_connected": "false",
+        "positive_connected": "false"
+      },
+      "apply": {
+        "model": "before_the_blight:block/chestnut_log_window_termination_axis_x_upper_n0_p0"
+      }
+    },
+    {
+      "when": {
+        "axis": "x",
+        "course": "upper",
+        "negative_connected": "false",
+        "positive_connected": "true"
+      },
+      "apply": {
+        "model": "before_the_blight:block/chestnut_log_window_termination_axis_x_upper_n0_p1"
+      }
+    },
+    {
+      "when": {
+        "axis": "x",
+        "course": "upper",
+        "negative_connected": "true",
+        "positive_connected": "false"
+      },
+      "apply": {
+        "model": "before_the_blight:block/chestnut_log_window_termination_axis_x_upper_n1_p0"
+      }
+    },
+    {
+      "when": {
+        "axis": "x",
+        "course": "upper",
+        "negative_connected": "true",
+        "positive_connected": "true"
+      },
+      "apply": {
+        "model": "before_the_blight:block/chestnut_log_window_termination_axis_x_upper_n1_p1"
+      }
+    },
+    {
+      "when": {
+        "axis": "z",
+        "course": "lower",
+        "negative_connected": "false",
+        "positive_connected": "false"
+      },
+      "apply": {
+        "model": "before_the_blight:block/chestnut_log_window_termination_axis_z_lower_n0_p0"
+      }
+    },
+    {
+      "when": {
+        "axis": "z",
+        "course": "lower",
+        "negative_connected": "false",
+        "positive_connected": "true"
+      },
+      "apply": {
+        "model": "before_the_blight:block/chestnut_log_window_termination_axis_z_lower_n0_p1"
+      }
+    },
+    {
+      "when": {
+        "axis": "z",
+        "course": "lower",
+        "negative_connected": "true",
+        "positive_connected": "false"
+      },
+      "apply": {
+        "model": "before_the_blight:block/chestnut_log_window_termination_axis_z_lower_n1_p0"
+      }
+    },
+    {
+      "when": {
+        "axis": "z",
+        "course": "lower",
+        "negative_connected": "true",
+        "positive_connected": "true"
+      },
+      "apply": {
+        "model": "before_the_blight:block/chestnut_log_window_termination_axis_z_lower_n1_p1"
+      }
+    },
+    {
+      "when": {
+        "axis": "z",
+        "course": "upper",
+        "negative_connected": "false",
+        "positive_connected": "false"
+      },
+      "apply": {
+        "model": "before_the_blight:block/chestnut_log_window_termination_axis_z_upper_n0_p0"
+      }
+    },
+    {
+      "when": {
+        "axis": "z",
+        "course": "upper",
+        "negative_connected": "false",
+        "positive_connected": "true"
+      },
+      "apply": {
+        "model": "before_the_blight:block/chestnut_log_window_termination_axis_z_upper_n0_p1"
+      }
+    },
+    {
+      "when": {
+        "axis": "z",
+        "course": "upper",
+        "negative_connected": "true",
+        "positive_connected": "false"
+      },
+      "apply": {
+        "model": "before_the_blight:block/chestnut_log_window_termination_axis_z_upper_n1_p0"
+      }
+    },
+    {
+      "when": {
+        "axis": "z",
+        "course": "upper",
+        "negative_connected": "true",
+        "positive_connected": "true"
+      },
+      "apply": {
+        "model": "before_the_blight:block/chestnut_log_window_termination_axis_z_upper_n1_p1"
+      }
+    },
+    {
+      "when": {
+        "axis": "x",
+        "course": "lower",
+        "negative_perpendicular_connected": "true"
+      },
+      "apply": {
+        "model": "before_the_blight:block/connected_chestnut_log_wall_perpendicular_join_axis_x_lower_negative"
+      }
+    },
+    {
+      "when": {
+        "axis": "x",
+        "course": "lower",
+        "positive_perpendicular_connected": "true"
+      },
+      "apply": {
+        "model": "before_the_blight:block/connected_chestnut_log_wall_perpendicular_join_axis_x_lower_positive"
+      }
+    },
+    {
+      "when": {
+        "axis": "x",
+        "course": "upper",
+        "negative_perpendicular_connected": "true"
+      },
+      "apply": {
+        "model": "before_the_blight:block/connected_chestnut_log_wall_perpendicular_join_axis_x_upper_negative"
+      }
+    },
+    {
+      "when": {
+        "axis": "x",
+        "course": "upper",
+        "positive_perpendicular_connected": "true"
+      },
+      "apply": {
+        "model": "before_the_blight:block/connected_chestnut_log_wall_perpendicular_join_axis_x_upper_positive"
+      }
+    },
+    {
+      "when": {
+        "axis": "z",
+        "course": "lower",
+        "negative_perpendicular_connected": "true"
+      },
+      "apply": {
+        "model": "before_the_blight:block/connected_chestnut_log_wall_perpendicular_join_axis_z_lower_negative"
+      }
+    },
+    {
+      "when": {
+        "axis": "z",
+        "course": "lower",
+        "positive_perpendicular_connected": "true"
+      },
+      "apply": {
+        "model": "before_the_blight:block/connected_chestnut_log_wall_perpendicular_join_axis_z_lower_positive"
+      }
+    },
+    {
+      "when": {
+        "axis": "z",
+        "course": "upper",
+        "negative_perpendicular_connected": "true"
+      },
+      "apply": {
+        "model": "before_the_blight:block/connected_chestnut_log_wall_perpendicular_join_axis_z_upper_negative"
+      }
+    },
+    {
+      "when": {
+        "axis": "z",
+        "course": "upper",
+        "positive_perpendicular_connected": "true"
+      },
+      "apply": {
+        "model": "before_the_blight:block/connected_chestnut_log_wall_perpendicular_join_axis_z_upper_positive"
+      }
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "category": "building",
+  "key": {
+    "B": "before_the_blight:chestnut_planks",
+    "S": "before_the_blight:chestnut_slab"
+  },
+  "pattern": [
+    "B B",
+    "S S",
+    "BBB"
+  ],
+  "result": {
+    "id": "before_the_blight:wooden_barrel"
+  },
+  "type": "minecraft:crafting_shaped"
+}

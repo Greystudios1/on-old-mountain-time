@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_dressed_fieldstone_slab": {
+      "conditions": {
+        "items": [
+          {
+            "items": "before_the_blight:dressed_fieldstone_slab"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "before_the_blight:chiseled_fieldstone"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_dressed_fieldstone_slab"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "before_the_blight:chiseled_fieldstone"
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:string",
+    "minecraft:fern",
+    "minecraft:wheat"
+  ],
+  "result": {
+    "id": "before_the_blight:dried_herb_bunch"
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "multipart": [
+    {
+      "when": {"facing": "north", "mirrored": "false"},
+      "apply": {"model": "before_the_blight:block/hewn_chestnut_knee_brace"}
+    },
+    {
+      "when": {"facing": "east", "mirrored": "false"},
+      "apply": {
+        "model": "before_the_blight:block/hewn_chestnut_knee_brace",
+        "uvlock": true,
+        "y": 90
+      }
+    },
+    {
+      "when": {"facing": "south", "mirrored": "false"},
+      "apply": {
+        "model": "before_the_blight:block/hewn_chestnut_knee_brace",
+        "uvlock": true,
+        "y": 180
+      }
+    },
+    {
+      "when": {"facing": "west", "mirrored": "false"},
+      "apply": {
+        "model": "before_the_blight:block/hewn_chestnut_knee_brace",
+        "uvlock": true,
+        "y": 270
+      }
+    },
+    {
+      "when": {"facing": "north", "mirrored": "true"},
+      "apply": {"model": "before_the_blight:block/hewn_chestnut_knee_brace_mirrored"}
+    },
+    {
+      "when": {"facing": "east", "mirrored": "true"},
+      "apply": {
+        "model": "before_the_blight:block/hewn_chestnut_knee_brace_mirrored",
+        "uvlock": true,
+        "y": 90
+      }
+    },
+    {
+      "when": {"facing": "south", "mirrored": "true"},
+      "apply": {
+        "model": "before_the_blight:block/hewn_chestnut_knee_brace_mirrored",
+        "uvlock": true,
+        "y": 180
+      }
+    },
+    {
+      "when": {"facing": "west", "mirrored": "true"},
+      "apply": {
+        "model": "before_the_blight:block/hewn_chestnut_knee_brace_mirrored",
+        "uvlock": true,
+        "y": 270
+      }
+    }
+  ]
+}

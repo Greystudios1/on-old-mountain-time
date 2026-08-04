@@ -1,0 +1,18 @@
+{
+  "placement": {
+    "type": "minecraft:random_spread",
+    "exclusion_zone": {
+      "chunk_count": 1,
+      "other_set": "before_the_blight:appalachian_homesteads"
+    },
+    "salt": 18260723,
+    "separation": 6,
+    "spacing": 16
+  },
+  "structures": [
+    {
+      "structure": "before_the_blight:appalachian_corn_crib",
+      "weight": 1
+    }
+  ]
+}

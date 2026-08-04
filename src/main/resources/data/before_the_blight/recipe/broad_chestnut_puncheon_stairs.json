@@ -1,0 +1,17 @@
+{
+  "category": "building",
+  "group": "wooden_stairs",
+  "key": {
+    "#": "before_the_blight:broad_chestnut_puncheon_floor"
+  },
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "result": {
+    "count": 4,
+    "id": "before_the_blight:broad_chestnut_puncheon_stairs"
+  },
+  "type": "minecraft:crafting_shaped"
+}

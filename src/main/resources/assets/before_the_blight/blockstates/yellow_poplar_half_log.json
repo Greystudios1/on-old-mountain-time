@@ -1,0 +1,58 @@
+{
+  "variants": {
+    "axis=x,flat_face=down": {
+      "model": "before_the_blight:block/yellow_poplar_half_log_axis_x_flat_face_down"
+    },
+    "axis=x,flat_face=up": {
+      "model": "before_the_blight:block/yellow_poplar_half_log_axis_x_flat_face_up"
+    },
+    "axis=x,flat_face=north": {
+      "model": "before_the_blight:block/yellow_poplar_half_log_axis_x_flat_face_north"
+    },
+    "axis=x,flat_face=south": {
+      "model": "before_the_blight:block/yellow_poplar_half_log_axis_x_flat_face_south"
+    },
+    "axis=x,flat_face=west": {
+      "model": "before_the_blight:block/yellow_poplar_half_log_axis_x_flat_face_up"
+    },
+    "axis=x,flat_face=east": {
+      "model": "before_the_blight:block/yellow_poplar_half_log_axis_x_flat_face_up"
+    },
+    "axis=y,flat_face=down": {
+      "model": "before_the_blight:block/yellow_poplar_half_log_axis_y_flat_face_north"
+    },
+    "axis=y,flat_face=up": {
+      "model": "before_the_blight:block/yellow_poplar_half_log_axis_y_flat_face_north"
+    },
+    "axis=y,flat_face=north": {
+      "model": "before_the_blight:block/yellow_poplar_half_log_axis_y_flat_face_north"
+    },
+    "axis=y,flat_face=south": {
+      "model": "before_the_blight:block/yellow_poplar_half_log_axis_y_flat_face_south"
+    },
+    "axis=y,flat_face=west": {
+      "model": "before_the_blight:block/yellow_poplar_half_log_axis_y_flat_face_west"
+    },
+    "axis=y,flat_face=east": {
+      "model": "before_the_blight:block/yellow_poplar_half_log_axis_y_flat_face_east"
+    },
+    "axis=z,flat_face=down": {
+      "model": "before_the_blight:block/yellow_poplar_half_log_axis_z_flat_face_down"
+    },
+    "axis=z,flat_face=up": {
+      "model": "before_the_blight:block/yellow_poplar_half_log_axis_z_flat_face_up"
+    },
+    "axis=z,flat_face=north": {
+      "model": "before_the_blight:block/yellow_poplar_half_log_axis_z_flat_face_up"
+    },
+    "axis=z,flat_face=south": {
+      "model": "before_the_blight:block/yellow_poplar_half_log_axis_z_flat_face_up"
+    },
+    "axis=z,flat_face=west": {
+      "model": "before_the_blight:block/yellow_poplar_half_log_axis_z_flat_face_west"
+    },
+    "axis=z,flat_face=east": {
+      "model": "before_the_blight:block/yellow_poplar_half_log_axis_z_flat_face_east"
+    }
+  }
+}

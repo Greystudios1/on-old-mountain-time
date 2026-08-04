@@ -1,0 +1,16 @@
+{
+  "category": "building",
+  "key": {
+    "#": "before_the_blight:fieldstone",
+    "C": "minecraft:clay_ball"
+  },
+  "pattern": [
+    " C ",
+    "###"
+  ],
+  "result": {
+    "count": 2,
+    "id": "before_the_blight:fieldstone_chimney_roof_transition"
+  },
+  "type": "minecraft:crafting_shaped"
+}

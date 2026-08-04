@@ -1,0 +1,24 @@
+{
+  "replace": false,
+  "values": [
+    "before_the_blight:hand_hewn_yellow_poplar_log",
+    "before_the_blight:squared_yellow_poplar_timber",
+    "before_the_blight:hand_hewn_white_oak_timber",
+    "before_the_blight:pegged_chestnut_scarf_joint",
+    "before_the_blight:hewn_chestnut_knee_brace",
+    "before_the_blight:chestnut_repair_corner",
+    "before_the_blight:chestnut_sill_beam",
+    "before_the_blight:chestnut_wall_plate",
+    "before_the_blight:chestnut_joist",
+    "before_the_blight:chestnut_tie_beam",
+    "before_the_blight:chestnut_trough_sleeper",
+    "before_the_blight:chestnut_blocking_timber",
+    "before_the_blight:tapered_hewn_chestnut_post",
+    "before_the_blight:pegged_chestnut_diagonal_brace",
+    "before_the_blight:chestnut_mortise_tenon_joint",
+    "before_the_blight:chestnut_half_lap_joint",
+    "before_the_blight:chestnut_cross_lap_joint",
+    "before_the_blight:chestnut_end_tenon",
+    "before_the_blight:chestnut_beam_pocket_repair"
+  ]
+}

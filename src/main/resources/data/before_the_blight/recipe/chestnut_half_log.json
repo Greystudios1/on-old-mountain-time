@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "R": "before_the_blight:chestnut_log"
+  },
+  "pattern": [
+    "RRR",
+    " R "
+  ],
+  "result": {
+    "count": 8,
+    "id": "before_the_blight:chestnut_half_log"
+  }
+}

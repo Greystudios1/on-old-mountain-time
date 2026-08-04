@@ -1,0 +1,32 @@
+{
+  "parent": "before_the_blight:onboarding/saw_rough_boards",
+  "criteria": {
+    "chestnut_shingles": {
+      "conditions": {
+        "items": [
+          {
+            "items": "before_the_blight:chestnut_shingles"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "text": "Load a hewn chestnut beam on a splitting stump, set the froe on top, and strike with the maul."
+    },
+    "icon": {
+      "id": "before_the_blight:chestnut_shingles"
+    },
+    "title": {
+      "text": "Keep the Rain Out"
+    }
+  },
+  "requirements": [
+    [
+      "chestnut_shingles"
+    ]
+  ],
+  "sends_telemetry_event": false
+}

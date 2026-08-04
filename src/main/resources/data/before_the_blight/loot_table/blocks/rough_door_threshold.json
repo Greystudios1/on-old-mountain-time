@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "before_the_blight:rough_door_threshold"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "before_the_blight:blocks/rough_door_threshold"
+}

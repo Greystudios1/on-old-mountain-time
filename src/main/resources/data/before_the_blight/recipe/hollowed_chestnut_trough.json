@@ -1,0 +1,14 @@
+{
+  "category": "building",
+  "key": {
+    "L": "before_the_blight:chestnut_log"
+  },
+  "pattern": [
+    "LLL",
+    "L L"
+  ],
+  "result": {
+    "id": "before_the_blight:hollowed_chestnut_trough"
+  },
+  "type": "minecraft:crafting_shaped"
+}

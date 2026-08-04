@@ -1,0 +1,20 @@
+{
+  "replace": false,
+  "values": [
+    "before_the_blight:random_width_chestnut_boardwork",
+    "before_the_blight:random_width_poplar_boardwork",
+    "before_the_blight:broad_chestnut_puncheon_floor",
+    "before_the_blight:broad_chestnut_puncheon_stairs",
+    "before_the_blight:broad_chestnut_puncheon_slab",
+    "before_the_blight:broad_poplar_puncheon_floor",
+    "before_the_blight:broad_poplar_puncheon_stairs",
+    "before_the_blight:broad_poplar_puncheon_slab",
+    "before_the_blight:chestnut_board_and_batten_siding",
+    "before_the_blight:poplar_board_and_batten_siding",
+    "before_the_blight:exposed_roof_board",
+    "before_the_blight:exposed_rafter_tail",
+    "before_the_blight:loft_hatch",
+    "before_the_blight:rough_board_stack",
+    "before_the_blight:loose_board"
+  ]
+}

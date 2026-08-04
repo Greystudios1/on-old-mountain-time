@@ -1,0 +1,20 @@
+{
+  "replace": false,
+  "values": [
+    "before_the_blight:folded_patchwork_quilt",
+    "before_the_blight:folded_wool_blanket",
+    "before_the_blight:rag_rug",
+    "before_the_blight:woven_wall_textile",
+    "before_the_blight:wooden_wash_tub",
+    "before_the_blight:washboard",
+    "before_the_blight:soap_block",
+    {
+      "id": "#before_the_blight:furniture/cabin",
+      "required": false
+    },
+    {
+      "id": "#before_the_blight:springhouse_furniture",
+      "required": false
+    }
+  ]
+}

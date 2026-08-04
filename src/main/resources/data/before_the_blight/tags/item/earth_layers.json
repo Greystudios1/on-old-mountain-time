@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "before_the_blight:ash_layer",
+    "before_the_blight:soot_layer",
+    "before_the_blight:hearth_ash_scatter",
+    "before_the_blight:clay_spill_layer",
+    "before_the_blight:packed_earth_layer",
+    "before_the_blight:damp_earth_layer",
+    "before_the_blight:muddy_earth_layer",
+    "before_the_blight:cold_coal_scatter"
+  ]
+}

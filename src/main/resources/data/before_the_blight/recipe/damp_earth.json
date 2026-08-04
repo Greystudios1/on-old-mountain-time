@@ -1,0 +1,11 @@
+{
+  "category": "building",
+  "ingredients": [
+    "minecraft:dirt",
+    "minecraft:water_bucket"
+  ],
+  "result": {
+    "id": "before_the_blight:damp_earth"
+  },
+  "type": "minecraft:crafting_shapeless"
+}

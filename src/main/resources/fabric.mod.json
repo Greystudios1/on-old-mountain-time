@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "id": "before_the_blight",
+  "version": "${version}",
+  "name": "Before the Blight",
+  "description": "An Appalachian survival-building expansion centered on restored chestnut forests, hand-tool timber processing, regional foodways, and inhabitable homesteads.",
+  "authors": [
+    "GreyStudio"
+  ],
+  "license": "All-Rights-Reserved",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.beforetheblight.BeforeTheBlight"
+    ],
+    "client": [
+      "net.beforetheblight.client.BeforeTheBlightClient"
+    ],
+    "rei_client": [
+      "net.beforetheblight.compat.rei.BeforeTheBlightReiClientPlugin"
+    ],
+    "fabric-datagen": [
+      "net.beforetheblight.datagen.BeforeTheBlightDataGenerator"
+    ]
+  },
+  "mixins": [
+    "before_the_blight.mixins.json",
+    {
+      "config": "before_the_blight.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=0.19.3",
+    "minecraft": "~26.1.2",
+    "java": ">=25",
+    "fabric-api": ">=0.155.2+26.1.2",
+    "lithostitched": "1.7.13"
+  },
+  "suggests": {
+    "sereneseasons": "${serene_seasons_version}"
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "textures": {
+    "particle": "before_the_blight:block/hewn_chestnut_beam",
+    "side": "before_the_blight:block/hewn_chestnut_beam",
+    "end": "before_the_blight:block/hewn_chestnut_beam_top"
+  },
+  "elements": [
+    {
+      "from": [5, 0, 0],
+      "to": [11, 4.5, 4],
+      "faces": {
+        "down": {"texture": "#side"},
+        "up": {"texture": "#side"},
+        "north": {
+          "uv": [5, 6, 11, 10],
+          "texture": "#end",
+          "cullface": "north"
+        },
+        "west": {"texture": "#side", "rotation": 90},
+        "east": {"texture": "#side", "rotation": 90}
+      }
+    },
+    {
+      "from": [5, 4.75, 0],
+      "to": [11, 9.25, 4],
+      "faces": {
+        "down": {"texture": "#side"},
+        "up": {"texture": "#side"},
+        "north": {
+          "uv": [5, 6, 11, 10],
+          "texture": "#end",
+          "cullface": "north"
+        },
+        "west": {"texture": "#side", "rotation": 90},
+        "east": {"texture": "#side", "rotation": 90}
+      }
+    },
+    {
+      "from": [5, 9.5, 0],
+      "to": [11, 14, 4],
+      "faces": {
+        "down": {"texture": "#side"},
+        "up": {"texture": "#side"},
+        "north": {
+          "uv": [5, 6, 11, 10],
+          "texture": "#end",
+          "cullface": "north"
+        },
+        "west": {"texture": "#side", "rotation": 90},
+        "east": {"texture": "#side", "rotation": 90}
+      }
+    }
+  ]
+}

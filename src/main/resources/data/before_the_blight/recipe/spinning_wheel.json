@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "decorations",
+  "key": {
+    "S": "minecraft:stick",
+    "D": "minecraft:dark_oak_planks",
+    "T": "minecraft:string"
+  },
+  "pattern": [
+    "SDS",
+    " ST",
+    "SDS"
+  ],
+  "result": {
+    "id": "before_the_blight:spinning_wheel"
+  }
+}

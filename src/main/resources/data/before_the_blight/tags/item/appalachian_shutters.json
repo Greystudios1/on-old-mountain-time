@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "before_the_blight:board_shutter",
+    "before_the_blight:paired_board_shutters",
+    "before_the_blight:wooden_louver"
+  ]
+}

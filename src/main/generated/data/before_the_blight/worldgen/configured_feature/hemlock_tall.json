@@ -1,0 +1,64 @@
+{
+  "type": "minecraft:tree",
+  "config": {
+    "below_trunk_provider": {
+      "type": "minecraft:rule_based_state_provider",
+      "rules": [
+        {
+          "if_true": {
+            "type": "minecraft:not",
+            "predicate": {
+              "type": "minecraft:matching_block_tag",
+              "tag": "minecraft:cannot_replace_below_tree_trunk"
+            }
+          },
+          "then": {
+            "type": "minecraft:simple_state_provider",
+            "state": {
+              "Name": "minecraft:dirt"
+            }
+          }
+        }
+      ]
+    },
+    "decorators": [],
+    "foliage_placer": {
+      "type": "before_the_blight:tiered_hemlock_foliage_placer",
+      "offset": 2,
+      "radius": 2
+    },
+    "foliage_provider": {
+      "type": "minecraft:simple_state_provider",
+      "state": {
+        "Name": "before_the_blight:hemlock_foliage",
+        "Properties": {
+          "distance": "7",
+          "persistent": "false",
+          "waterlogged": "false"
+        }
+      }
+    },
+    "ignore_vines": true,
+    "minimum_size": {
+      "type": "minecraft:two_layers_feature_size",
+      "limit": 2,
+      "lower_size": 0,
+      "upper_size": 3
+    },
+    "trunk_placer": {
+      "type": "before_the_blight:tiered_hemlock_trunk_placer",
+      "base_height": 18,
+      "height_rand_a": 5,
+      "height_rand_b": 4
+    },
+    "trunk_provider": {
+      "type": "minecraft:simple_state_provider",
+      "state": {
+        "Name": "before_the_blight:hemlock_log",
+        "Properties": {
+          "axis": "y"
+        }
+      }
+    }
+  }
+}

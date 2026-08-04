@@ -1,0 +1,42 @@
+{
+  "variants": {
+    "facing=north,occupied=false": {
+      "model": "before_the_blight:block/rough_three_legged_stool",
+      "uvlock": true
+    },
+    "facing=north,occupied=true": {
+      "model": "before_the_blight:block/rough_three_legged_stool",
+      "uvlock": true
+    },
+    "facing=east,occupied=false": {
+      "model": "before_the_blight:block/rough_three_legged_stool",
+      "uvlock": true,
+      "y": 90
+    },
+    "facing=east,occupied=true": {
+      "model": "before_the_blight:block/rough_three_legged_stool",
+      "uvlock": true,
+      "y": 90
+    },
+    "facing=south,occupied=false": {
+      "model": "before_the_blight:block/rough_three_legged_stool",
+      "uvlock": true,
+      "y": 180
+    },
+    "facing=south,occupied=true": {
+      "model": "before_the_blight:block/rough_three_legged_stool",
+      "uvlock": true,
+      "y": 180
+    },
+    "facing=west,occupied=false": {
+      "model": "before_the_blight:block/rough_three_legged_stool",
+      "uvlock": true,
+      "y": 270
+    },
+    "facing=west,occupied=true": {
+      "model": "before_the_blight:block/rough_three_legged_stool",
+      "uvlock": true,
+      "y": 270
+    }
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "before_the_blight:block/soot_stained_whitewashed_fieldstone"
+  }
+}

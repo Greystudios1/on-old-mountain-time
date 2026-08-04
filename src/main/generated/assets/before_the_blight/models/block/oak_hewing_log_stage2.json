@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "down": "minecraft:block/oak_log_top",
+    "east": "before_the_blight:block/hewn_oak_beam",
+    "north": "before_the_blight:block/hewn_oak_beam",
+    "particle": "minecraft:block/oak_log",
+    "south": "minecraft:block/oak_log",
+    "up": "minecraft:block/oak_log_top",
+    "west": "minecraft:block/oak_log"
+  }
+}

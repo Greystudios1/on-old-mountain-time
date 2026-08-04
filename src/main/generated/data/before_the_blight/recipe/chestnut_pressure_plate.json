@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "group": "wooden_pressure_plate",
+  "key": {
+    "#": "before_the_blight:chestnut_planks"
+  },
+  "pattern": [
+    "##"
+  ],
+  "result": {
+    "id": "before_the_blight:chestnut_pressure_plate"
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "parent": "minecraft:block/block",
+  "ambientocclusion": true,
+  "textures": {
+    "particle": "before_the_blight:block/exposed_roof_board",
+    "texture": "before_the_blight:block/exposed_roof_board"
+  },
+  "elements": [
+    {
+      "from": [
+        2.5,
+        0,
+        6.5
+      ],
+      "to": [
+        13.5,
+        2,
+        9.5
+      ],
+      "faces": {
+        "north": {
+          "texture": "#texture"
+        },
+        "east": {
+          "texture": "#texture"
+        },
+        "south": {
+          "texture": "#texture"
+        },
+        "west": {
+          "texture": "#texture"
+        },
+        "up": {
+          "texture": "#texture"
+        },
+        "down": {
+          "texture": "#texture"
+        }
+      }
+    },
+    {
+      "from": [
+        2,
+        2,
+        6.5
+      ],
+      "to": [
+        14,
+        16,
+        9.5
+      ],
+      "faces": {
+        "north": {
+          "texture": "#texture"
+        },
+        "east": {
+          "texture": "#texture"
+        },
+        "south": {
+          "texture": "#texture"
+        },
+        "west": {
+          "texture": "#texture"
+        },
+        "up": {
+          "texture": "#texture"
+        },
+        "down": {
+          "texture": "#texture"
+        }
+      }
+    }
+  ]
+}

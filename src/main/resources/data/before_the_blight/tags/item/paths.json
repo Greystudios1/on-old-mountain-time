@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "before_the_blight:packed_dirt_path",
+    "before_the_blight:path_edge",
+    "before_the_blight:wagon_rut",
+    "before_the_blight:muddy_wagon_rut",
+    "before_the_blight:stream_bank_stones",
+    "before_the_blight:exposed_root",
+    "before_the_blight:moss_patch",
+    "before_the_blight:leaf_litter"
+  ]
+}

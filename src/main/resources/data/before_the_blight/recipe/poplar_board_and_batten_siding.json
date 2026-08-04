@@ -1,0 +1,16 @@
+{
+  "category": "building",
+  "key": {
+    "B": "before_the_blight:hand_split_yellow_poplar_board",
+    "S": "minecraft:stick"
+  },
+  "pattern": [
+    "BSB",
+    "BSB"
+  ],
+  "result": {
+    "count": 6,
+    "id": "before_the_blight:poplar_board_and_batten_siding"
+  },
+  "type": "minecraft:crafting_shaped"
+}

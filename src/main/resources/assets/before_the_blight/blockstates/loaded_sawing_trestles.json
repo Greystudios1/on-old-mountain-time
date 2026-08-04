@@ -1,0 +1,232 @@
+{
+  "variants": {
+    "cut_stage=0,facing=east,wood_type=chestnut": {
+      "model": "before_the_blight:block/loaded_sawing_trestles_chestnut_stage_0",
+      "uvlock": true,
+      "y": 90
+    },
+    "cut_stage=0,facing=east,wood_type=oak": {
+      "model": "before_the_blight:block/loaded_sawing_trestles_oak_stage_0",
+      "uvlock": true,
+      "y": 90
+    },
+    "cut_stage=0,facing=east,wood_type=spruce": {
+      "model": "before_the_blight:block/loaded_sawing_trestles_spruce_stage_0",
+      "uvlock": true,
+      "y": 90
+    },
+    "cut_stage=0,facing=north,wood_type=chestnut": {
+      "model": "before_the_blight:block/loaded_sawing_trestles_chestnut_stage_0",
+      "uvlock": true
+    },
+    "cut_stage=0,facing=north,wood_type=oak": {
+      "model": "before_the_blight:block/loaded_sawing_trestles_oak_stage_0",
+      "uvlock": true
+    },
+    "cut_stage=0,facing=north,wood_type=spruce": {
+      "model": "before_the_blight:block/loaded_sawing_trestles_spruce_stage_0",
+      "uvlock": true
+    },
+    "cut_stage=0,facing=south,wood_type=chestnut": {
+      "model": "before_the_blight:block/loaded_sawing_trestles_chestnut_stage_0",
+      "uvlock": true,
+      "y": 180
+    },
+    "cut_stage=0,facing=south,wood_type=oak": {
+      "model": "before_the_blight:block/loaded_sawing_trestles_oak_stage_0",
+      "uvlock": true,
+      "y": 180
+    },
+    "cut_stage=0,facing=south,wood_type=spruce": {
+      "model": "before_the_blight:block/loaded_sawing_trestles_spruce_stage_0",
+      "uvlock": true,
+      "y": 180
+    },
+    "cut_stage=0,facing=west,wood_type=chestnut": {
+      "model": "before_the_blight:block/loaded_sawing_trestles_chestnut_stage_0",
+      "uvlock": true,
+      "y": 270
+    },
+    "cut_stage=0,facing=west,wood_type=oak": {
+      "model": "before_the_blight:block/loaded_sawing_trestles_oak_stage_0",
+      "uvlock": true,
+      "y": 270
+    },
+    "cut_stage=0,facing=west,wood_type=spruce": {
+      "model": "before_the_blight:block/loaded_sawing_trestles_spruce_stage_0",
+      "uvlock": true,
+      "y": 270
+    },
+    "cut_stage=1,facing=east,wood_type=chestnut": {
+      "model": "before_the_blight:block/loaded_sawing_trestles_chestnut_stage_1",
+      "uvlock": true,
+      "y": 90
+    },
+    "cut_stage=1,facing=east,wood_type=oak": {
+      "model": "before_the_blight:block/loaded_sawing_trestles_oak_stage_1",
+      "uvlock": true,
+      "y": 90
+    },
+    "cut_stage=1,facing=east,wood_type=spruce": {
+      "model": "before_the_blight:block/loaded_sawing_trestles_spruce_stage_1",
+      "uvlock": true,
+      "y": 90
+    },
+    "cut_stage=1,facing=north,wood_type=chestnut": {
+      "model": "before_the_blight:block/loaded_sawing_trestles_chestnut_stage_1",
+      "uvlock": true
+    },
+    "cut_stage=1,facing=north,wood_type=oak": {
+      "model": "before_the_blight:block/loaded_sawing_trestles_oak_stage_1",
+      "uvlock": true
+    },
+    "cut_stage=1,facing=north,wood_type=spruce": {
+      "model": "before_the_blight:block/loaded_sawing_trestles_spruce_stage_1",
+      "uvlock": true
+    },
+    "cut_stage=1,facing=south,wood_type=chestnut": {
+      "model": "before_the_blight:block/loaded_sawing_trestles_chestnut_stage_1",
+      "uvlock": true,
+      "y": 180
+    },
+    "cut_stage=1,facing=south,wood_type=oak": {
+      "model": "before_the_blight:block/loaded_sawing_trestles_oak_stage_1",
+      "uvlock": true,
+      "y": 180
+    },
+    "cut_stage=1,facing=south,wood_type=spruce": {
+      "model": "before_the_blight:block/loaded_sawing_trestles_spruce_stage_1",
+      "uvlock": true,
+      "y": 180
+    },
+    "cut_stage=1,facing=west,wood_type=chestnut": {
+      "model": "before_the_blight:block/loaded_sawing_trestles_chestnut_stage_1",
+      "uvlock": true,
+      "y": 270
+    },
+    "cut_stage=1,facing=west,wood_type=oak": {
+      "model": "before_the_blight:block/loaded_sawing_trestles_oak_stage_1",
+      "uvlock": true,
+      "y": 270
+    },
+    "cut_stage=1,facing=west,wood_type=spruce": {
+      "model": "before_the_blight:block/loaded_sawing_trestles_spruce_stage_1",
+      "uvlock": true,
+      "y": 270
+    },
+    "cut_stage=2,facing=east,wood_type=chestnut": {
+      "model": "before_the_blight:block/loaded_sawing_trestles_chestnut_stage_2",
+      "uvlock": true,
+      "y": 90
+    },
+    "cut_stage=2,facing=east,wood_type=oak": {
+      "model": "before_the_blight:block/loaded_sawing_trestles_oak_stage_2",
+      "uvlock": true,
+      "y": 90
+    },
+    "cut_stage=2,facing=east,wood_type=spruce": {
+      "model": "before_the_blight:block/loaded_sawing_trestles_spruce_stage_2",
+      "uvlock": true,
+      "y": 90
+    },
+    "cut_stage=2,facing=north,wood_type=chestnut": {
+      "model": "before_the_blight:block/loaded_sawing_trestles_chestnut_stage_2",
+      "uvlock": true
+    },
+    "cut_stage=2,facing=north,wood_type=oak": {
+      "model": "before_the_blight:block/loaded_sawing_trestles_oak_stage_2",
+      "uvlock": true
+    },
+    "cut_stage=2,facing=north,wood_type=spruce": {
+      "model": "before_the_blight:block/loaded_sawing_trestles_spruce_stage_2",
+      "uvlock": true
+    },
+    "cut_stage=2,facing=south,wood_type=chestnut": {
+      "model": "before_the_blight:block/loaded_sawing_trestles_chestnut_stage_2",
+      "uvlock": true,
+      "y": 180
+    },
+    "cut_stage=2,facing=south,wood_type=oak": {
+      "model": "before_the_blight:block/loaded_sawing_trestles_oak_stage_2",
+      "uvlock": true,
+      "y": 180
+    },
+    "cut_stage=2,facing=south,wood_type=spruce": {
+      "model": "before_the_blight:block/loaded_sawing_trestles_spruce_stage_2",
+      "uvlock": true,
+      "y": 180
+    },
+    "cut_stage=2,facing=west,wood_type=chestnut": {
+      "model": "before_the_blight:block/loaded_sawing_trestles_chestnut_stage_2",
+      "uvlock": true,
+      "y": 270
+    },
+    "cut_stage=2,facing=west,wood_type=oak": {
+      "model": "before_the_blight:block/loaded_sawing_trestles_oak_stage_2",
+      "uvlock": true,
+      "y": 270
+    },
+    "cut_stage=2,facing=west,wood_type=spruce": {
+      "model": "before_the_blight:block/loaded_sawing_trestles_spruce_stage_2",
+      "uvlock": true,
+      "y": 270
+    },
+    "cut_stage=3,facing=east,wood_type=chestnut": {
+      "model": "before_the_blight:block/loaded_sawing_trestles_chestnut_stage_3",
+      "uvlock": true,
+      "y": 90
+    },
+    "cut_stage=3,facing=east,wood_type=oak": {
+      "model": "before_the_blight:block/loaded_sawing_trestles_oak_stage_3",
+      "uvlock": true,
+      "y": 90
+    },
+    "cut_stage=3,facing=east,wood_type=spruce": {
+      "model": "before_the_blight:block/loaded_sawing_trestles_spruce_stage_3",
+      "uvlock": true,
+      "y": 90
+    },
+    "cut_stage=3,facing=north,wood_type=chestnut": {
+      "model": "before_the_blight:block/loaded_sawing_trestles_chestnut_stage_3",
+      "uvlock": true
+    },
+    "cut_stage=3,facing=north,wood_type=oak": {
+      "model": "before_the_blight:block/loaded_sawing_trestles_oak_stage_3",
+      "uvlock": true
+    },
+    "cut_stage=3,facing=north,wood_type=spruce": {
+      "model": "before_the_blight:block/loaded_sawing_trestles_spruce_stage_3",
+      "uvlock": true
+    },
+    "cut_stage=3,facing=south,wood_type=chestnut": {
+      "model": "before_the_blight:block/loaded_sawing_trestles_chestnut_stage_3",
+      "uvlock": true,
+      "y": 180
+    },
+    "cut_stage=3,facing=south,wood_type=oak": {
+      "model": "before_the_blight:block/loaded_sawing_trestles_oak_stage_3",
+      "uvlock": true,
+      "y": 180
+    },
+    "cut_stage=3,facing=south,wood_type=spruce": {
+      "model": "before_the_blight:block/loaded_sawing_trestles_spruce_stage_3",
+      "uvlock": true,
+      "y": 180
+    },
+    "cut_stage=3,facing=west,wood_type=chestnut": {
+      "model": "before_the_blight:block/loaded_sawing_trestles_chestnut_stage_3",
+      "uvlock": true,
+      "y": 270
+    },
+    "cut_stage=3,facing=west,wood_type=oak": {
+      "model": "before_the_blight:block/loaded_sawing_trestles_oak_stage_3",
+      "uvlock": true,
+      "y": 270
+    },
+    "cut_stage=3,facing=west,wood_type=spruce": {
+      "model": "before_the_blight:block/loaded_sawing_trestles_spruce_stage_3",
+      "uvlock": true,
+      "y": 270
+    }
+  }
+}

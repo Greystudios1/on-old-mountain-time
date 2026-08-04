@@ -1,0 +1,15 @@
+{
+  "replace": false,
+  "values": [
+    "before_the_blight:small_fieldstone_footing",
+    "before_the_blight:large_fieldstone_footing",
+    "before_the_blight:flat_fieldstone_sill",
+    "before_the_blight:fieldstone_step",
+    "before_the_blight:fieldstone_retaining_wall",
+    "before_the_blight:fieldstone_channel_lining",
+    "before_the_blight:short_fieldstone_pier",
+    "before_the_blight:tall_fieldstone_pier",
+    "before_the_blight:wide_fieldstone_pier",
+    "before_the_blight:irregular_fieldstone_pier"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "before_the_blight:block/small_work_table",
+      "uvlock": true
+    },
+    "facing=east": {
+      "model": "before_the_blight:block/small_work_table",
+      "uvlock": true,
+      "y": 90
+    },
+    "facing=south": {
+      "model": "before_the_blight:block/small_work_table",
+      "uvlock": true,
+      "y": 180
+    },
+    "facing=west": {
+      "model": "before_the_blight:block/small_work_table",
+      "uvlock": true,
+      "y": 270
+    }
+  }
+}

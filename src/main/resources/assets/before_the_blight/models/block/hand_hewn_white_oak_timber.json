@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "side": "before_the_blight:block/hand_hewn_white_oak_timber",
+    "end": "before_the_blight:block/hand_hewn_white_oak_timber_top"
+  }
+}

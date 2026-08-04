@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "before_the_blight:ear_of_corn"
+  ],
+  "result": {
+    "count": 3,
+    "id": "before_the_blight:cornmeal"
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "variants": {
+    "style=square,course=lower,facing=north": {
+      "model": "before_the_blight:block/chestnut_repair_corner_square_lower"
+    },
+    "style=square,course=lower,facing=east": {
+      "model": "before_the_blight:block/chestnut_repair_corner_square_lower",
+      "y": 90,
+      "uvlock": true
+    },
+    "style=square,course=lower,facing=south": {
+      "model": "before_the_blight:block/chestnut_repair_corner_square_lower",
+      "y": 180,
+      "uvlock": true
+    },
+    "style=square,course=lower,facing=west": {
+      "model": "before_the_blight:block/chestnut_repair_corner_square_lower",
+      "y": 270,
+      "uvlock": true
+    },
+    "style=square,course=upper,facing=north": {
+      "model": "before_the_blight:block/chestnut_repair_corner_square_upper"
+    },
+    "style=square,course=upper,facing=east": {
+      "model": "before_the_blight:block/chestnut_repair_corner_square_upper",
+      "y": 90,
+      "uvlock": true
+    },
+    "style=square,course=upper,facing=south": {
+      "model": "before_the_blight:block/chestnut_repair_corner_square_upper",
+      "y": 180,
+      "uvlock": true
+    },
+    "style=square,course=upper,facing=west": {
+      "model": "before_the_blight:block/chestnut_repair_corner_square_upper",
+      "y": 270,
+      "uvlock": true
+    },
+    "style=v_notch,course=lower,facing=north": {
+      "model": "before_the_blight:block/chestnut_repair_corner_v_notch_lower"
+    },
+    "style=v_notch,course=lower,facing=east": {
+      "model": "before_the_blight:block/chestnut_repair_corner_v_notch_lower",
+      "y": 90,
+      "uvlock": true
+    },
+    "style=v_notch,course=lower,facing=south": {
+      "model": "before_the_blight:block/chestnut_repair_corner_v_notch_lower",
+      "y": 180,
+      "uvlock": true
+    },
+    "style=v_notch,course=lower,facing=west": {
+      "model": "before_the_blight:block/chestnut_repair_corner_v_notch_lower",
+      "y": 270,
+      "uvlock": true
+    },
+    "style=v_notch,course=upper,facing=north": {
+      "model": "before_the_blight:block/chestnut_repair_corner_v_notch_upper"
+    },
+    "style=v_notch,course=upper,facing=east": {
+      "model": "before_the_blight:block/chestnut_repair_corner_v_notch_upper",
+      "y": 90,
+      "uvlock": true
+    },
+    "style=v_notch,course=upper,facing=south": {
+      "model": "before_the_blight:block/chestnut_repair_corner_v_notch_upper",
+      "y": 180,
+      "uvlock": true
+    },
+    "style=v_notch,course=upper,facing=west": {
+      "model": "before_the_blight:block/chestnut_repair_corner_v_notch_upper",
+      "y": 270,
+      "uvlock": true
+    },
+    "style=half_dovetail,course=lower,facing=north": {
+      "model": "before_the_blight:block/chestnut_repair_corner_half_dovetail_lower"
+    },
+    "style=half_dovetail,course=lower,facing=east": {
+      "model": "before_the_blight:block/chestnut_repair_corner_half_dovetail_lower",
+      "y": 90,
+      "uvlock": true
+    },
+    "style=half_dovetail,course=lower,facing=south": {
+      "model": "before_the_blight:block/chestnut_repair_corner_half_dovetail_lower",
+      "y": 180,
+      "uvlock": true
+    },
+    "style=half_dovetail,course=lower,facing=west": {
+      "model": "before_the_blight:block/chestnut_repair_corner_half_dovetail_lower",
+      "y": 270,
+      "uvlock": true
+    },
+    "style=half_dovetail,course=upper,facing=north": {
+      "model": "before_the_blight:block/chestnut_repair_corner_half_dovetail_upper"
+    },
+    "style=half_dovetail,course=upper,facing=east": {
+      "model": "before_the_blight:block/chestnut_repair_corner_half_dovetail_upper",
+      "y": 90,
+      "uvlock": true
+    },
+    "style=half_dovetail,course=upper,facing=south": {
+      "model": "before_the_blight:block/chestnut_repair_corner_half_dovetail_upper",
+      "y": 180,
+      "uvlock": true
+    },
+    "style=half_dovetail,course=upper,facing=west": {
+      "model": "before_the_blight:block/chestnut_repair_corner_half_dovetail_upper",
+      "y": 270,
+      "uvlock": true
+    }
+  }
+}

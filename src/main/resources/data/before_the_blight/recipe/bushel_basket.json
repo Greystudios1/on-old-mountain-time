@@ -1,0 +1,15 @@
+{
+  "category": "misc",
+  "key": {
+    "S": "minecraft:stick"
+  },
+  "pattern": [
+    "S S",
+    "S S",
+    "SSS"
+  ],
+  "result": {
+    "id": "before_the_blight:bushel_basket"
+  },
+  "type": "minecraft:crafting_shaped"
+}

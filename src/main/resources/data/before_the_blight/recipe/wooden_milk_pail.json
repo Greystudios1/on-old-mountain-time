@@ -1,0 +1,16 @@
+{
+  "category": "building",
+  "key": {
+    "B": "before_the_blight:rough_chestnut_boards",
+    "N": "minecraft:iron_nugget"
+  },
+  "pattern": [
+    "N N",
+    "B B",
+    "BBB"
+  ],
+  "result": {
+    "id": "before_the_blight:wooden_milk_pail"
+  },
+  "type": "minecraft:crafting_shaped"
+}

@@ -1,0 +1,7 @@
+{
+  "type": "before_the_blight:ridge_edge_tree_selector",
+  "config": {
+    "edge_chestnut": "before_the_blight:chestnut_edge_trees_checked",
+    "edge_radius": 4
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "ambientocclusion": true,
+  "elements": [
+    {
+      "faces": {
+        "down": {
+          "texture": "#end"
+        },
+        "east": {
+          "texture": "#wood"
+        },
+        "north": {
+          "texture": "#wood"
+        },
+        "south": {
+          "texture": "#wood"
+        },
+        "up": {
+          "texture": "#end"
+        },
+        "west": {
+          "texture": "#wood"
+        }
+      },
+      "from": [
+        1.8,
+        0,
+        1.8
+      ],
+      "to": [
+        14.2,
+        9.8,
+        14.2
+      ]
+    },
+    {
+      "faces": {
+        "down": {
+          "texture": "#handle"
+        },
+        "east": {
+          "texture": "#handle"
+        },
+        "north": {
+          "texture": "#handle"
+        },
+        "south": {
+          "texture": "#handle"
+        },
+        "up": {
+          "texture": "#handle"
+        },
+        "west": {
+          "texture": "#handle"
+        }
+      },
+      "from": [
+        7.3,
+        9.6,
+        7.3
+      ],
+      "to": [
+        8.7,
+        15.8,
+        8.7
+      ]
+    },
+    {
+      "faces": {
+        "down": {
+          "texture": "#metal"
+        },
+        "east": {
+          "texture": "#metal"
+        },
+        "north": {
+          "texture": "#metal"
+        },
+        "south": {
+          "texture": "#metal"
+        },
+        "up": {
+          "texture": "#metal"
+        },
+        "west": {
+          "texture": "#metal"
+        }
+      },
+      "from": [
+        5.0,
+        13.8,
+        7.0
+      ],
+      "to": [
+        11.0,
+        16,
+        9.0
+      ]
+    }
+  ],
+  "parent": "minecraft:block/block",
+  "textures": {
+    "end": "before_the_blight:block/splitting_stump_top",
+    "handle": "before_the_blight:block/rough_oak_boards",
+    "metal": "minecraft:block/iron_block",
+    "particle": "before_the_blight:block/splitting_stump_side",
+    "wood": "before_the_blight:block/splitting_stump_side"
+  }
+}

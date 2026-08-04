@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "before_the_blight:block/single_fieldstone",
+      "uvlock": true,
+      "y": 90
+    },
+    "facing=north": {
+      "model": "before_the_blight:block/single_fieldstone"
+    },
+    "facing=south": {
+      "model": "before_the_blight:block/single_fieldstone",
+      "uvlock": true,
+      "y": 180
+    },
+    "facing=west": {
+      "model": "before_the_blight:block/single_fieldstone",
+      "uvlock": true,
+      "y": 270
+    }
+  }
+}

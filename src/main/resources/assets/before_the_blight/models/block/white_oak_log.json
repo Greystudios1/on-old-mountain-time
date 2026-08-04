@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "side": "before_the_blight:block/white_oak_log",
+    "end": "before_the_blight:block/white_oak_log_top"
+  }
+}

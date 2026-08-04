@@ -1,0 +1,131 @@
+{
+  "pools": [
+    {
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "name": "before_the_blight:corn_bin",
+          "type": "minecraft:item"
+        }
+      ],
+      "rolls": 1
+    },
+    {
+      "conditions": [
+        {
+          "block": "before_the_blight:corn_bin",
+          "condition": "minecraft:block_state_property",
+          "properties": {
+            "level": "1"
+          }
+        }
+      ],
+      "entries": [
+        {
+          "functions": [
+            {
+              "add": false,
+              "count": 4,
+              "function": "minecraft:set_count"
+            },
+            {
+              "function": "minecraft:explosion_decay"
+            }
+          ],
+          "name": "before_the_blight:dried_ear_of_corn",
+          "type": "minecraft:item"
+        }
+      ],
+      "rolls": 1
+    },
+    {
+      "conditions": [
+        {
+          "block": "before_the_blight:corn_bin",
+          "condition": "minecraft:block_state_property",
+          "properties": {
+            "level": "2"
+          }
+        }
+      ],
+      "entries": [
+        {
+          "functions": [
+            {
+              "add": false,
+              "count": 8,
+              "function": "minecraft:set_count"
+            },
+            {
+              "function": "minecraft:explosion_decay"
+            }
+          ],
+          "name": "before_the_blight:dried_ear_of_corn",
+          "type": "minecraft:item"
+        }
+      ],
+      "rolls": 1
+    },
+    {
+      "conditions": [
+        {
+          "block": "before_the_blight:corn_bin",
+          "condition": "minecraft:block_state_property",
+          "properties": {
+            "level": "3"
+          }
+        }
+      ],
+      "entries": [
+        {
+          "functions": [
+            {
+              "add": false,
+              "count": 12,
+              "function": "minecraft:set_count"
+            },
+            {
+              "function": "minecraft:explosion_decay"
+            }
+          ],
+          "name": "before_the_blight:dried_ear_of_corn",
+          "type": "minecraft:item"
+        }
+      ],
+      "rolls": 1
+    },
+    {
+      "conditions": [
+        {
+          "block": "before_the_blight:corn_bin",
+          "condition": "minecraft:block_state_property",
+          "properties": {
+            "level": "4"
+          }
+        }
+      ],
+      "entries": [
+        {
+          "functions": [
+            {
+              "add": false,
+              "count": 16,
+              "function": "minecraft:set_count"
+            },
+            {
+              "function": "minecraft:explosion_decay"
+            }
+          ],
+          "name": "before_the_blight:dried_ear_of_corn",
+          "type": "minecraft:item"
+        }
+      ],
+      "rolls": 1
+    }
+  ],
+  "type": "minecraft:block"
+}

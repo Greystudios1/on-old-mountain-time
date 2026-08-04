@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "decorations",
+  "key": {
+    "B": "before_the_blight:rough_chestnut_boards",
+    "S": "minecraft:stick"
+  },
+  "pattern": [
+    "BBB",
+    "S S"
+  ],
+  "result": {
+    "id": "before_the_blight:rough_wall_shelf",
+    "count": 2
+  }
+}

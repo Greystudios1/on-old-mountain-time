@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "before_the_blight:six_board_chest",
+    "before_the_blight:blanket_chest",
+    "before_the_blight:wall_cupboard",
+    "before_the_blight:corner_cupboard",
+    "before_the_blight:pie_safe",
+    "before_the_blight:drawer_chest"
+  ]
+}

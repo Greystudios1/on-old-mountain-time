@@ -1,0 +1,9 @@
+{
+  "type": "before_the_blight:ridge_tree_selector",
+  "config": {
+    "edge_radius": 4,
+    "forest_chestnut": "before_the_blight:chestnut_forest_natural",
+    "old_growth_chance_in_interior": 0.11111111,
+    "old_growth_chestnut": "before_the_blight:chestnut_old_growth_natural"
+  }
+}

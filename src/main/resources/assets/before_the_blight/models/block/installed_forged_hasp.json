@@ -1,0 +1,92 @@
+{
+  "ambientocclusion": false,
+  "textures": {
+    "particle": "before_the_blight:block/installed_forged_hasp",
+    "hardware": "before_the_blight:block/installed_forged_hasp"
+  },
+  "elements": [
+    {
+      "from": [
+        3,
+        7,
+        14
+      ],
+      "to": [
+        13,
+        9,
+        16
+      ],
+      "faces": {
+        "down": {
+          "texture": "#hardware"
+        },
+        "up": {
+          "texture": "#hardware"
+        },
+        "north": {
+          "texture": "#hardware"
+        },
+        "south": {
+          "texture": "#hardware"
+        },
+        "west": {
+          "texture": "#hardware"
+        },
+        "east": {
+          "texture": "#hardware"
+        }
+      }
+    },
+    {
+      "from": [
+        11,
+        5.5,
+        13
+      ],
+      "to": [
+        14,
+        10.5,
+        16
+      ],
+      "faces": {
+        "down": {
+          "texture": "#hardware"
+        },
+        "up": {
+          "texture": "#hardware"
+        },
+        "north": {
+          "texture": "#hardware"
+        },
+        "south": {
+          "texture": "#hardware"
+        },
+        "west": {
+          "texture": "#hardware"
+        },
+        "east": {
+          "texture": "#hardware"
+        }
+      }
+    }
+  ],
+  "display": {
+    "gui": {
+      "rotation": [
+        30,
+        225,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.9,
+        0.9,
+        0.9
+      ]
+    }
+  }
+}

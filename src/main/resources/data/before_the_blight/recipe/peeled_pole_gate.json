@@ -1,0 +1,15 @@
+{
+  "category": "building",
+  "key": {
+    "L": "before_the_blight:stripped_chestnut_log",
+    "S": "minecraft:stick"
+  },
+  "pattern": [
+    "SLS",
+    "SLS"
+  ],
+  "result": {
+    "id": "before_the_blight:peeled_pole_gate"
+  },
+  "type": "minecraft:crafting_shaped"
+}

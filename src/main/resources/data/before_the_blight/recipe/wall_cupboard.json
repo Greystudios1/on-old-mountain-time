@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "decorations",
+  "key": {
+    "P": "minecraft:birch_planks",
+    "I": "minecraft:iron_nugget"
+  },
+  "pattern": [
+    "PPP",
+    "PIP",
+    "PPP"
+  ],
+  "result": {
+    "id": "before_the_blight:wall_cupboard"
+  }
+}

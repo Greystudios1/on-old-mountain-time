@@ -1,0 +1,74 @@
+{
+  "parent": "minecraft:block/block",
+  "ambientocclusion": true,
+  "textures": {
+    "particle": "before_the_blight:block/white_oak_shingle_rake_right",
+    "texture": "before_the_blight:block/white_oak_shingle_rake_right"
+  },
+  "elements": [
+    {
+      "from": [
+        14,
+        0,
+        0
+      ],
+      "to": [
+        16,
+        4,
+        16
+      ],
+      "faces": {
+        "north": {
+          "texture": "#texture"
+        },
+        "east": {
+          "texture": "#texture"
+        },
+        "south": {
+          "texture": "#texture"
+        },
+        "west": {
+          "texture": "#texture"
+        },
+        "up": {
+          "texture": "#texture"
+        },
+        "down": {
+          "texture": "#texture"
+        }
+      }
+    },
+    {
+      "from": [
+        12.5,
+        2,
+        0
+      ],
+      "to": [
+        14,
+        5,
+        16
+      ],
+      "faces": {
+        "north": {
+          "texture": "#texture"
+        },
+        "east": {
+          "texture": "#texture"
+        },
+        "south": {
+          "texture": "#texture"
+        },
+        "west": {
+          "texture": "#texture"
+        },
+        "up": {
+          "texture": "#texture"
+        },
+        "down": {
+          "texture": "#texture"
+        }
+      }
+    }
+  ]
+}

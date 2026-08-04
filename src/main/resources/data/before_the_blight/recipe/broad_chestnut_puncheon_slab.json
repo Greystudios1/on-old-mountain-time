@@ -1,0 +1,15 @@
+{
+  "category": "building",
+  "group": "wooden_slab",
+  "key": {
+    "#": "before_the_blight:broad_chestnut_puncheon_floor"
+  },
+  "pattern": [
+    "###"
+  ],
+  "result": {
+    "count": 6,
+    "id": "before_the_blight:broad_chestnut_puncheon_slab"
+  },
+  "type": "minecraft:crafting_shaped"
+}

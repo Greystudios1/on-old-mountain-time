@@ -1,0 +1,11 @@
+{
+  "category": "building",
+  "ingredients": [
+    "before_the_blight:wagon_rut",
+    "minecraft:mud"
+  ],
+  "result": {
+    "id": "before_the_blight:muddy_wagon_rut"
+  },
+  "type": "minecraft:crafting_shapeless"
+}

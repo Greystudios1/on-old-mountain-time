@@ -1,0 +1,16 @@
+{
+  "replace": false,
+  "values": [
+    "before_the_blight:yellow_ear_corn_pile",
+    "before_the_blight:mixed_ear_corn_pile",
+    "before_the_blight:yellow_scattered_ear_corn",
+    "before_the_blight:mixed_scattered_ear_corn",
+    "before_the_blight:seed_corn_bundle",
+    "before_the_blight:bushel_basket",
+    "before_the_blight:corn_bin",
+    "before_the_blight:hand_corn_sheller",
+    "before_the_blight:wooden_corn_scoop",
+    "before_the_blight:feed_sack",
+    "before_the_blight:wall_tool_rack"
+  ]
+}

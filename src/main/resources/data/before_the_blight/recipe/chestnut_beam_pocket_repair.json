@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "H": "before_the_blight:hewn_chestnut_beam",
+    "P": "before_the_blight:stripped_chestnut_log"
+  },
+  "pattern": [
+    "H H",
+    "HPH",
+    "H H"
+  ],
+  "result": {
+    "count": 5,
+    "id": "before_the_blight:chestnut_beam_pocket_repair"
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "variants": {
+    "facing=north,open=false": {
+      "model": "before_the_blight:block/drawer_chest",
+      "uvlock": true
+    },
+    "facing=north,open=true": {
+      "model": "before_the_blight:block/drawer_chest_open",
+      "uvlock": true
+    },
+    "facing=east,open=false": {
+      "model": "before_the_blight:block/drawer_chest",
+      "uvlock": true,
+      "y": 90
+    },
+    "facing=east,open=true": {
+      "model": "before_the_blight:block/drawer_chest_open",
+      "uvlock": true,
+      "y": 90
+    },
+    "facing=south,open=false": {
+      "model": "before_the_blight:block/drawer_chest",
+      "uvlock": true,
+      "y": 180
+    },
+    "facing=south,open=true": {
+      "model": "before_the_blight:block/drawer_chest_open",
+      "uvlock": true,
+      "y": 180
+    },
+    "facing=west,open=false": {
+      "model": "before_the_blight:block/drawer_chest",
+      "uvlock": true,
+      "y": 270
+    },
+    "facing=west,open=true": {
+      "model": "before_the_blight:block/drawer_chest_open",
+      "uvlock": true,
+      "y": 270
+    },
+    "facing=up,open=false": {
+      "model": "before_the_blight:block/drawer_chest",
+      "uvlock": true
+    },
+    "facing=up,open=true": {
+      "model": "before_the_blight:block/drawer_chest_open",
+      "uvlock": true
+    },
+    "facing=down,open=false": {
+      "model": "before_the_blight:block/drawer_chest",
+      "uvlock": true
+    },
+    "facing=down,open=true": {
+      "model": "before_the_blight:block/drawer_chest_open",
+      "uvlock": true
+    }
+  }
+}

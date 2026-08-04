@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "S": "before_the_blight:stripped_chestnut_log"
+  },
+  "pattern": [
+    "S",
+    "S"
+  ],
+  "result": {
+    "count": 4,
+    "id": "before_the_blight:peeled_chestnut_pole"
+  }
+}

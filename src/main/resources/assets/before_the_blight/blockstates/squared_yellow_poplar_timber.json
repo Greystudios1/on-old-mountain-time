@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "before_the_blight:block/squared_yellow_poplar_timber",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "before_the_blight:block/squared_yellow_poplar_timber"
+    },
+    "axis=z": {
+      "model": "before_the_blight:block/squared_yellow_poplar_timber",
+      "x": 90
+    }
+  }
+}

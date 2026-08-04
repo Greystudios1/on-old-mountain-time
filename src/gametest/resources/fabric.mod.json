@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "id": "before_the_blight_gametest",
+  "version": "1.0.0",
+  "name": "Before the Blight Game Tests",
+  "environment": "*",
+  "entrypoints": {
+    "fabric-gametest": [
+      "net.beforetheblight.gametest.WorldgenGameTests",
+      "net.beforetheblight.gametest.CoveWorldgenGameTests",
+      "net.beforetheblight.gametest.AppalachianBiomeAcceptanceGameTests",
+      "net.beforetheblight.gametest.HomesteadStructureGameTests",
+      "net.beforetheblight.gametest.HomesteadNaturalPlacementGameTests",
+      "net.beforetheblight.gametest.CornCribStructureGameTests",
+      "net.beforetheblight.gametest.AuthoredTemplateGameTests",
+      "net.beforetheblight.gametest.HewingGameTests",
+      "net.beforetheblight.gametest.SawingGameTests",
+      "net.beforetheblight.gametest.SplittingGameTests",
+      "net.beforetheblight.gametest.CornGameTests",
+      "net.beforetheblight.gametest.DryingCornGameTests",
+      "net.beforetheblight.gametest.ChestnutTreeGameTests",
+      "net.beforetheblight.gametest.TreeSpeciesGameTests",
+      "net.beforetheblight.gametest.ForestFloorFeatureGameTests",
+      "net.beforetheblight.gametest.ConnectedChestnutLogWallGameTests",
+      "net.beforetheblight.gametest.HewnDetailGameTests",
+      "net.beforetheblight.gametest.DoorWindowGameTests",
+      "net.beforetheblight.gametest.CornCribContentGameTests",
+      "net.beforetheblight.gametest.InteractiveBlockGameTests",
+      "net.beforetheblight.gametest.SpringhousePolishGameTests",
+      "net.beforetheblight.gametest.RockingChairGameTests",
+      "net.beforetheblight.compat.seasons.SeasonProviderHealthGameTests",
+      "net.beforetheblight.gametest.SeasonCompatibilityGameTests"
+    ],
+    "fabric-client-gametest": [
+      "net.beforetheblight.gametest.HewingPersistenceClientGameTest"
+    ]
+  },
+  "mixins": [
+    "before_the_blight_gametest.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.19.3",
+    "minecraft": "~26.1.2",
+    "java": ">=25",
+    "before_the_blight": "*",
+    "fabric-api": ">=0.155.2+26.1.2",
+    "lithostitched": "1.7.13"
+  }
+}

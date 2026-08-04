@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/button",
+  "textures": {
+    "texture": "before_the_blight:block/american_beech_planks"
+  }
+}

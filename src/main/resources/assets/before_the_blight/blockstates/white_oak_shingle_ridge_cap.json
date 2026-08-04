@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "before_the_blight:block/white_oak_shingle_ridge_cap"
+    },
+    "facing=east": {
+      "model": "before_the_blight:block/white_oak_shingle_ridge_cap",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "before_the_blight:block/white_oak_shingle_ridge_cap",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "before_the_blight:block/white_oak_shingle_ridge_cap",
+      "y": 270
+    }
+  }
+}

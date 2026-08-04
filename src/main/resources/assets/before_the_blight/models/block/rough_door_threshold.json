@@ -1,0 +1,41 @@
+{
+  "ambientocclusion": true,
+  "textures": {
+    "particle": "before_the_blight:block/rough_door_threshold",
+    "wood": "before_the_blight:block/rough_door_threshold"
+  },
+  "elements": [
+    {
+      "from": [
+        0,
+        0,
+        3
+      ],
+      "to": [
+        16,
+        2,
+        13
+      ],
+      "faces": {
+        "down": {
+          "texture": "#wood"
+        },
+        "up": {
+          "texture": "#wood"
+        },
+        "north": {
+          "texture": "#wood"
+        },
+        "south": {
+          "texture": "#wood"
+        },
+        "west": {
+          "texture": "#wood"
+        },
+        "east": {
+          "texture": "#wood"
+        }
+      }
+    }
+  ]
+}

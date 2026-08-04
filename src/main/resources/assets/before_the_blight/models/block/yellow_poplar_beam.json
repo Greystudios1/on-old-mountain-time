@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "side": "before_the_blight:block/yellow_poplar_beam",
+    "end": "before_the_blight:block/yellow_poplar_beam_top"
+  }
+}

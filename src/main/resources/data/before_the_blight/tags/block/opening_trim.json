@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "before_the_blight:rough_chestnut_door_jamb",
+    "before_the_blight:hewn_chestnut_lintel",
+    "before_the_blight:wooden_window_sill",
+    "before_the_blight:rough_door_threshold",
+    "before_the_blight:wooden_leveling_wedge"
+  ]
+}

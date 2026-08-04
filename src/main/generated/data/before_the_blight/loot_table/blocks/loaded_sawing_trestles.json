@@ -1,0 +1,72 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "before_the_blight:sawing_trestles"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "block": "before_the_blight:loaded_sawing_trestles",
+          "condition": "minecraft:block_state_property",
+          "properties": {
+            "wood_type": "chestnut"
+          }
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "before_the_blight:hewn_chestnut_beam"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "block": "before_the_blight:loaded_sawing_trestles",
+          "condition": "minecraft:block_state_property",
+          "properties": {
+            "wood_type": "oak"
+          }
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "before_the_blight:hewn_oak_beam"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "block": "before_the_blight:loaded_sawing_trestles",
+          "condition": "minecraft:block_state_property",
+          "properties": {
+            "wood_type": "spruce"
+          }
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "before_the_blight:hewn_spruce_beam"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

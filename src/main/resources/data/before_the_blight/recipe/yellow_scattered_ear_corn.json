@@ -1,0 +1,10 @@
+{
+  "category": "misc",
+  "ingredients": [
+    "before_the_blight:dried_ear_of_corn"
+  ],
+  "result": {
+    "id": "before_the_blight:yellow_scattered_ear_corn"
+  },
+  "type": "minecraft:crafting_shapeless"
+}

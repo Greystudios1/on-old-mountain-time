@@ -1,0 +1,77 @@
+{
+  "parent": "minecraft:block/block",
+  "ambientocclusion": true,
+  "textures": {
+    "particle": "before_the_blight:block/splitting_stump_side",
+    "side": "before_the_blight:block/splitting_stump_side",
+    "top": "before_the_blight:block/splitting_stump_top",
+    "beam_side": "before_the_blight:block/hewn_chestnut_beam",
+    "beam_end": "before_the_blight:block/hewn_chestnut_beam_top"
+  },
+  "elements": [
+    {
+      "from": [
+        1,
+        0,
+        1
+      ],
+      "to": [
+        15,
+        9,
+        15
+      ],
+      "faces": {
+        "north": {
+          "texture": "#side"
+        },
+        "east": {
+          "texture": "#side"
+        },
+        "south": {
+          "texture": "#side"
+        },
+        "west": {
+          "texture": "#side"
+        },
+        "up": {
+          "texture": "#top"
+        },
+        "down": {
+          "texture": "#top"
+        }
+      }
+    },
+    {
+      "from": [
+        5,
+        8.9,
+        0
+      ],
+      "to": [
+        11,
+        13,
+        16
+      ],
+      "faces": {
+        "north": {
+          "texture": "#beam_end"
+        },
+        "east": {
+          "texture": "#beam_side"
+        },
+        "south": {
+          "texture": "#beam_end"
+        },
+        "west": {
+          "texture": "#beam_side"
+        },
+        "up": {
+          "texture": "#beam_side"
+        },
+        "down": {
+          "texture": "#beam_side"
+        }
+      }
+    }
+  ]
+}

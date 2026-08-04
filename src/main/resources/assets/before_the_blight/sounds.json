@@ -1,0 +1,47 @@
+{
+  "saw_stroke": {
+    "subtitle": "subtitles.before_the_blight.saw_stroke",
+    "sounds": [
+      {
+        "name": "minecraft:block.wood.hit",
+        "type": "event"
+      }
+    ]
+  },
+  "saw_complete": {
+    "subtitle": "subtitles.before_the_blight.saw_complete",
+    "sounds": [
+      {
+        "name": "minecraft:block.wood.break",
+        "type": "event"
+      }
+    ]
+  },
+  "froe_set": {
+    "subtitle": "subtitles.before_the_blight.froe_set",
+    "sounds": [
+      {
+        "name": "minecraft:block.anvil.place",
+        "type": "event"
+      }
+    ]
+  },
+  "maul_strike": {
+    "subtitle": "subtitles.before_the_blight.maul_strike",
+    "sounds": [
+      {
+        "name": "minecraft:block.wood.hit",
+        "type": "event"
+      }
+    ]
+  },
+  "split_complete": {
+    "subtitle": "subtitles.before_the_blight.split_complete",
+    "sounds": [
+      {
+        "name": "minecraft:block.wood.break",
+        "type": "event"
+      }
+    ]
+  }
+}

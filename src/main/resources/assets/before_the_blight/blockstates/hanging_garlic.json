@@ -1,0 +1,61 @@
+{
+  "variants": {
+    "face=ceiling,facing=east": {
+      "model": "before_the_blight:block/hanging_garlic_ceiling",
+      "uvlock": true,
+      "y": 90
+    },
+    "face=ceiling,facing=north": {
+      "model": "before_the_blight:block/hanging_garlic_ceiling",
+      "uvlock": true
+    },
+    "face=ceiling,facing=south": {
+      "model": "before_the_blight:block/hanging_garlic_ceiling",
+      "uvlock": true,
+      "y": 180
+    },
+    "face=ceiling,facing=west": {
+      "model": "before_the_blight:block/hanging_garlic_ceiling",
+      "uvlock": true,
+      "y": 270
+    },
+    "face=floor,facing=east": {
+      "model": "before_the_blight:block/hanging_garlic_floor",
+      "uvlock": true,
+      "y": 90
+    },
+    "face=floor,facing=north": {
+      "model": "before_the_blight:block/hanging_garlic_floor",
+      "uvlock": true
+    },
+    "face=floor,facing=south": {
+      "model": "before_the_blight:block/hanging_garlic_floor",
+      "uvlock": true,
+      "y": 180
+    },
+    "face=floor,facing=west": {
+      "model": "before_the_blight:block/hanging_garlic_floor",
+      "uvlock": true,
+      "y": 270
+    },
+    "face=wall,facing=east": {
+      "model": "before_the_blight:block/hanging_garlic_wall",
+      "uvlock": true,
+      "y": 90
+    },
+    "face=wall,facing=north": {
+      "model": "before_the_blight:block/hanging_garlic_wall",
+      "uvlock": true
+    },
+    "face=wall,facing=south": {
+      "model": "before_the_blight:block/hanging_garlic_wall",
+      "uvlock": true,
+      "y": 180
+    },
+    "face=wall,facing=west": {
+      "model": "before_the_blight:block/hanging_garlic_wall",
+      "uvlock": true,
+      "y": 270
+    }
+  }
+}

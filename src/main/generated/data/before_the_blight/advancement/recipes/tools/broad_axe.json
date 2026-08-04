@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_chestnut_log": {
+      "conditions": {
+        "items": [
+          {
+            "items": "#before_the_blight:chestnut_logs"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "before_the_blight:broad_axe"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_chestnut_log"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "before_the_blight:broad_axe"
+    ]
+  }
+}

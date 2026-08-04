@@ -1,0 +1,124 @@
+{
+  "ambientocclusion": false,
+  "textures": {
+    "particle": "before_the_blight:block/installed_forged_staple",
+    "hardware": "before_the_blight:block/installed_forged_staple"
+  },
+  "elements": [
+    {
+      "from": [
+        5,
+        5,
+        14
+      ],
+      "to": [
+        7,
+        11,
+        16
+      ],
+      "faces": {
+        "down": {
+          "texture": "#hardware"
+        },
+        "up": {
+          "texture": "#hardware"
+        },
+        "north": {
+          "texture": "#hardware"
+        },
+        "south": {
+          "texture": "#hardware"
+        },
+        "west": {
+          "texture": "#hardware"
+        },
+        "east": {
+          "texture": "#hardware"
+        }
+      }
+    },
+    {
+      "from": [
+        9,
+        5,
+        14
+      ],
+      "to": [
+        11,
+        11,
+        16
+      ],
+      "faces": {
+        "down": {
+          "texture": "#hardware"
+        },
+        "up": {
+          "texture": "#hardware"
+        },
+        "north": {
+          "texture": "#hardware"
+        },
+        "south": {
+          "texture": "#hardware"
+        },
+        "west": {
+          "texture": "#hardware"
+        },
+        "east": {
+          "texture": "#hardware"
+        }
+      }
+    },
+    {
+      "from": [
+        6,
+        9,
+        13
+      ],
+      "to": [
+        10,
+        11,
+        16
+      ],
+      "faces": {
+        "down": {
+          "texture": "#hardware"
+        },
+        "up": {
+          "texture": "#hardware"
+        },
+        "north": {
+          "texture": "#hardware"
+        },
+        "south": {
+          "texture": "#hardware"
+        },
+        "west": {
+          "texture": "#hardware"
+        },
+        "east": {
+          "texture": "#hardware"
+        }
+      }
+    }
+  ],
+  "display": {
+    "gui": {
+      "rotation": [
+        30,
+        225,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.9,
+        0.9,
+        0.9
+      ]
+    }
+  }
+}

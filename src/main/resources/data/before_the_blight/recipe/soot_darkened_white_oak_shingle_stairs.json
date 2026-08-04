@@ -1,0 +1,17 @@
+{
+  "category": "building",
+  "group": "wooden_stairs",
+  "key": {
+    "#": "before_the_blight:soot_darkened_white_oak_shingles"
+  },
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "result": {
+    "count": 4,
+    "id": "before_the_blight:soot_darkened_white_oak_shingle_stairs"
+  },
+  "type": "minecraft:crafting_shaped"
+}

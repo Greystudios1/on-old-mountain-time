@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/fence_inventory",
+  "textures": {
+    "texture": "before_the_blight:block/american_beech_planks"
+  }
+}

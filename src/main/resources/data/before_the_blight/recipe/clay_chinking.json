@@ -1,0 +1,12 @@
+{
+  "category": "building",
+  "ingredients": [
+    "minecraft:clay_ball",
+    "minecraft:sand"
+  ],
+  "result": {
+    "count": 4,
+    "id": "before_the_blight:clay_chinking"
+  },
+  "type": "minecraft:crafting_shapeless"
+}

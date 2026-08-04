@@ -1,0 +1,11 @@
+{
+  "category": "building",
+  "ingredients": [
+    "#minecraft:leaves"
+  ],
+  "result": {
+    "count": 4,
+    "id": "before_the_blight:leaf_litter"
+  },
+  "type": "minecraft:crafting_shapeless"
+}

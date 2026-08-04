@@ -1,0 +1,361 @@
+{
+  "parent": "minecraft:block/block",
+  "ambientocclusion": true,
+  "textures": {
+    "particle": "before_the_blight:block/rough_chestnut_boards",
+    "boards": "before_the_blight:block/rough_chestnut_boards",
+    "beam": "before_the_blight:block/hewn_chestnut_beam",
+    "end": "before_the_blight:block/hewn_chestnut_beam_top",
+    "seat": "before_the_blight:block/rocking_chair_woven_seat",
+    "poplar": "before_the_blight:block/hand_split_yellow_poplar_board",
+    "sawn_poplar": "before_the_blight:block/sash_sawn_yellow_poplar_board",
+    "oak": "before_the_blight:block/white_oak_furniture_board",
+    "oak_end": "before_the_blight:block/white_oak_end_grain",
+    "walnut": "before_the_blight:block/walnut_furniture_board",
+    "walnut_top": "before_the_blight:block/walnut_tabletop",
+    "walnut_post": "before_the_blight:block/walnut_turned_post",
+    "walnut_end": "before_the_blight:block/walnut_end_grain",
+    "cloth": "before_the_blight:block/folded_wool_blanket",
+    "weave": "before_the_blight:block/woven_wall_textile",
+    "iron": "before_the_blight:block/cast_iron_pot"
+  },
+  "elements": [
+    {
+      "from": [
+        0.5,
+        7,
+        2
+      ],
+      "to": [
+        16,
+        8.75,
+        7.7
+      ],
+      "faces": {
+        "north": {
+          "texture": "#walnut"
+        },
+        "south": {
+          "texture": "#walnut"
+        },
+        "west": {
+          "texture": "#walnut"
+        },
+        "up": {
+          "texture": "#walnut"
+        },
+        "down": {
+          "texture": "#walnut"
+        }
+      }
+    },
+    {
+      "from": [
+        0.5,
+        7,
+        8
+      ],
+      "to": [
+        16,
+        8.75,
+        14
+      ],
+      "faces": {
+        "north": {
+          "texture": "#walnut"
+        },
+        "south": {
+          "texture": "#walnut"
+        },
+        "west": {
+          "texture": "#walnut"
+        },
+        "up": {
+          "texture": "#walnut"
+        },
+        "down": {
+          "texture": "#walnut"
+        }
+      }
+    },
+    {
+      "from": [
+        2,
+        0,
+        3
+      ],
+      "to": [
+        4,
+        7.5,
+        5
+      ],
+      "faces": {
+        "north": {
+          "texture": "#walnut"
+        },
+        "east": {
+          "texture": "#walnut"
+        },
+        "south": {
+          "texture": "#walnut"
+        },
+        "west": {
+          "texture": "#walnut"
+        },
+        "up": {
+          "texture": "#walnut_end"
+        },
+        "down": {
+          "texture": "#walnut_end"
+        }
+      }
+    },
+    {
+      "from": [
+        2,
+        0,
+        11
+      ],
+      "to": [
+        4,
+        7.5,
+        13
+      ],
+      "faces": {
+        "north": {
+          "texture": "#walnut"
+        },
+        "east": {
+          "texture": "#walnut"
+        },
+        "south": {
+          "texture": "#walnut"
+        },
+        "west": {
+          "texture": "#walnut"
+        },
+        "up": {
+          "texture": "#walnut_end"
+        },
+        "down": {
+          "texture": "#walnut_end"
+        }
+      }
+    },
+    {
+      "from": [
+        3,
+        3.25,
+        4
+      ],
+      "to": [
+        16,
+        4.5,
+        5.25
+      ],
+      "faces": {
+        "north": {
+          "texture": "#walnut"
+        },
+        "south": {
+          "texture": "#walnut"
+        },
+        "west": {
+          "texture": "#walnut"
+        },
+        "up": {
+          "texture": "#walnut"
+        },
+        "down": {
+          "texture": "#walnut"
+        }
+      }
+    },
+    {
+      "from": [
+        1.25,
+        8,
+        12.5
+      ],
+      "to": [
+        3,
+        15.75,
+        15
+      ],
+      "faces": {
+        "north": {
+          "texture": "#walnut"
+        },
+        "east": {
+          "texture": "#walnut"
+        },
+        "south": {
+          "texture": "#walnut"
+        },
+        "west": {
+          "texture": "#walnut"
+        },
+        "up": {
+          "texture": "#walnut_end"
+        },
+        "down": {
+          "texture": "#walnut_end"
+        }
+      }
+    },
+    {
+      "from": [
+        2.5,
+        10,
+        13
+      ],
+      "to": [
+        16,
+        12,
+        15.25
+      ],
+      "faces": {
+        "north": {
+          "texture": "#walnut"
+        },
+        "south": {
+          "texture": "#walnut"
+        },
+        "west": {
+          "texture": "#walnut"
+        },
+        "up": {
+          "texture": "#walnut"
+        },
+        "down": {
+          "texture": "#walnut"
+        }
+      }
+    },
+    {
+      "from": [
+        2.5,
+        14,
+        13
+      ],
+      "to": [
+        16,
+        16,
+        15.25
+      ],
+      "faces": {
+        "north": {
+          "texture": "#walnut"
+        },
+        "south": {
+          "texture": "#walnut"
+        },
+        "west": {
+          "texture": "#walnut"
+        },
+        "up": {
+          "texture": "#walnut"
+        },
+        "down": {
+          "texture": "#walnut"
+        }
+      }
+    },
+    {
+      "from": [
+        3,
+        9,
+        13.2
+      ],
+      "to": [
+        9.2,
+        15.75,
+        14.6
+      ],
+      "faces": {
+        "north": {
+          "texture": "#walnut"
+        },
+        "east": {
+          "texture": "#walnut"
+        },
+        "south": {
+          "texture": "#walnut"
+        },
+        "west": {
+          "texture": "#walnut"
+        },
+        "up": {
+          "texture": "#walnut"
+        },
+        "down": {
+          "texture": "#walnut"
+        }
+      }
+    },
+    {
+      "from": [
+        9.6,
+        9,
+        13.2
+      ],
+      "to": [
+        15.8,
+        15.75,
+        14.6
+      ],
+      "faces": {
+        "north": {
+          "texture": "#walnut"
+        },
+        "east": {
+          "texture": "#walnut"
+        },
+        "south": {
+          "texture": "#walnut"
+        },
+        "west": {
+          "texture": "#walnut"
+        },
+        "up": {
+          "texture": "#walnut"
+        },
+        "down": {
+          "texture": "#walnut"
+        }
+      }
+    },
+    {
+      "from": [
+        0.75,
+        9.75,
+        2.5
+      ],
+      "to": [
+        3.5,
+        11.75,
+        13.25
+      ],
+      "faces": {
+        "north": {
+          "texture": "#walnut_end"
+        },
+        "east": {
+          "texture": "#walnut"
+        },
+        "south": {
+          "texture": "#walnut_end"
+        },
+        "west": {
+          "texture": "#walnut"
+        },
+        "up": {
+          "texture": "#walnut"
+        },
+        "down": {
+          "texture": "#walnut"
+        }
+      }
+    }
+  ]
+}

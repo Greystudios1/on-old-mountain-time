@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": "before_the_blight:rough_chestnut_boards",
+    "I": "minecraft:iron_bars"
+  },
+  "pattern": [
+    "BIB",
+    "BIB",
+    "BBB"
+  ],
+  "result": {
+    "id": "before_the_blight:washboard"
+  }
+}

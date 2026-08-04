@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/fence_side",
+  "textures": {
+    "texture": "before_the_blight:block/hemlock_planks"
+  }
+}

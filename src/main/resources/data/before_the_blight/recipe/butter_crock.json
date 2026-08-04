@@ -1,0 +1,11 @@
+{
+  "category": "misc",
+  "ingredients": [
+    "before_the_blight:stoneware_milk_crock",
+    "minecraft:milk_bucket"
+  ],
+  "result": {
+    "id": "before_the_blight:butter_crock"
+  },
+  "type": "minecraft:crafting_shapeless"
+}

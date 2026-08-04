@@ -1,0 +1,18 @@
+{
+  "type": "lithostitched:replace_partially",
+  "dimension": "minecraft:overworld",
+  "priority": 985,
+  "targets": "#before_the_blight:grassy_bald_targets",
+  "replacement": "before_the_blight:grassy_bald",
+  "parameters": {
+    "erosion": {
+      "min_inclusive": -0.25,
+      "max_inclusive": 0.25
+    },
+    "humidity": {
+      "min_inclusive": -1.0,
+      "max_inclusive": 0.1
+    }
+  },
+  "region": "before_the_blight:appalachian"
+}

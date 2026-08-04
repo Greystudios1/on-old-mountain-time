@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    "before_the_blight:yellow_poplar_log"
+  ],
+  "result": {
+    "count": 4,
+    "id": "before_the_blight:sash_sawn_yellow_poplar_board"
+  }
+}

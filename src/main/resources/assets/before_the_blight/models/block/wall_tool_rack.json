@@ -1,0 +1,236 @@
+{
+  "ambientocclusion": true,
+  "elements": [
+    {
+      "faces": {
+        "down": {
+          "texture": "#wood"
+        },
+        "east": {
+          "texture": "#wood"
+        },
+        "north": {
+          "texture": "#wood"
+        },
+        "south": {
+          "texture": "#wood"
+        },
+        "up": {
+          "texture": "#wood"
+        },
+        "west": {
+          "texture": "#wood"
+        }
+      },
+      "from": [
+        1.0,
+        4.0,
+        14.2
+      ],
+      "to": [
+        15.0,
+        6.0,
+        16
+      ]
+    },
+    {
+      "faces": {
+        "down": {
+          "texture": "#wood"
+        },
+        "east": {
+          "texture": "#wood"
+        },
+        "north": {
+          "texture": "#wood"
+        },
+        "south": {
+          "texture": "#wood"
+        },
+        "up": {
+          "texture": "#wood"
+        },
+        "west": {
+          "texture": "#wood"
+        }
+      },
+      "from": [
+        2.0,
+        10.0,
+        14.1
+      ],
+      "to": [
+        14.0,
+        12.0,
+        16
+      ]
+    },
+    {
+      "faces": {
+        "down": {
+          "texture": "#handle"
+        },
+        "east": {
+          "texture": "#handle"
+        },
+        "north": {
+          "texture": "#handle"
+        },
+        "south": {
+          "texture": "#handle"
+        },
+        "up": {
+          "texture": "#handle"
+        },
+        "west": {
+          "texture": "#handle"
+        }
+      },
+      "from": [
+        3.0,
+        2.0,
+        13.2
+      ],
+      "to": [
+        4.2,
+        13.9,
+        14.0
+      ]
+    },
+    {
+      "faces": {
+        "down": {
+          "texture": "#metal"
+        },
+        "east": {
+          "texture": "#metal"
+        },
+        "north": {
+          "texture": "#metal"
+        },
+        "south": {
+          "texture": "#metal"
+        },
+        "up": {
+          "texture": "#metal"
+        },
+        "west": {
+          "texture": "#metal"
+        }
+      },
+      "from": [
+        2.2,
+        12.8,
+        12.8
+      ],
+      "to": [
+        5.0,
+        15.0,
+        14.2
+      ]
+    },
+    {
+      "faces": {
+        "down": {
+          "texture": "#handle"
+        },
+        "east": {
+          "texture": "#handle"
+        },
+        "north": {
+          "texture": "#handle"
+        },
+        "south": {
+          "texture": "#handle"
+        },
+        "up": {
+          "texture": "#handle"
+        },
+        "west": {
+          "texture": "#handle"
+        }
+      },
+      "from": [
+        7.3,
+        2.0,
+        13.2
+      ],
+      "to": [
+        8.6,
+        12.8,
+        14.0
+      ]
+    },
+    {
+      "faces": {
+        "down": {
+          "texture": "#handle"
+        },
+        "east": {
+          "texture": "#handle"
+        },
+        "north": {
+          "texture": "#handle"
+        },
+        "south": {
+          "texture": "#handle"
+        },
+        "up": {
+          "texture": "#handle"
+        },
+        "west": {
+          "texture": "#handle"
+        }
+      },
+      "from": [
+        11.8,
+        2.0,
+        13.2
+      ],
+      "to": [
+        13.0,
+        14.2,
+        14.0
+      ]
+    },
+    {
+      "faces": {
+        "down": {
+          "texture": "#metal"
+        },
+        "east": {
+          "texture": "#metal"
+        },
+        "north": {
+          "texture": "#metal"
+        },
+        "south": {
+          "texture": "#metal"
+        },
+        "up": {
+          "texture": "#metal"
+        },
+        "west": {
+          "texture": "#metal"
+        }
+      },
+      "from": [
+        10.8,
+        13.2,
+        12.8
+      ],
+      "to": [
+        14.0,
+        15.1,
+        14.2
+      ]
+    }
+  ],
+  "parent": "minecraft:block/block",
+  "textures": {
+    "handle": "before_the_blight:block/rough_oak_boards",
+    "metal": "minecraft:block/iron_block",
+    "particle": "before_the_blight:block/rough_chestnut_boards",
+    "wood": "before_the_blight:block/rough_chestnut_boards"
+  }
+}

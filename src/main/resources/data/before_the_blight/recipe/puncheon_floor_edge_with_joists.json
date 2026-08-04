@@ -1,0 +1,16 @@
+{
+  "category": "building",
+  "key": {
+    "B": "before_the_blight:hewn_chestnut_beam",
+    "P": "before_the_blight:broad_chestnut_puncheon_floor"
+  },
+  "pattern": [
+    "PPP",
+    "B B"
+  ],
+  "result": {
+    "count": 3,
+    "id": "before_the_blight:puncheon_floor_edge_with_joists"
+  },
+  "type": "minecraft:crafting_shaped"
+}

@@ -1,0 +1,15 @@
+{
+  "category": "building",
+  "key": {
+    "R": "before_the_blight:split_chestnut_rails"
+  },
+  "pattern": [
+    "R R",
+    "R R"
+  ],
+  "result": {
+    "count": 3,
+    "id": "before_the_blight:split_rail_fence"
+  },
+  "type": "minecraft:crafting_shaped"
+}

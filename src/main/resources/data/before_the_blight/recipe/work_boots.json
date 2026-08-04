@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:leather_boots",
+    "minecraft:brown_dye"
+  ],
+  "result": {
+    "id": "before_the_blight:work_boots"
+  }
+}

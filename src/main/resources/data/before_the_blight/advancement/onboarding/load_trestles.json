@@ -1,0 +1,26 @@
+{
+  "parent": "before_the_blight:onboarding/hew_beam",
+  "criteria": {
+    "load_chestnut_beam": {
+      "conditions": {},
+      "trigger": "before_the_blight:load_chestnut_trestles"
+    }
+  },
+  "display": {
+    "description": {
+      "text": "Set a hewn chestnut beam onto a pair of sawing trestles."
+    },
+    "icon": {
+      "id": "before_the_blight:sawing_trestles"
+    },
+    "title": {
+      "text": "Up on the Trestles"
+    }
+  },
+  "requirements": [
+    [
+      "load_chestnut_beam"
+    ]
+  ],
+  "sends_telemetry_event": false
+}

@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "H": "before_the_blight:hewn_chestnut_beam"
+  },
+  "pattern": [
+    "HHH",
+    " H "
+  ],
+  "result": {
+    "count": 4,
+    "id": "before_the_blight:chestnut_trough_sleeper"
+  }
+}

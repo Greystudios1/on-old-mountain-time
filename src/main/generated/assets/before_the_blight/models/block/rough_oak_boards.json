@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "before_the_blight:block/rough_oak_boards"
+  }
+}

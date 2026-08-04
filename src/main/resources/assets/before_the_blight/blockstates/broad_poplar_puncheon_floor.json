@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "before_the_blight:block/broad_poplar_puncheon_floor",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "before_the_blight:block/broad_poplar_puncheon_floor"
+    },
+    "axis=z": {
+      "model": "before_the_blight:block/broad_poplar_puncheon_floor",
+      "x": 90
+    }
+  }
+}

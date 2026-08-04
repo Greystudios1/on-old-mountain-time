@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "N": "minecraft:iron_nugget",
+    "C": "before_the_blight:tallow_candle"
+  },
+  "pattern": [
+    " N ",
+    "NCN",
+    "NNN"
+  ],
+  "result": {
+    "id": "before_the_blight:betty_lamp"
+  }
+}

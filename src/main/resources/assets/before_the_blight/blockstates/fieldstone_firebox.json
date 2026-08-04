@@ -1,0 +1,76 @@
+{
+  "variants": {
+    "facing=east,fire_state=active": {
+      "model": "before_the_blight:block/fieldstone_firebox_active",
+      "uvlock": true,
+      "y": 90
+    },
+    "facing=east,fire_state=ash": {
+      "model": "before_the_blight:block/fieldstone_firebox_ash",
+      "uvlock": true,
+      "y": 90
+    },
+    "facing=east,fire_state=cold": {
+      "model": "before_the_blight:block/fieldstone_firebox_cold",
+      "uvlock": true,
+      "y": 90
+    },
+    "facing=east,fire_state=ember": {
+      "model": "before_the_blight:block/fieldstone_firebox_ember",
+      "uvlock": true,
+      "y": 90
+    },
+    "facing=north,fire_state=active": {
+      "model": "before_the_blight:block/fieldstone_firebox_active"
+    },
+    "facing=north,fire_state=ash": {
+      "model": "before_the_blight:block/fieldstone_firebox_ash"
+    },
+    "facing=north,fire_state=cold": {
+      "model": "before_the_blight:block/fieldstone_firebox_cold"
+    },
+    "facing=north,fire_state=ember": {
+      "model": "before_the_blight:block/fieldstone_firebox_ember"
+    },
+    "facing=south,fire_state=active": {
+      "model": "before_the_blight:block/fieldstone_firebox_active",
+      "uvlock": true,
+      "y": 180
+    },
+    "facing=south,fire_state=ash": {
+      "model": "before_the_blight:block/fieldstone_firebox_ash",
+      "uvlock": true,
+      "y": 180
+    },
+    "facing=south,fire_state=cold": {
+      "model": "before_the_blight:block/fieldstone_firebox_cold",
+      "uvlock": true,
+      "y": 180
+    },
+    "facing=south,fire_state=ember": {
+      "model": "before_the_blight:block/fieldstone_firebox_ember",
+      "uvlock": true,
+      "y": 180
+    },
+    "facing=west,fire_state=active": {
+      "model": "before_the_blight:block/fieldstone_firebox_active",
+      "uvlock": true,
+      "y": 270
+    },
+    "facing=west,fire_state=ash": {
+      "model": "before_the_blight:block/fieldstone_firebox_ash",
+      "uvlock": true,
+      "y": 270
+    },
+    "facing=west,fire_state=cold": {
+      "model": "before_the_blight:block/fieldstone_firebox_cold",
+      "uvlock": true,
+      "y": 270
+    },
+    "facing=west,fire_state=ember": {
+      "model": "before_the_blight:block/fieldstone_firebox_ember",
+      "uvlock": true,
+      "y": 270
+    }
+  }
+}

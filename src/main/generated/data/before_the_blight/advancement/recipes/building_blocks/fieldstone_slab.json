@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_fieldstone": {
+      "conditions": {
+        "items": [
+          {
+            "items": "before_the_blight:fieldstone"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "before_the_blight:fieldstone_slab"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_fieldstone"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "before_the_blight:fieldstone_slab"
+    ]
+  }
+}

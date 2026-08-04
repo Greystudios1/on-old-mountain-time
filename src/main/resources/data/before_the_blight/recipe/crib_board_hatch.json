@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "pattern": [
+    "BBB",
+    "BBB"
+  ],
+  "key": {
+    "B": "before_the_blight:rough_chestnut_boards"
+  },
+  "result": {
+    "count": 2,
+    "id": "before_the_blight:crib_board_hatch"
+  }
+}

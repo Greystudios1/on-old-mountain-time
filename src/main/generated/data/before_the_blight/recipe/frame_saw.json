@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "B": "#minecraft:planks",
+    "I": "minecraft:iron_ingot",
+    "S": "minecraft:string"
+  },
+  "pattern": [
+    "BIB",
+    " S ",
+    "BIB"
+  ],
+  "result": {
+    "id": "before_the_blight:frame_saw"
+  }
+}

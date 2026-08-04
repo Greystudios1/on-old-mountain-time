@@ -1,0 +1,12 @@
+{
+  "category": "building",
+  "ingredients": [
+    "before_the_blight:fieldstone",
+    "minecraft:bone_meal"
+  ],
+  "result": {
+    "count": 1,
+    "id": "before_the_blight:whitewashed_fieldstone"
+  },
+  "type": "minecraft:crafting_shapeless"
+}

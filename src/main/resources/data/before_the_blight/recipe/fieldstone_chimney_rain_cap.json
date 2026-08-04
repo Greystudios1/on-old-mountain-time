@@ -1,0 +1,17 @@
+{
+  "category": "building",
+  "key": {
+    "#": "before_the_blight:fieldstone",
+    "C": "before_the_blight:fieldstone_chimney_cap"
+  },
+  "pattern": [
+    " C ",
+    "# #",
+    "# #"
+  ],
+  "result": {
+    "count": 1,
+    "id": "before_the_blight:fieldstone_chimney_rain_cap"
+  },
+  "type": "minecraft:crafting_shaped"
+}

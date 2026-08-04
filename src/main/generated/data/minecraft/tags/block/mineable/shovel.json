@@ -1,0 +1,27 @@
+{
+  "values": [
+    "before_the_blight:chestnut_chinking_strip",
+    "before_the_blight:packed_earth",
+    "before_the_blight:muddy_earth",
+    "before_the_blight:ash_layer",
+    "before_the_blight:soot_layer",
+    "before_the_blight:hearth_ash_scatter",
+    "before_the_blight:clay_chinking",
+    "before_the_blight:mud_chinking",
+    "before_the_blight:dried_mud_daub",
+    "before_the_blight:cracked_mud_chinking",
+    "before_the_blight:repaired_mud_chinking",
+    "before_the_blight:clay_spill_layer",
+    "before_the_blight:packed_earth_layer",
+    "before_the_blight:damp_earth_layer",
+    "before_the_blight:muddy_earth_layer",
+    "before_the_blight:cold_coal_scatter",
+    "before_the_blight:damp_earth",
+    "before_the_blight:packed_dirt_path",
+    "before_the_blight:path_edge",
+    "before_the_blight:wagon_rut",
+    "before_the_blight:muddy_wagon_rut",
+    "before_the_blight:moss_patch",
+    "before_the_blight:leaf_litter"
+  ]
+}

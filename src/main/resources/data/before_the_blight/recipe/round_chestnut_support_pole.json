@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "R": "before_the_blight:chestnut_log"
+  },
+  "pattern": [
+    "R",
+    "R",
+    "R"
+  ],
+  "result": {
+    "count": 4,
+    "id": "before_the_blight:round_chestnut_support_pole"
+  }
+}

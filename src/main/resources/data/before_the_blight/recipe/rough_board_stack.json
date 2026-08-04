@@ -1,0 +1,14 @@
+{
+  "category": "building",
+  "key": {
+    "B": "before_the_blight:rough_chestnut_boards"
+  },
+  "pattern": [
+    "BBB",
+    "BBB"
+  ],
+  "result": {
+    "id": "before_the_blight:rough_board_stack"
+  },
+  "type": "minecraft:crafting_shaped"
+}

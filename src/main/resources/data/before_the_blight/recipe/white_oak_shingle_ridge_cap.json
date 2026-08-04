@@ -1,0 +1,14 @@
+{
+  "category": "building",
+  "key": {
+    "S": "before_the_blight:white_oak_shingles"
+  },
+  "pattern": [
+    "SSS"
+  ],
+  "result": {
+    "count": 6,
+    "id": "before_the_blight:white_oak_shingle_ridge_cap"
+  },
+  "type": "minecraft:crafting_shaped"
+}

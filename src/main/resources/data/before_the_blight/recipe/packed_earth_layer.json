@@ -1,0 +1,11 @@
+{
+  "category": "building",
+  "ingredients": [
+    "before_the_blight:packed_earth"
+  ],
+  "result": {
+    "count": 4,
+    "id": "before_the_blight:packed_earth_layer"
+  },
+  "type": "minecraft:crafting_shapeless"
+}

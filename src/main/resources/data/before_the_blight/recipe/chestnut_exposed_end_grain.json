@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "R": "before_the_blight:chestnut_log"
+  },
+  "pattern": [
+    "R",
+    "R"
+  ],
+  "result": {
+    "count": 2,
+    "id": "before_the_blight:chestnut_exposed_end_grain"
+  }
+}

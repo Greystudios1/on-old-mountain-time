@@ -1,0 +1,146 @@
+{
+  "ambientocclusion": true,
+  "elements": [
+    {
+      "faces": {
+        "down": {
+          "texture": "#wood"
+        },
+        "east": {
+          "texture": "#wood"
+        },
+        "north": {
+          "texture": "#wood"
+        },
+        "south": {
+          "texture": "#wood"
+        },
+        "up": {
+          "texture": "#wood"
+        },
+        "west": {
+          "texture": "#wood"
+        }
+      },
+      "from": [
+        0,
+        3,
+        0
+      ],
+      "to": [
+        3,
+        10,
+        16
+      ]
+    },
+    {
+      "faces": {
+        "down": {
+          "texture": "#wood"
+        },
+        "east": {
+          "texture": "#wood"
+        },
+        "north": {
+          "texture": "#wood"
+        },
+        "south": {
+          "texture": "#wood"
+        },
+        "up": {
+          "texture": "#wood"
+        },
+        "west": {
+          "texture": "#wood"
+        }
+      },
+      "from": [
+        13,
+        3,
+        0
+      ],
+      "to": [
+        16,
+        10,
+        16
+      ]
+    },
+    {
+      "faces": {
+        "down": {
+          "texture": "#wood"
+        },
+        "north": {
+          "texture": "#wood"
+        },
+        "south": {
+          "texture": "#wood"
+        },
+        "up": {
+          "texture": "#wood"
+        }
+      },
+      "from": [
+        3,
+        2.75,
+        0
+      ],
+      "to": [
+        13,
+        5,
+        16
+      ]
+    },
+    {
+      "faces": {
+        "north": {
+          "texture": "#wood"
+        },
+        "south": {
+          "texture": "#wood"
+        },
+        "up": {
+          "texture": "#wood"
+        }
+      },
+      "from": [
+        3,
+        5,
+        14
+      ],
+      "to": [
+        13,
+        10,
+        16
+      ]
+    },
+    {
+      "faces": {
+        "north": {
+          "texture": "#wood"
+        },
+        "south": {
+          "texture": "#wood"
+        },
+        "up": {
+          "texture": "#wood"
+        }
+      },
+      "from": [
+        3,
+        5,
+        0
+      ],
+      "to": [
+        13,
+        10,
+        2
+      ]
+    }
+  ],
+  "parent": "minecraft:block/block",
+  "textures": {
+    "particle": "before_the_blight:block/hollowed_chestnut_trough",
+    "wood": "before_the_blight:block/hollowed_chestnut_trough"
+  }
+}

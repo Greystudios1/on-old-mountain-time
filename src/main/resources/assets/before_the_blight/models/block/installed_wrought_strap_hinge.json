@@ -1,0 +1,92 @@
+{
+  "ambientocclusion": false,
+  "textures": {
+    "particle": "before_the_blight:block/installed_wrought_strap_hinge",
+    "hardware": "before_the_blight:block/installed_wrought_strap_hinge"
+  },
+  "elements": [
+    {
+      "from": [
+        2,
+        7,
+        14
+      ],
+      "to": [
+        14,
+        9,
+        16
+      ],
+      "faces": {
+        "down": {
+          "texture": "#hardware"
+        },
+        "up": {
+          "texture": "#hardware"
+        },
+        "north": {
+          "texture": "#hardware"
+        },
+        "south": {
+          "texture": "#hardware"
+        },
+        "west": {
+          "texture": "#hardware"
+        },
+        "east": {
+          "texture": "#hardware"
+        }
+      }
+    },
+    {
+      "from": [
+        1,
+        5,
+        13
+      ],
+      "to": [
+        3,
+        11,
+        16
+      ],
+      "faces": {
+        "down": {
+          "texture": "#hardware"
+        },
+        "up": {
+          "texture": "#hardware"
+        },
+        "north": {
+          "texture": "#hardware"
+        },
+        "south": {
+          "texture": "#hardware"
+        },
+        "west": {
+          "texture": "#hardware"
+        },
+        "east": {
+          "texture": "#hardware"
+        }
+      }
+    }
+  ],
+  "display": {
+    "gui": {
+      "rotation": [
+        30,
+        225,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.9,
+        0.9,
+        0.9
+      ]
+    }
+  }
+}

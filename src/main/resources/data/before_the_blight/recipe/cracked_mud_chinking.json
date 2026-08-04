@@ -1,0 +1,12 @@
+{
+  "category": "building",
+  "ingredients": [
+    "before_the_blight:mud_chinking",
+    "minecraft:flint"
+  ],
+  "result": {
+    "count": 1,
+    "id": "before_the_blight:cracked_mud_chinking"
+  },
+  "type": "minecraft:crafting_shapeless"
+}

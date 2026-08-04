@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "S": "minecraft:string",
+    "B": "minecraft:beef"
+  },
+  "pattern": [
+    " S ",
+    " B "
+  ],
+  "result": {
+    "id": "before_the_blight:tallow_candle",
+    "count": 2
+  }
+}

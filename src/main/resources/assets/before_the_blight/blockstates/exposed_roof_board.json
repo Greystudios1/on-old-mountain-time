@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "before_the_blight:block/exposed_roof_board",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "before_the_blight:block/exposed_roof_board"
+    },
+    "axis=z": {
+      "model": "before_the_blight:block/exposed_roof_board",
+      "x": 90
+    }
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "particle": "#side",
+    "side": "before_the_blight:block/chestnut_log",
+    "end": "before_the_blight:block/chestnut_log_top",
+    "chink": "before_the_blight:block/clay_chinking"
+  },
+  "elements": [
+    {
+      "from": [
+        0,
+        2,
+        2
+      ],
+      "to": [
+        2,
+        14,
+        14
+      ],
+      "faces": {
+        "north": {
+          "texture": "#side"
+        },
+        "south": {
+          "texture": "#side"
+        }
+      }
+    },
+    {
+      "from": [
+        0,
+        0,
+        2
+      ],
+      "to": [
+        2,
+        2,
+        14
+      ],
+      "faces": {
+        "down": {
+          "texture": "#chink"
+        },
+        "north": {
+          "texture": "#chink"
+        },
+        "south": {
+          "texture": "#chink"
+        }
+      }
+    },
+    {
+      "from": [
+        0,
+        14,
+        2
+      ],
+      "to": [
+        2,
+        16,
+        14
+      ],
+      "faces": {
+        "up": {
+          "texture": "#chink"
+        },
+        "north": {
+          "texture": "#chink"
+        },
+        "south": {
+          "texture": "#chink"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "multipart": [
+    {
+      "when": {"course": "lower", "facing": "north"},
+      "apply": {"model": "before_the_blight:block/saddle_notched_chestnut_corner_lower"}
+    },
+    {
+      "when": {"course": "lower", "facing": "east"},
+      "apply": {
+        "model": "before_the_blight:block/saddle_notched_chestnut_corner_lower",
+        "uvlock": true,
+        "y": 90
+      }
+    },
+    {
+      "when": {"course": "lower", "facing": "south"},
+      "apply": {
+        "model": "before_the_blight:block/saddle_notched_chestnut_corner_lower",
+        "uvlock": true,
+        "y": 180
+      }
+    },
+    {
+      "when": {"course": "lower", "facing": "west"},
+      "apply": {
+        "model": "before_the_blight:block/saddle_notched_chestnut_corner_lower",
+        "uvlock": true,
+        "y": 270
+      }
+    },
+    {
+      "when": {"course": "upper", "facing": "north"},
+      "apply": {"model": "before_the_blight:block/saddle_notched_chestnut_corner_upper"}
+    },
+    {
+      "when": {"course": "upper", "facing": "east"},
+      "apply": {
+        "model": "before_the_blight:block/saddle_notched_chestnut_corner_upper",
+        "uvlock": true,
+        "y": 90
+      }
+    },
+    {
+      "when": {"course": "upper", "facing": "south"},
+      "apply": {
+        "model": "before_the_blight:block/saddle_notched_chestnut_corner_upper",
+        "uvlock": true,
+        "y": 180
+      }
+    },
+    {
+      "when": {"course": "upper", "facing": "west"},
+      "apply": {
+        "model": "before_the_blight:block/saddle_notched_chestnut_corner_upper",
+        "uvlock": true,
+        "y": 270
+      }
+    },
+    {
+      "when": {"chinked": "true", "facing": "north"},
+      "apply": {"model": "before_the_blight:block/saddle_notched_chestnut_corner_chinking"}
+    },
+    {
+      "when": {"chinked": "true", "facing": "east"},
+      "apply": {
+        "model": "before_the_blight:block/saddle_notched_chestnut_corner_chinking",
+        "uvlock": true,
+        "y": 90
+      }
+    },
+    {
+      "when": {"chinked": "true", "facing": "south"},
+      "apply": {
+        "model": "before_the_blight:block/saddle_notched_chestnut_corner_chinking",
+        "uvlock": true,
+        "y": 180
+      }
+    },
+    {
+      "when": {"chinked": "true", "facing": "west"},
+      "apply": {
+        "model": "before_the_blight:block/saddle_notched_chestnut_corner_chinking",
+        "uvlock": true,
+        "y": 270
+      }
+    }
+  ]
+}

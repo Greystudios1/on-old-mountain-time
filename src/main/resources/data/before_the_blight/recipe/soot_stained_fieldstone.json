@@ -1,0 +1,12 @@
+{
+  "category": "building",
+  "ingredients": [
+    "before_the_blight:fieldstone",
+    "minecraft:charcoal"
+  ],
+  "result": {
+    "count": 1,
+    "id": "before_the_blight:soot_stained_fieldstone"
+  },
+  "type": "minecraft:crafting_shapeless"
+}

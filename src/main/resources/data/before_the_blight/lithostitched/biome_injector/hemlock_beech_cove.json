@@ -1,0 +1,18 @@
+{
+  "type": "lithostitched:replace_partially",
+  "dimension": "minecraft:overworld",
+  "priority": 990,
+  "targets": "#before_the_blight:hemlock_beech_cove_targets",
+  "replacement": "before_the_blight:hemlock_beech_cove",
+  "parameters": {
+    "erosion": {
+      "min_inclusive": 0.375,
+      "max_inclusive": 1.0
+    },
+    "humidity": {
+      "min_inclusive": 0.2,
+      "max_inclusive": 1.0
+    }
+  },
+  "region": "before_the_blight:appalachian"
+}

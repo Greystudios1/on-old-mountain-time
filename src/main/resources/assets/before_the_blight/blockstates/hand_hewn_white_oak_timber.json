@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "before_the_blight:block/hand_hewn_white_oak_timber",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "before_the_blight:block/hand_hewn_white_oak_timber"
+    },
+    "axis=z": {
+      "model": "before_the_blight:block/hand_hewn_white_oak_timber",
+      "x": 90
+    }
+  }
+}

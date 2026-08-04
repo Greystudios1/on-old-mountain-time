@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "W": "minecraft:white_wool",
+    "S": "minecraft:string"
+  },
+  "pattern": [
+    "WSW",
+    "WSW"
+  ],
+  "result": {
+    "id": "before_the_blight:rag_rug",
+    "count": 2
+  }
+}

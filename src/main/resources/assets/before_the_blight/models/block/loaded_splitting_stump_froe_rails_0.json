@@ -1,0 +1,175 @@
+{
+  "parent": "minecraft:block/block",
+  "ambientocclusion": true,
+  "textures": {
+    "particle": "before_the_blight:block/splitting_stump_side",
+    "side": "before_the_blight:block/splitting_stump_side",
+    "top": "before_the_blight:block/splitting_stump_top",
+    "beam_side": "before_the_blight:block/hewn_chestnut_beam",
+    "beam_end": "before_the_blight:block/hewn_chestnut_beam_top",
+    "steel": "minecraft:block/iron_block",
+    "wood": "before_the_blight:block/rough_chestnut_boards"
+  },
+  "elements": [
+    {
+      "from": [
+        1,
+        0,
+        1
+      ],
+      "to": [
+        15,
+        9,
+        15
+      ],
+      "faces": {
+        "north": {
+          "texture": "#side"
+        },
+        "east": {
+          "texture": "#side"
+        },
+        "south": {
+          "texture": "#side"
+        },
+        "west": {
+          "texture": "#side"
+        },
+        "up": {
+          "texture": "#top"
+        },
+        "down": {
+          "texture": "#top"
+        }
+      }
+    },
+    {
+      "from": [
+        5,
+        8.9,
+        0
+      ],
+      "to": [
+        7.75,
+        13,
+        16
+      ],
+      "faces": {
+        "north": {
+          "texture": "#beam_end"
+        },
+        "east": {
+          "texture": "#beam_side"
+        },
+        "south": {
+          "texture": "#beam_end"
+        },
+        "west": {
+          "texture": "#beam_side"
+        },
+        "up": {
+          "texture": "#beam_side"
+        },
+        "down": {
+          "texture": "#beam_side"
+        }
+      }
+    },
+    {
+      "from": [
+        8.25,
+        8.9,
+        0
+      ],
+      "to": [
+        11,
+        13.0,
+        16
+      ],
+      "faces": {
+        "north": {
+          "texture": "#beam_end"
+        },
+        "east": {
+          "texture": "#beam_side"
+        },
+        "south": {
+          "texture": "#beam_end"
+        },
+        "west": {
+          "texture": "#beam_side"
+        },
+        "up": {
+          "texture": "#beam_side"
+        },
+        "down": {
+          "texture": "#beam_side"
+        }
+      }
+    },
+    {
+      "from": [
+        5,
+        11.0,
+        7.75
+      ],
+      "to": [
+        11,
+        16.0,
+        8.25
+      ],
+      "faces": {
+        "north": {
+          "texture": "#steel"
+        },
+        "east": {
+          "texture": "#steel"
+        },
+        "south": {
+          "texture": "#steel"
+        },
+        "west": {
+          "texture": "#steel"
+        },
+        "up": {
+          "texture": "#steel"
+        },
+        "down": {
+          "texture": "#steel"
+        }
+      }
+    },
+    {
+      "from": [
+        7,
+        14.0,
+        5
+      ],
+      "to": [
+        9,
+        15.5,
+        11
+      ],
+      "faces": {
+        "north": {
+          "texture": "#wood"
+        },
+        "east": {
+          "texture": "#wood"
+        },
+        "south": {
+          "texture": "#wood"
+        },
+        "west": {
+          "texture": "#wood"
+        },
+        "up": {
+          "texture": "#wood"
+        },
+        "down": {
+          "texture": "#wood"
+        }
+      }
+    }
+  ]
+}

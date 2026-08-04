@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "before_the_blight:block/chestnut_joist_axis_x"
+    },
+    "axis=y": {
+      "model": "before_the_blight:block/chestnut_joist_axis_y"
+    },
+    "axis=z": {
+      "model": "before_the_blight:block/chestnut_joist_axis_z"
+    }
+  }
+}

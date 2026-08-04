@@ -1,0 +1,80 @@
+{
+  "variants": {
+    "facing=north,part=left,active=false": {
+      "model": "before_the_blight:block/floor_loom_left",
+      "uvlock": true
+    },
+    "facing=north,part=left,active=true": {
+      "model": "before_the_blight:block/floor_loom_left_active",
+      "uvlock": true
+    },
+    "facing=north,part=right,active=false": {
+      "model": "before_the_blight:block/floor_loom_right",
+      "uvlock": true
+    },
+    "facing=north,part=right,active=true": {
+      "model": "before_the_blight:block/floor_loom_right_active",
+      "uvlock": true
+    },
+    "facing=east,part=left,active=false": {
+      "model": "before_the_blight:block/floor_loom_left",
+      "uvlock": true,
+      "y": 90
+    },
+    "facing=east,part=left,active=true": {
+      "model": "before_the_blight:block/floor_loom_left_active",
+      "uvlock": true,
+      "y": 90
+    },
+    "facing=east,part=right,active=false": {
+      "model": "before_the_blight:block/floor_loom_right",
+      "uvlock": true,
+      "y": 90
+    },
+    "facing=east,part=right,active=true": {
+      "model": "before_the_blight:block/floor_loom_right_active",
+      "uvlock": true,
+      "y": 90
+    },
+    "facing=south,part=left,active=false": {
+      "model": "before_the_blight:block/floor_loom_left",
+      "uvlock": true,
+      "y": 180
+    },
+    "facing=south,part=left,active=true": {
+      "model": "before_the_blight:block/floor_loom_left_active",
+      "uvlock": true,
+      "y": 180
+    },
+    "facing=south,part=right,active=false": {
+      "model": "before_the_blight:block/floor_loom_right",
+      "uvlock": true,
+      "y": 180
+    },
+    "facing=south,part=right,active=true": {
+      "model": "before_the_blight:block/floor_loom_right_active",
+      "uvlock": true,
+      "y": 180
+    },
+    "facing=west,part=left,active=false": {
+      "model": "before_the_blight:block/floor_loom_left",
+      "uvlock": true,
+      "y": 270
+    },
+    "facing=west,part=left,active=true": {
+      "model": "before_the_blight:block/floor_loom_left_active",
+      "uvlock": true,
+      "y": 270
+    },
+    "facing=west,part=right,active=false": {
+      "model": "before_the_blight:block/floor_loom_right",
+      "uvlock": true,
+      "y": 270
+    },
+    "facing=west,part=right,active=true": {
+      "model": "before_the_blight:block/floor_loom_right_active",
+      "uvlock": true,
+      "y": 270
+    }
+  }
+}

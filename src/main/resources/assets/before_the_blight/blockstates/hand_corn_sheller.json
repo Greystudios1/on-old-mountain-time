@@ -1,0 +1,42 @@
+{
+  "variants": {
+    "facing=east,loaded=false": {
+      "model": "before_the_blight:block/hand_corn_sheller_empty",
+      "uvlock": true,
+      "y": 90
+    },
+    "facing=east,loaded=true": {
+      "model": "before_the_blight:block/hand_corn_sheller_loaded",
+      "uvlock": true,
+      "y": 90
+    },
+    "facing=north,loaded=false": {
+      "model": "before_the_blight:block/hand_corn_sheller_empty",
+      "uvlock": true
+    },
+    "facing=north,loaded=true": {
+      "model": "before_the_blight:block/hand_corn_sheller_loaded",
+      "uvlock": true
+    },
+    "facing=south,loaded=false": {
+      "model": "before_the_blight:block/hand_corn_sheller_empty",
+      "uvlock": true,
+      "y": 180
+    },
+    "facing=south,loaded=true": {
+      "model": "before_the_blight:block/hand_corn_sheller_loaded",
+      "uvlock": true,
+      "y": 180
+    },
+    "facing=west,loaded=false": {
+      "model": "before_the_blight:block/hand_corn_sheller_empty",
+      "uvlock": true,
+      "y": 270
+    },
+    "facing=west,loaded=true": {
+      "model": "before_the_blight:block/hand_corn_sheller_loaded",
+      "uvlock": true,
+      "y": 270
+    }
+  }
+}

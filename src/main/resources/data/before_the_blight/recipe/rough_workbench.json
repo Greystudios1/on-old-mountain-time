@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "decorations",
+  "key": {
+    "B": "before_the_blight:rough_chestnut_boards",
+    "H": "before_the_blight:hewn_chestnut_beam"
+  },
+  "pattern": [
+    "BBB",
+    "HHH",
+    "H H"
+  ],
+  "result": {
+    "id": "before_the_blight:rough_workbench"
+  }
+}

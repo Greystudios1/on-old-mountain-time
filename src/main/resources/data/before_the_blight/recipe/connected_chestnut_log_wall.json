@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "R": "before_the_blight:chestnut_log",
+    "C": "minecraft:clay_ball"
+  },
+  "pattern": [
+    "RRR",
+    "CCC",
+    "RRR"
+  ],
+  "result": {
+    "count": 6,
+    "id": "before_the_blight:connected_chestnut_log_wall"
+  }
+}

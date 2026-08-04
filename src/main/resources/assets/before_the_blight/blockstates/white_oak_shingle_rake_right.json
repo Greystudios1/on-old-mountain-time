@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "before_the_blight:block/white_oak_shingle_rake_right"
+    },
+    "facing=east": {
+      "model": "before_the_blight:block/white_oak_shingle_rake_right",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "before_the_blight:block/white_oak_shingle_rake_right",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "before_the_blight:block/white_oak_shingle_rake_right",
+      "y": 270
+    }
+  }
+}

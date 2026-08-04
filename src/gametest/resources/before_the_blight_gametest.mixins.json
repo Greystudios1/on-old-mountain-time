@@ -1,0 +1,11 @@
+{
+  "required": true,
+  "package": "net.beforetheblight.gametest.mixin",
+  "compatibilityLevel": "JAVA_25",
+  "mixins": [
+    "GameTestServerNaturalWorldMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

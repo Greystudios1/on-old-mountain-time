@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "before_the_blight:installed_wrought_strap_hinge",
+    "before_the_blight:installed_wrought_pintle",
+    "before_the_blight:installed_forged_hasp",
+    "before_the_blight:installed_forged_staple",
+    "before_the_blight:installed_square_nails",
+    "before_the_blight:installed_cut_nails"
+  ]
+}

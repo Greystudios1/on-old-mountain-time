@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "before_the_blight:block/rough_chestnut_board_slab"
+    },
+    "type=double": {
+      "model": "before_the_blight:block/rough_chestnut_boards"
+    },
+    "type=top": {
+      "model": "before_the_blight:block/rough_chestnut_board_slab_top"
+    }
+  }
+}

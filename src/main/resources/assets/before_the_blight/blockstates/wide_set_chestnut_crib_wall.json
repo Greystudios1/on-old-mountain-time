@@ -1,0 +1,132 @@
+{
+  "variants": {
+    "north=false,east=false,south=false,west=false,course=x_over_z": {
+      "model": "before_the_blight:block/wide_set_chestnut_crib_wall_n0e0s0w0_x_over_z",
+      "uvlock": true
+    },
+    "north=false,east=false,south=false,west=false,course=z_over_x": {
+      "model": "before_the_blight:block/wide_set_chestnut_crib_wall_n0e0s0w0_z_over_x",
+      "uvlock": true
+    },
+    "north=false,east=false,south=false,west=true,course=x_over_z": {
+      "model": "before_the_blight:block/wide_set_chestnut_crib_wall_n0e0s0w1_x_over_z",
+      "uvlock": true
+    },
+    "north=false,east=false,south=false,west=true,course=z_over_x": {
+      "model": "before_the_blight:block/wide_set_chestnut_crib_wall_n0e0s0w1_z_over_x",
+      "uvlock": true
+    },
+    "north=false,east=false,south=true,west=false,course=x_over_z": {
+      "model": "before_the_blight:block/wide_set_chestnut_crib_wall_n0e0s1w0_x_over_z",
+      "uvlock": true
+    },
+    "north=false,east=false,south=true,west=false,course=z_over_x": {
+      "model": "before_the_blight:block/wide_set_chestnut_crib_wall_n0e0s1w0_z_over_x",
+      "uvlock": true
+    },
+    "north=false,east=false,south=true,west=true,course=x_over_z": {
+      "model": "before_the_blight:block/wide_set_chestnut_crib_wall_n0e0s1w1_x_over_z",
+      "uvlock": true
+    },
+    "north=false,east=false,south=true,west=true,course=z_over_x": {
+      "model": "before_the_blight:block/wide_set_chestnut_crib_wall_n0e0s1w1_z_over_x",
+      "uvlock": true
+    },
+    "north=false,east=true,south=false,west=false,course=x_over_z": {
+      "model": "before_the_blight:block/wide_set_chestnut_crib_wall_n0e1s0w0_x_over_z",
+      "uvlock": true
+    },
+    "north=false,east=true,south=false,west=false,course=z_over_x": {
+      "model": "before_the_blight:block/wide_set_chestnut_crib_wall_n0e1s0w0_z_over_x",
+      "uvlock": true
+    },
+    "north=false,east=true,south=false,west=true,course=x_over_z": {
+      "model": "before_the_blight:block/wide_set_chestnut_crib_wall_n0e1s0w1_x_over_z",
+      "uvlock": true
+    },
+    "north=false,east=true,south=false,west=true,course=z_over_x": {
+      "model": "before_the_blight:block/wide_set_chestnut_crib_wall_n0e1s0w1_z_over_x",
+      "uvlock": true
+    },
+    "north=false,east=true,south=true,west=false,course=x_over_z": {
+      "model": "before_the_blight:block/wide_set_chestnut_crib_wall_n0e1s1w0_x_over_z",
+      "uvlock": true
+    },
+    "north=false,east=true,south=true,west=false,course=z_over_x": {
+      "model": "before_the_blight:block/wide_set_chestnut_crib_wall_n0e1s1w0_z_over_x",
+      "uvlock": true
+    },
+    "north=false,east=true,south=true,west=true,course=x_over_z": {
+      "model": "before_the_blight:block/wide_set_chestnut_crib_wall_n0e1s1w1_x_over_z",
+      "uvlock": true
+    },
+    "north=false,east=true,south=true,west=true,course=z_over_x": {
+      "model": "before_the_blight:block/wide_set_chestnut_crib_wall_n0e1s1w1_z_over_x",
+      "uvlock": true
+    },
+    "north=true,east=false,south=false,west=false,course=x_over_z": {
+      "model": "before_the_blight:block/wide_set_chestnut_crib_wall_n1e0s0w0_x_over_z",
+      "uvlock": true
+    },
+    "north=true,east=false,south=false,west=false,course=z_over_x": {
+      "model": "before_the_blight:block/wide_set_chestnut_crib_wall_n1e0s0w0_z_over_x",
+      "uvlock": true
+    },
+    "north=true,east=false,south=false,west=true,course=x_over_z": {
+      "model": "before_the_blight:block/wide_set_chestnut_crib_wall_n1e0s0w1_x_over_z",
+      "uvlock": true
+    },
+    "north=true,east=false,south=false,west=true,course=z_over_x": {
+      "model": "before_the_blight:block/wide_set_chestnut_crib_wall_n1e0s0w1_z_over_x",
+      "uvlock": true
+    },
+    "north=true,east=false,south=true,west=false,course=x_over_z": {
+      "model": "before_the_blight:block/wide_set_chestnut_crib_wall_n1e0s1w0_x_over_z",
+      "uvlock": true
+    },
+    "north=true,east=false,south=true,west=false,course=z_over_x": {
+      "model": "before_the_blight:block/wide_set_chestnut_crib_wall_n1e0s1w0_z_over_x",
+      "uvlock": true
+    },
+    "north=true,east=false,south=true,west=true,course=x_over_z": {
+      "model": "before_the_blight:block/wide_set_chestnut_crib_wall_n1e0s1w1_x_over_z",
+      "uvlock": true
+    },
+    "north=true,east=false,south=true,west=true,course=z_over_x": {
+      "model": "before_the_blight:block/wide_set_chestnut_crib_wall_n1e0s1w1_z_over_x",
+      "uvlock": true
+    },
+    "north=true,east=true,south=false,west=false,course=x_over_z": {
+      "model": "before_the_blight:block/wide_set_chestnut_crib_wall_n1e1s0w0_x_over_z",
+      "uvlock": true
+    },
+    "north=true,east=true,south=false,west=false,course=z_over_x": {
+      "model": "before_the_blight:block/wide_set_chestnut_crib_wall_n1e1s0w0_z_over_x",
+      "uvlock": true
+    },
+    "north=true,east=true,south=false,west=true,course=x_over_z": {
+      "model": "before_the_blight:block/wide_set_chestnut_crib_wall_n1e1s0w1_x_over_z",
+      "uvlock": true
+    },
+    "north=true,east=true,south=false,west=true,course=z_over_x": {
+      "model": "before_the_blight:block/wide_set_chestnut_crib_wall_n1e1s0w1_z_over_x",
+      "uvlock": true
+    },
+    "north=true,east=true,south=true,west=false,course=x_over_z": {
+      "model": "before_the_blight:block/wide_set_chestnut_crib_wall_n1e1s1w0_x_over_z",
+      "uvlock": true
+    },
+    "north=true,east=true,south=true,west=false,course=z_over_x": {
+      "model": "before_the_blight:block/wide_set_chestnut_crib_wall_n1e1s1w0_z_over_x",
+      "uvlock": true
+    },
+    "north=true,east=true,south=true,west=true,course=x_over_z": {
+      "model": "before_the_blight:block/wide_set_chestnut_crib_wall_n1e1s1w1_x_over_z",
+      "uvlock": true
+    },
+    "north=true,east=true,south=true,west=true,course=z_over_x": {
+      "model": "before_the_blight:block/wide_set_chestnut_crib_wall_n1e1s1w1_z_over_x",
+      "uvlock": true
+    }
+  }
+}

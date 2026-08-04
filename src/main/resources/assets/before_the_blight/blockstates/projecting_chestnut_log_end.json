@@ -1,0 +1,32 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "before_the_blight:block/projecting_chestnut_log_end"
+    },
+    "facing=east": {
+      "model": "before_the_blight:block/projecting_chestnut_log_end",
+      "y": 90,
+      "uvlock": true
+    },
+    "facing=south": {
+      "model": "before_the_blight:block/projecting_chestnut_log_end",
+      "y": 180,
+      "uvlock": true
+    },
+    "facing=west": {
+      "model": "before_the_blight:block/projecting_chestnut_log_end",
+      "y": 270,
+      "uvlock": true
+    },
+    "facing=up": {
+      "model": "before_the_blight:block/projecting_chestnut_log_end",
+      "x": 270,
+      "uvlock": true
+    },
+    "facing=down": {
+      "model": "before_the_blight:block/projecting_chestnut_log_end",
+      "x": 90,
+      "uvlock": true
+    }
+  }
+}

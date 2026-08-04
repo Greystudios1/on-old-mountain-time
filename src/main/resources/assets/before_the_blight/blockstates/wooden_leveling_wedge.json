@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "before_the_blight:block/wooden_leveling_wedge"
+    },
+    "facing=east": {
+      "model": "before_the_blight:block/wooden_leveling_wedge",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "before_the_blight:block/wooden_leveling_wedge",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "before_the_blight:block/wooden_leveling_wedge",
+      "y": 270
+    }
+  }
+}

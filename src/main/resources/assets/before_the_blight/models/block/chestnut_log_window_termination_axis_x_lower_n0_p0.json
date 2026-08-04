@@ -1,0 +1,137 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "particle": "#side",
+    "side": "before_the_blight:block/chestnut_log",
+    "end": "before_the_blight:block/chestnut_log_top",
+    "cap_side": "before_the_blight:block/stripped_chestnut_log",
+    "cap_end": "before_the_blight:block/stripped_chestnut_log_top",
+    "chink": "before_the_blight:block/clay_chinking"
+  },
+  "elements": [
+    {
+      "from": [
+        2,
+        2,
+        2
+      ],
+      "to": [
+        14,
+        14,
+        14
+      ],
+      "faces": {
+        "north": {
+          "texture": "#side"
+        },
+        "south": {
+          "texture": "#side"
+        }
+      }
+    },
+    {
+      "from": [
+        0,
+        2,
+        2
+      ],
+      "to": [
+        2,
+        14,
+        14
+      ],
+      "faces": {
+        "north": {
+          "texture": "#cap_side"
+        },
+        "south": {
+          "texture": "#cap_side"
+        },
+        "west": {
+          "texture": "#cap_end"
+        }
+      }
+    },
+    {
+      "from": [
+        14,
+        2,
+        2
+      ],
+      "to": [
+        16,
+        14,
+        14
+      ],
+      "faces": {
+        "north": {
+          "texture": "#cap_side"
+        },
+        "south": {
+          "texture": "#cap_side"
+        },
+        "east": {
+          "texture": "#cap_end"
+        }
+      }
+    },
+    {
+      "from": [
+        0,
+        0,
+        2
+      ],
+      "to": [
+        16,
+        2,
+        14
+      ],
+      "faces": {
+        "down": {
+          "texture": "#chink"
+        },
+        "north": {
+          "texture": "#chink"
+        },
+        "south": {
+          "texture": "#chink"
+        },
+        "west": {
+          "texture": "#chink"
+        },
+        "east": {
+          "texture": "#chink"
+        }
+      }
+    },
+    {
+      "from": [
+        0,
+        14,
+        2
+      ],
+      "to": [
+        16,
+        16,
+        14
+      ],
+      "faces": {
+        "up": {
+          "texture": "#chink"
+        },
+        "north": {
+          "texture": "#chink"
+        },
+        "south": {
+          "texture": "#chink"
+        },
+        "west": {
+          "texture": "#chink"
+        },
+        "east": {
+          "texture": "#chink"
+        }
+      }
+    }
+  ]
+}

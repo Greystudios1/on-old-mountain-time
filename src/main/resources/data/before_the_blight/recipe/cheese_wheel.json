@@ -1,0 +1,15 @@
+{
+  "category": "misc",
+  "key": {
+    "M": "minecraft:milk_bucket",
+    "S": "minecraft:string"
+  },
+  "pattern": [
+    "MMM",
+    " S "
+  ],
+  "result": {
+    "id": "before_the_blight:cheese_wheel"
+  },
+  "type": "minecraft:crafting_shaped"
+}
